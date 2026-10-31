@@ -1133,12 +1133,12 @@
     {
       "source": "outputs/pilot_papers/05_sequential_deletion/README.md",
       "published": "README.md",
-      "source_sha256": "e2fc6bdf0c3908d01975b914023ba09ed342d1d051246597ee188f4687c5b486",
-      "published_sha256": "e2fc6bdf0c3908d01975b914023ba09ed342d1d051246597ee188f4687c5b486",
+      "source_sha256": "028997d7fc9326e9f84dc08ad86fa08c5779b7f8c99fef27c4c67d3d616d31f3",
+      "published_sha256": "028997d7fc9326e9f84dc08ad86fa08c5779b7f8c99fef27c4c67d3d616d31f3",
       "transformation": "none",
-      "previous_published_sha256": "af6efb1d0b4e5df9094df00238e255fb89ee1cba49e15d2e08464622159afd2f",
-      "previous_source_sha256": "af6efb1d0b4e5df9094df00238e255fb89ee1cba49e15d2e08464622159afd2f",
-      "release_revision": "Eight-paper metadata/editorial refresh; raw numerical evidence unchanged."
+      "previous_published_sha256": "e2fc6bdf0c3908d01975b914023ba09ed342d1d051246597ee188f4687c5b486",
+      "previous_source_sha256": "e2fc6bdf0c3908d01975b914023ba09ed342d1d051246597ee188f4687c5b486",
+      "release_revision": "Eight-paper release metadata/manuscript refresh; numerical evidence unchanged."
     },
     {
       "source": "outputs/pilot_papers/05_sequential_deletion/figures/deletion_diagnostics.pdf",
@@ -1169,12 +1169,14 @@
       "transformation": "none"
     },
     {
-      "source": "outputs/pilot_papers/05_sequential_deletion/{draft.tex,refs.bib,references.bib,README.md,figures/*.png}",
+      "source": "outputs/pilot_papers/05_sequential_deletion_overleaf.zip",
       "published": "overleaf.zip",
       "published_sha256": "9f3be41d4f4d2b7f8f292b05bd8b84e502f6aa9345b4bb0d2448f911cbd6f6b8",
       "transformation": "Curated ZIP; manuscript/BibTeX/PNG bytes unchanged.",
       "previous_published_sha256": "1b6e8b6550f4f87b717f3b879fc1ea09a6ea5917045d63fb9964770be1756c6d",
-      "release_revision": "Eight-paper metadata/editorial refresh; raw numerical evidence unchanged."
+      "release_revision": "Eight-paper metadata/editorial refresh; raw numerical evidence unchanged.",
+      "previous_source_description": "outputs/pilot_papers/05_sequential_deletion/{draft.tex,refs.bib,references.bib,README.md,figures/*.png}",
+      "source_sha256": "9f3be41d4f4d2b7f8f292b05bd8b84e502f6aa9345b4bb0d2448f911cbd6f6b8"
     },
     {
       "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/checkpoint_tensor_manifest.json",
@@ -2152,10 +2154,13 @@
     {
       "source": "outputs/pilot_papers/05_sequential_deletion/PREPRINTS_METADATA.txt",
       "published": "PREPRINTS_METADATA.txt",
-      "source_sha256": "c2363d767133b91734ee6cb59708d78700b2dd28e7f89435edeec7a23c87554b",
-      "published_sha256": "c2363d767133b91734ee6cb59708d78700b2dd28e7f89435edeec7a23c87554b",
+      "source_sha256": "594524feeaea2bb48c1af30fb79c8ab5a81526d06d969709b2427b0b7b571b9f",
+      "published_sha256": "594524feeaea2bb48c1af30fb79c8ab5a81526d06d969709b2427b0b7b571b9f",
       "transformation": "none",
-      "kind": "release metadata or manuscript archive"
+      "kind": "release metadata or manuscript archive",
+      "previous_published_sha256": "c2363d767133b91734ee6cb59708d78700b2dd28e7f89435edeec7a23c87554b",
+      "previous_source_sha256": "c2363d767133b91734ee6cb59708d78700b2dd28e7f89435edeec7a23c87554b",
+      "release_revision": "Eight-paper release metadata/manuscript refresh; numerical evidence unchanged."
     },
     {
       "source": "work/public_repos/sequential-deletion-audit-pilot/CITATION.cff",
@@ -2164,6 +2169,30 @@
       "published_sha256": "6e9a2477430b577d976837684e229ff4bac88ab057171ba565c17ff7f136ea20",
       "transformation": "none",
       "kind": "release metadata or manuscript archive"
+    },
+    {
+      "source": "outputs/pilot_papers/05_sequential_deletion/SUMMARY.txt",
+      "published": "SUMMARY.txt",
+      "source_sha256": "4b661f5a1dd49f80cff206a6eeaf2e9d8ca3b533f97f29ca37e2027b27a7f1db",
+      "published_sha256": "4b661f5a1dd49f80cff206a6eeaf2e9d8ca3b533f97f29ca37e2027b27a7f1db",
+      "transformation": "none",
+      "kind": "release metadata or manuscript archive/preview"
+    },
+    {
+      "source": "work/public_repos/sequential-deletion-audit-pilot/.gitignore",
+      "published": ".gitignore",
+      "source_sha256": "fc478a279dfd18c82cc8e6881b23b782b2b8e0ada14528f85ea86305fd01ed1e",
+      "published_sha256": "fc478a279dfd18c82cc8e6881b23b782b2b8e0ada14528f85ea86305fd01ed1e",
+      "transformation": "none",
+      "kind": "release metadata or manuscript archive/preview"
+    },
+    {
+      "source": "outputs/pilot_papers/05_sequential_deletion/draft.pdf",
+      "published": "paper.pdf",
+      "source_sha256": "8770e25e30b6c07c794ab213adb6d6acb778a7b8bb25696669c102a44bbea673",
+      "published_sha256": "8770e25e30b6c07c794ab213adb6d6acb778a7b8bb25696669c102a44bbea673",
+      "transformation": "none",
+      "kind": "release metadata or manuscript archive/preview"
     }
   ],
   "manuscript_assets": "All paper TeX/BibTeX are published inside overleaf.zip only. No loose .tex/.bib files are included.",

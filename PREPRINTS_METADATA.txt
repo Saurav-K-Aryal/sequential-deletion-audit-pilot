@@ -3,4 +3,4 @@ Topic within Subject: Security Systems
 Optional MDPI Topic: Challenges and Solutions in Large Language Models
 Topic URL: https://www.mdpi.com/topics/B712V62UH1
 Scope fit: Question answering, reliability, privacy leakage, model security. Preprints catalog and MDPI journal deadlines can differ; use each interface's own deadline.
-These are recommended submission metadata, not a completed submission.
+Recommended metadata; no submission has been made.

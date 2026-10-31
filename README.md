@@ -80,3 +80,7 @@ The manuscript has Abstract, Introduction and Background, Methods, Results, Futu
 Subject: **Computer Science and Mathematics**. Topic within Subject: **Security Systems**.
 
 Optional MDPI Topic: [Challenges and Solutions in Large Language Models](https://www.mdpi.com/topics/B712V62UH1). The detailed classification is in `PREPRINTS_METADATA.txt`. These metadata do not imply a submission.
+
+## Manuscript downloads
+
+[Compiled PDF](paper.pdf) · [Overleaf ZIP](overleaf.zip). The ZIP contains the editable manuscript, bibliography and figures.

@@ -15,3 +15,6 @@ __pycache__/
 *.synctex.gz
 results/new*/
 runs/reproduced*/
+
+# Public compiled manuscript preview.
+!paper.pdf
