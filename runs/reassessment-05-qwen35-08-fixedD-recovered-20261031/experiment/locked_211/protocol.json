@@ -1,0 +1,61 @@
+{
+  "status": "locked_before_training",
+  "model_path": "<WORKSPACE>/work/hf-cache/hub/models--Qwen--Qwen3.5-0.8B/snapshots/2fc06364715b967f1860aea9cf38778875588b17",
+  "variant": "fixed_D_cross_model_replay",
+  "development_seed": 101,
+  "recipes_in_fixed_order": [
+    {
+      "name": "D",
+      "fine_tune_type": "full",
+      "num_layers": 4,
+      "learning_rate": 5e-05,
+      "exposures_per_subject": 256,
+      "batch_size": 4
+    }
+  ],
+  "training": "Fixed source-D last-four-layer partial-dense adaptation. Model-native prompt-masked assistant completion; actual mask offsets are recorded. Equal per-subject exposure, batch4; no model-specific recipe search.",
+  "groups": "A8,B8,R8 members; cal_A/cal_B/test_A/test_B8 each are untrained subject associations using exactly matching A/B answer inventories.",
+  "development_gate": "First recipe with>=21/24 strict exact top1,>=12/24 held-out-paraphrase top1, and>=6/8 exact in each A/B/R group. All development failures retained.",
+  "locked_gate": "Same original-binding gate; no locked recipe adjustment. Weak original binding makes that corpus deletion comparison inconclusive.",
+  "evaluation": "All8 same-pool candidate answers; exact training-prompt and held-out paraphrase views. Strict unique top1 (ties within1e-6 fail); greedy extraction must be exactly6 digits after whitespace stripping, no repair.",
+  "sequence": "OriginalA+B+R, deleteA thenB. Fresh-reference training uses B+R thenR with equal per-subject exposure; warm-retain resumes prior adapted weights with a fresh optimizer for64steps each (256examples atbatch4). Useful comparisons require>=7/8 exact top1 in EACH remaining group: B+R atstage1,Ratstage2.",
+  "development_amendment": "One frozen-D sanity gate on the new model. Failed binding stops this model; no model-specific tuning or fallback recipe.",
+  "attacker_access": "Raw likelihood/binding use current checkpoint logits; gain scores additionally use the public pretrained baseline. Original/current snapshot deltas additionally grant the private original snapshot. Snapshot access is not a post-only privacy failure.",
+  "negative_controls": "Matched untrained association answers have identical marginal code inventories. No-deletion original and an actually applied known-ID output-suppression postprocessor are controls; suppression changes no weights and is not a deployed endpoint.",
+  "limits": "Exploratory synthetic association experiment, two locked corpora, no low-FPR/privacy guarantee or full-pretraining deletion claim.",
+  "executor": "Saurav K. Aryal, with Codex-assisted implementation and execution in the shared workspace.",
+  "code_sha256": "01b6b73b1d473e0d483674982711f8ea5c289f8724fc995bc2837f8bb384755f",
+  "locked_corpus_and_training_order_seeds": [
+    211,
+    307
+  ],
+  "model_checkpoint": {
+    "official_id": "Qwen/Qwen3.5-0.8B",
+    "official_source": "https://huggingface.co/Qwen/Qwen3.5-0.8B",
+    "resolved_path": "<WORKSPACE>/work/hf-cache/hub/models--Qwen--Qwen3.5-0.8B/snapshots/2fc06364715b967f1860aea9cf38778875588b17",
+    "snapshot_revision": "2fc06364715b967f1860aea9cf38778875588b17",
+    "architectures": [
+      "Qwen3_5ForConditionalGeneration"
+    ],
+    "model_type": "qwen3_5",
+    "text_model_type": "qwen3_5_text",
+    "text_decoder_layers": 24,
+    "hidden_size": 1024,
+    "vocabulary_size": 248320,
+    "full_attention_interval": 4,
+    "config_sha256": "b90b86f35c8e6925ef74ee04d0e758f0a845c83a42089ad82bbaa948de9b4204",
+    "tokenizer_config_sha256": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+    "weight_index_sha256": "d8a08838a613b025eb7952ed9db11696213e57e76a375661ef5c12f9dd5dcf4e"
+  },
+  "cross_model_wrapper_sha256": "f939c4801649096296c31ea7ecb3f23ff61a0820dd5bc49e6bbb1ad6966e80c1",
+  "cross_model_limits": "Family, parameter scale, architecture, native tokenizer and post-training differ. Cross-model results are exploratory, not a causal effect of recency.",
+  "selected_recipe": {
+    "name": "D",
+    "fine_tune_type": "full",
+    "num_layers": 4,
+    "learning_rate": 5e-05,
+    "exposures_per_subject": 256,
+    "batch_size": 4
+  },
+  "seed": 211
+}

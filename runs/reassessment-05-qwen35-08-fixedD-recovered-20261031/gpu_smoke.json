@@ -1,0 +1,39 @@
+{
+  "scope": "One four-example development-only forward/backward compatibility smoke; zero optimizer updates, no locked records used.",
+  "source_sha256": "02529c524d29c50f5b52256618ec9cd347e926e9f4b79ec6d4ea66f0a25ced90",
+  "status": "passed",
+  "batch_shape": [
+    4,
+    65
+  ],
+  "lengths": [
+    [
+      30,
+      40
+    ],
+    [
+      30,
+      40
+    ],
+    [
+      30,
+      40
+    ],
+    [
+      30,
+      40
+    ]
+  ],
+  "forward_loss": 3.9346985816955566,
+  "forward_supervised_tokens": 44,
+  "training_loss": 3.925286293029785,
+  "training_supervised_tokens": 44,
+  "trainable_gradient_tensors": 53,
+  "all_gradients_finite": true,
+  "nonzero_gradient_tensors": 53,
+  "optimizer_updates": 0,
+  "mlx_allocator_peak_bytes": 3658594122,
+  "device": "Device(gpu, 0)",
+  "resource_limit": "GPU shared with native4B vision study; smoke timing is not a cross-model benchmark.",
+  "seconds": 3.399136916967109
+}

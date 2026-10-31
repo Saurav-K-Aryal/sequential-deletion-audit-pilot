@@ -1,0 +1,19 @@
+{
+  "scope": "CPU-only safetensors headers of the official source checkpoint; no model evaluation.",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "files": [
+    {
+      "name": "model.safetensors-00001-of-00001.safetensors",
+      "bytes": 1746942600,
+      "tensors": 488,
+      "dtypes": {
+        "F32": 36,
+        "BF16": 452
+      }
+    }
+  ],
+  "source_tensor_dtype_counts": {
+    "F32": 36,
+    "BF16": 452
+  }
+}

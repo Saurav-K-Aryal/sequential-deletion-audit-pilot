@@ -1,0 +1,724 @@
+{
+  "status": "frozen_before_recovery_training",
+  "reason": "External Codex tool/session restart interrupted the native training process; no scientific outcome triggered recovery.",
+  "interrupted_source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031",
+  "recovery_source_sha256": "9576d0fe77db50bd68220a4964170486b95b6fbd11bdd36bbda6e6d5dfecee9c",
+  "reuse": "Completed development, completed seed211, and completed seed307 base/original retained. No completed model or outcome selected against another run.",
+  "interrupted_arm": "locked_307/reference_1:512/1024 displayed steps, no final checkpoint/training_record; retain old folder and restart this arm from pretrained base.",
+  "remaining_schedule": [
+    "reference_1:1024steps fresh",
+    "warm_1:64steps from retained original",
+    "reference_2:512steps fresh",
+    "warm_2:64steps from warm_1"
+  ],
+  "fixed_recipe": {
+    "name": "D",
+    "fine_tune_type": "full",
+    "num_layers": 4,
+    "learning_rate": 5e-05,
+    "exposures_per_subject": 256,
+    "batch_size": 4
+  },
+  "reused_files": [
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/checkpoint_tensor_manifest.json",
+      "recovery_copy": "checkpoint_tensor_manifest.json",
+      "sha256": "82564a7e8ed1bc9de96f5b6fc21702026f2cb847ba959e9dc48142ed9d4cda31",
+      "source_sha256": "82564a7e8ed1bc9de96f5b6fc21702026f2cb847ba959e9dc48142ed9d4cda31",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/cpu_preflight.json",
+      "recovery_copy": "cpu_preflight.json",
+      "sha256": "3d5e726c49688c5268faf3a741d11ca25df47aaae048439494725302db02768b",
+      "source_sha256": "3d5e726c49688c5268faf3a741d11ca25df47aaae048439494725302db02768b",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/executed_base_deletion_sequence.py",
+      "recovery_copy": "executed_base_deletion_sequence.py",
+      "sha256": "01b6b73b1d473e0d483674982711f8ea5c289f8724fc995bc2837f8bb384755f",
+      "source_sha256": "01b6b73b1d473e0d483674982711f8ea5c289f8724fc995bc2837f8bb384755f",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/executed_deletion_model_replay.py",
+      "recovery_copy": "executed_deletion_model_replay.py",
+      "sha256": "f939c4801649096296c31ea7ecb3f23ff61a0820dd5bc49e6bbb1ad6966e80c1",
+      "source_sha256": "f939c4801649096296c31ea7ecb3f23ff61a0820dd5bc49e6bbb1ad6966e80c1",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/development/D/adapter/0001536_adapters.safetensors",
+      "recovery_copy": "experiment/development/D/adapter/0001536_adapters.safetensors",
+      "sha256": "0bf2038d5136ee09ea44305c4c1c23ff5d0c25c809fb6f584766d31d8c73a858",
+      "source_sha256": "0bf2038d5136ee09ea44305c4c1c23ff5d0c25c809fb6f584766d31d8c73a858",
+      "weight_storage": "same completed inode, read-only consumption"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/development/D/adapter/adapter_config.json",
+      "recovery_copy": "experiment/development/D/adapter/adapter_config.json",
+      "sha256": "34b17d7816bf10c47a25ca3f3cd09767aa140a252094fd84a89b6d7e40c8b24e",
+      "source_sha256": "34b17d7816bf10c47a25ca3f3cd09767aa140a252094fd84a89b6d7e40c8b24e",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/development/D/adapter/adapters.safetensors",
+      "recovery_copy": "experiment/development/D/adapter/adapters.safetensors",
+      "sha256": "0bf2038d5136ee09ea44305c4c1c23ff5d0c25c809fb6f584766d31d8c73a858",
+      "source_sha256": "0bf2038d5136ee09ea44305c4c1c23ff5d0c25c809fb6f584766d31d8c73a858",
+      "weight_storage": "same completed inode, read-only consumption"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/development/D/config.json",
+      "recovery_copy": "experiment/development/D/config.json",
+      "sha256": "04f58d690b6713093b5f681695f4857cc06ef7d20c61317433765d9201878b76",
+      "source_sha256": "04f58d690b6713093b5f681695f4857cc06ef7d20c61317433765d9201878b76",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/development/D/data/train.jsonl",
+      "recovery_copy": "experiment/development/D/data/train.jsonl",
+      "sha256": "10f3106c096ded2dadf91a3b3245f57b220932ccdda9c1bbecf35d4c8e1bd26d",
+      "source_sha256": "10f3106c096ded2dadf91a3b3245f57b220932ccdda9c1bbecf35d4c8e1bd26d",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/development/D/data/valid.jsonl",
+      "recovery_copy": "experiment/development/D/data/valid.jsonl",
+      "sha256": "d0b142e3270df4dd95123807d02d9072f7083d5946eb4f656e59b545177f3f59",
+      "source_sha256": "d0b142e3270df4dd95123807d02d9072f7083d5946eb4f656e59b545177f3f59",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/development/D/evaluation/resources.json",
+      "recovery_copy": "experiment/development/D/evaluation/resources.json",
+      "sha256": "e972582fb5232c1a7d3ccdc26ccf21626883a53888b48c0e177512bcc1ed28e6",
+      "source_sha256": "e972582fb5232c1a7d3ccdc26ccf21626883a53888b48c0e177512bcc1ed28e6",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/development/D/evaluation/scores.json",
+      "recovery_copy": "experiment/development/D/evaluation/scores.json",
+      "sha256": "e94720f6388feaf761c35c350f4d45dc05f34b0d6fc0270603767d4e57a48870",
+      "source_sha256": "e94720f6388feaf761c35c350f4d45dc05f34b0d6fc0270603767d4e57a48870",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/development/D/evaluation/token_boundaries.json",
+      "recovery_copy": "experiment/development/D/evaluation/token_boundaries.json",
+      "sha256": "f8a0af839449ce35666bc552c5daa9254bd185f10789f768a232d7e8faa6b81c",
+      "source_sha256": "f8a0af839449ce35666bc552c5daa9254bd185f10789f768a232d7e8faa6b81c",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/development/D/training.log",
+      "recovery_copy": "experiment/development/D/training.log",
+      "sha256": "46990bd831c74f27e1bcf3cc7f0c98b6b5e599d326e5f413ef2f2acc85103cd4",
+      "source_sha256": "46990bd831c74f27e1bcf3cc7f0c98b6b5e599d326e5f413ef2f2acc85103cd4",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/development/D/training_record.json",
+      "recovery_copy": "experiment/development/D/training_record.json",
+      "sha256": "c6e96fe88ecf24c8d9c8020900f14a3de1a88bc1e9ff139f9aa025428085b2b1",
+      "source_sha256": "c6e96fe88ecf24c8d9c8020900f14a3de1a88bc1e9ff139f9aa025428085b2b1",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/development_selection.json",
+      "recovery_copy": "experiment/development_selection.json",
+      "sha256": "73acb40171b2e0dfbdb0f0dceafed829c3b2d2debaa87234206fa5f51c799ef8",
+      "source_sha256": "73acb40171b2e0dfbdb0f0dceafed829c3b2d2debaa87234206fa5f51c799ef8",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/development_subjects.json",
+      "recovery_copy": "experiment/development_subjects.json",
+      "sha256": "8fcfa8345058bfa92e9f8ba2cdb101cd7d2892bb3f8f2ed754cfc56df4aec363",
+      "source_sha256": "8fcfa8345058bfa92e9f8ba2cdb101cd7d2892bb3f8f2ed754cfc56df4aec363",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/base_evaluation/resources.json",
+      "recovery_copy": "experiment/locked_211/base_evaluation/resources.json",
+      "sha256": "e972582fb5232c1a7d3ccdc26ccf21626883a53888b48c0e177512bcc1ed28e6",
+      "source_sha256": "e972582fb5232c1a7d3ccdc26ccf21626883a53888b48c0e177512bcc1ed28e6",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/base_evaluation/scores.json",
+      "recovery_copy": "experiment/locked_211/base_evaluation/scores.json",
+      "sha256": "612f90a1b9003742360420fed330baf9f47e0ef0ab2a14d86ca87634326d2097",
+      "source_sha256": "612f90a1b9003742360420fed330baf9f47e0ef0ab2a14d86ca87634326d2097",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/base_evaluation/token_boundaries.json",
+      "recovery_copy": "experiment/locked_211/base_evaluation/token_boundaries.json",
+      "sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "source_sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/original/adapter/0001536_adapters.safetensors",
+      "recovery_copy": "experiment/locked_211/original/adapter/0001536_adapters.safetensors",
+      "sha256": "808f9aede8c31b5c9e22119dd28b13952e5e04a24e517e98947010e5e2df5a28",
+      "source_sha256": "808f9aede8c31b5c9e22119dd28b13952e5e04a24e517e98947010e5e2df5a28",
+      "weight_storage": "same completed inode, read-only consumption"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/original/adapter/adapter_config.json",
+      "recovery_copy": "experiment/locked_211/original/adapter/adapter_config.json",
+      "sha256": "572707e4f44bd487d4168ed901fd9a3c1370748cd3f65dd19a85b5d76138d454",
+      "source_sha256": "572707e4f44bd487d4168ed901fd9a3c1370748cd3f65dd19a85b5d76138d454",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/original/adapter/adapters.safetensors",
+      "recovery_copy": "experiment/locked_211/original/adapter/adapters.safetensors",
+      "sha256": "808f9aede8c31b5c9e22119dd28b13952e5e04a24e517e98947010e5e2df5a28",
+      "source_sha256": "808f9aede8c31b5c9e22119dd28b13952e5e04a24e517e98947010e5e2df5a28",
+      "weight_storage": "same completed inode, read-only consumption"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/original/config.json",
+      "recovery_copy": "experiment/locked_211/original/config.json",
+      "sha256": "b7cb9a279189255b9dd0c8cbd30687d0afa520019ab4d158af59b8db741ea9e9",
+      "source_sha256": "b7cb9a279189255b9dd0c8cbd30687d0afa520019ab4d158af59b8db741ea9e9",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/original/data/train.jsonl",
+      "recovery_copy": "experiment/locked_211/original/data/train.jsonl",
+      "sha256": "36f63b48ff45950636615f9b2a0de99876d4db1d3a711b65f13911249f67d4b0",
+      "source_sha256": "36f63b48ff45950636615f9b2a0de99876d4db1d3a711b65f13911249f67d4b0",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/original/data/valid.jsonl",
+      "recovery_copy": "experiment/locked_211/original/data/valid.jsonl",
+      "sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "source_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/original/evaluation/resources.json",
+      "recovery_copy": "experiment/locked_211/original/evaluation/resources.json",
+      "sha256": "c09f33a640da00cff757ba6fd79f6fc6f2b4f9debbd30e882b4b19b5e6fe4068",
+      "source_sha256": "c09f33a640da00cff757ba6fd79f6fc6f2b4f9debbd30e882b4b19b5e6fe4068",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/original/evaluation/scores.json",
+      "recovery_copy": "experiment/locked_211/original/evaluation/scores.json",
+      "sha256": "e9531d04605be8324985c57b18006a330ed62cec0a1f7b50364ba9d9fd45064b",
+      "source_sha256": "e9531d04605be8324985c57b18006a330ed62cec0a1f7b50364ba9d9fd45064b",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/original/evaluation/token_boundaries.json",
+      "recovery_copy": "experiment/locked_211/original/evaluation/token_boundaries.json",
+      "sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "source_sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/original/training.log",
+      "recovery_copy": "experiment/locked_211/original/training.log",
+      "sha256": "46a8626c4f6957eb4f4fb03e7149f5c07eb0cf98b68b123a80bcf702b0e5c2bd",
+      "source_sha256": "46a8626c4f6957eb4f4fb03e7149f5c07eb0cf98b68b123a80bcf702b0e5c2bd",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/original/training_record.json",
+      "recovery_copy": "experiment/locked_211/original/training_record.json",
+      "sha256": "bb4f0dfc0a28f0b607018835689e81cac9eb699ac886b57dda3ab239e9eb24fd",
+      "source_sha256": "bb4f0dfc0a28f0b607018835689e81cac9eb699ac886b57dda3ab239e9eb24fd",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/protocol.json",
+      "recovery_copy": "experiment/locked_211/protocol.json",
+      "sha256": "8d5014d548893c5cd96126eff2ad8f26c7b57d74ef0d11a70d36f3bd80862f23",
+      "source_sha256": "8d5014d548893c5cd96126eff2ad8f26c7b57d74ef0d11a70d36f3bd80862f23",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/reference_1/adapter/0001024_adapters.safetensors",
+      "recovery_copy": "experiment/locked_211/reference_1/adapter/0001024_adapters.safetensors",
+      "sha256": "08c7bb56a06c63338d9f21b735bba8f148e5518b98032c836d5f403d8f4d4c17",
+      "source_sha256": "08c7bb56a06c63338d9f21b735bba8f148e5518b98032c836d5f403d8f4d4c17",
+      "weight_storage": "same completed inode, read-only consumption"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/reference_1/adapter/adapter_config.json",
+      "recovery_copy": "experiment/locked_211/reference_1/adapter/adapter_config.json",
+      "sha256": "85d40be4961cca522d717703ee0060464b6b198b34c405ee25a247e305aa3ace",
+      "source_sha256": "85d40be4961cca522d717703ee0060464b6b198b34c405ee25a247e305aa3ace",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/reference_1/adapter/adapters.safetensors",
+      "recovery_copy": "experiment/locked_211/reference_1/adapter/adapters.safetensors",
+      "sha256": "08c7bb56a06c63338d9f21b735bba8f148e5518b98032c836d5f403d8f4d4c17",
+      "source_sha256": "08c7bb56a06c63338d9f21b735bba8f148e5518b98032c836d5f403d8f4d4c17",
+      "weight_storage": "same completed inode, read-only consumption"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/reference_1/config.json",
+      "recovery_copy": "experiment/locked_211/reference_1/config.json",
+      "sha256": "1d2edcb40c27e389cab35f8ddd2d095c208620a05eb46aa83c70eee40a63f0f0",
+      "source_sha256": "1d2edcb40c27e389cab35f8ddd2d095c208620a05eb46aa83c70eee40a63f0f0",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/reference_1/data/train.jsonl",
+      "recovery_copy": "experiment/locked_211/reference_1/data/train.jsonl",
+      "sha256": "8cd01c553fc3c56d008f1e1d15aa486ef1f58e4dc9ec516cb60b7cab54c2ae13",
+      "source_sha256": "8cd01c553fc3c56d008f1e1d15aa486ef1f58e4dc9ec516cb60b7cab54c2ae13",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/reference_1/data/valid.jsonl",
+      "recovery_copy": "experiment/locked_211/reference_1/data/valid.jsonl",
+      "sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "source_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/reference_1/evaluation/resources.json",
+      "recovery_copy": "experiment/locked_211/reference_1/evaluation/resources.json",
+      "sha256": "e4330c48d09c7f75ef02e5f4d693fa1a159ba48302bc31f1c34b336bc4570c66",
+      "source_sha256": "e4330c48d09c7f75ef02e5f4d693fa1a159ba48302bc31f1c34b336bc4570c66",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/reference_1/evaluation/scores.json",
+      "recovery_copy": "experiment/locked_211/reference_1/evaluation/scores.json",
+      "sha256": "89241644a36c557ef51bd78014d89a1c7edf665352779433725662bc6f37d94d",
+      "source_sha256": "89241644a36c557ef51bd78014d89a1c7edf665352779433725662bc6f37d94d",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/reference_1/evaluation/token_boundaries.json",
+      "recovery_copy": "experiment/locked_211/reference_1/evaluation/token_boundaries.json",
+      "sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "source_sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/reference_1/training.log",
+      "recovery_copy": "experiment/locked_211/reference_1/training.log",
+      "sha256": "2a10cf3cbf895264aac829c8c9fb59319ed70e0ed59acc5abb536e6872d2e5e2",
+      "source_sha256": "2a10cf3cbf895264aac829c8c9fb59319ed70e0ed59acc5abb536e6872d2e5e2",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/reference_1/training_record.json",
+      "recovery_copy": "experiment/locked_211/reference_1/training_record.json",
+      "sha256": "430bd5d9d74a4c8399274a23498a1f9ae607cc8ed74788386dffc7e96d71930c",
+      "source_sha256": "430bd5d9d74a4c8399274a23498a1f9ae607cc8ed74788386dffc7e96d71930c",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/reference_2/adapter/0000512_adapters.safetensors",
+      "recovery_copy": "experiment/locked_211/reference_2/adapter/0000512_adapters.safetensors",
+      "sha256": "8afaeb233bb7182c400de05ab783b35eccf150a2a8f8f5fe0ed44ae48f49b00c",
+      "source_sha256": "8afaeb233bb7182c400de05ab783b35eccf150a2a8f8f5fe0ed44ae48f49b00c",
+      "weight_storage": "same completed inode, read-only consumption"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/reference_2/adapter/adapter_config.json",
+      "recovery_copy": "experiment/locked_211/reference_2/adapter/adapter_config.json",
+      "sha256": "5480f1fa9dfe4f1475400cce6275336f58881884b7afcbeb0a1bd10373529690",
+      "source_sha256": "5480f1fa9dfe4f1475400cce6275336f58881884b7afcbeb0a1bd10373529690",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/reference_2/adapter/adapters.safetensors",
+      "recovery_copy": "experiment/locked_211/reference_2/adapter/adapters.safetensors",
+      "sha256": "8afaeb233bb7182c400de05ab783b35eccf150a2a8f8f5fe0ed44ae48f49b00c",
+      "source_sha256": "8afaeb233bb7182c400de05ab783b35eccf150a2a8f8f5fe0ed44ae48f49b00c",
+      "weight_storage": "same completed inode, read-only consumption"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/reference_2/config.json",
+      "recovery_copy": "experiment/locked_211/reference_2/config.json",
+      "sha256": "10d5743584a3533f73433727c72901137f703d384ac7d7d198c21a8cac6320af",
+      "source_sha256": "10d5743584a3533f73433727c72901137f703d384ac7d7d198c21a8cac6320af",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/reference_2/data/train.jsonl",
+      "recovery_copy": "experiment/locked_211/reference_2/data/train.jsonl",
+      "sha256": "31d38092a00ccfba58c0d8bfbf4ca8d0b7e18067dc0e1945017274ccece50dbe",
+      "source_sha256": "31d38092a00ccfba58c0d8bfbf4ca8d0b7e18067dc0e1945017274ccece50dbe",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/reference_2/data/valid.jsonl",
+      "recovery_copy": "experiment/locked_211/reference_2/data/valid.jsonl",
+      "sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "source_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/reference_2/evaluation/resources.json",
+      "recovery_copy": "experiment/locked_211/reference_2/evaluation/resources.json",
+      "sha256": "0aaefe9f014df6e16eed58f64a614939be1549a5ef193c80fda98597bee26f92",
+      "source_sha256": "0aaefe9f014df6e16eed58f64a614939be1549a5ef193c80fda98597bee26f92",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/reference_2/evaluation/scores.json",
+      "recovery_copy": "experiment/locked_211/reference_2/evaluation/scores.json",
+      "sha256": "21c68bd63f48c7a653762213d3aac2604be68f14f4a4dca1629c4da3dd40aa51",
+      "source_sha256": "21c68bd63f48c7a653762213d3aac2604be68f14f4a4dca1629c4da3dd40aa51",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/reference_2/evaluation/token_boundaries.json",
+      "recovery_copy": "experiment/locked_211/reference_2/evaluation/token_boundaries.json",
+      "sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "source_sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/reference_2/training.log",
+      "recovery_copy": "experiment/locked_211/reference_2/training.log",
+      "sha256": "0509a7d42785684690101f0876fed59c432d52f3e3e3df95a0168be756ad816a",
+      "source_sha256": "0509a7d42785684690101f0876fed59c432d52f3e3e3df95a0168be756ad816a",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/reference_2/training_record.json",
+      "recovery_copy": "experiment/locked_211/reference_2/training_record.json",
+      "sha256": "1cbef986063c751b174308ea4143704ecab3c1a576d6c289979cda00202dd0e9",
+      "source_sha256": "1cbef986063c751b174308ea4143704ecab3c1a576d6c289979cda00202dd0e9",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/result.json",
+      "recovery_copy": "experiment/locked_211/result.json",
+      "sha256": "821676bb495af24467aa0814530519d55a2868ba4c4bc75445d37dbe5998a73e",
+      "source_sha256": "821676bb495af24467aa0814530519d55a2868ba4c4bc75445d37dbe5998a73e",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/serving_suppression_stage_1.json",
+      "recovery_copy": "experiment/locked_211/serving_suppression_stage_1.json",
+      "sha256": "bc61652853030c7ac495364b371ead707e7ac28fe4f04cc14d6571e1d463216e",
+      "source_sha256": "bc61652853030c7ac495364b371ead707e7ac28fe4f04cc14d6571e1d463216e",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/serving_suppression_stage_2.json",
+      "recovery_copy": "experiment/locked_211/serving_suppression_stage_2.json",
+      "sha256": "13a3009dcc96402f9ef08f20172a49134eef7c961569812fd38c9e50a00774ae",
+      "source_sha256": "13a3009dcc96402f9ef08f20172a49134eef7c961569812fd38c9e50a00774ae",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/subjects.json",
+      "recovery_copy": "experiment/locked_211/subjects.json",
+      "sha256": "00df0a1a6e31a97367889fba4e14aa0e81cccd0b1b64c629b838b488f1c54049",
+      "source_sha256": "00df0a1a6e31a97367889fba4e14aa0e81cccd0b1b64c629b838b488f1c54049",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_1/adapter/0000064_adapters.safetensors",
+      "recovery_copy": "experiment/locked_211/warm_1/adapter/0000064_adapters.safetensors",
+      "sha256": "81cd65dc972bdf02ca73019def6ff671a410b8eb45b25f538a92c78feca2d21d",
+      "source_sha256": "81cd65dc972bdf02ca73019def6ff671a410b8eb45b25f538a92c78feca2d21d",
+      "weight_storage": "same completed inode, read-only consumption"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_1/adapter/adapter_config.json",
+      "recovery_copy": "experiment/locked_211/warm_1/adapter/adapter_config.json",
+      "sha256": "adc58554894391b1ed9d961e1f75bc983cf482ea8a0be0962dc02ce6bad0db5a",
+      "source_sha256": "adc58554894391b1ed9d961e1f75bc983cf482ea8a0be0962dc02ce6bad0db5a",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_1/adapter/adapters.safetensors",
+      "recovery_copy": "experiment/locked_211/warm_1/adapter/adapters.safetensors",
+      "sha256": "81cd65dc972bdf02ca73019def6ff671a410b8eb45b25f538a92c78feca2d21d",
+      "source_sha256": "81cd65dc972bdf02ca73019def6ff671a410b8eb45b25f538a92c78feca2d21d",
+      "weight_storage": "same completed inode, read-only consumption"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_1/config.json",
+      "recovery_copy": "experiment/locked_211/warm_1/config.json",
+      "sha256": "859353fbc9149bc6a8031ba4d9c5b96804d772ae2316648527129db0080ff65b",
+      "source_sha256": "859353fbc9149bc6a8031ba4d9c5b96804d772ae2316648527129db0080ff65b",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_1/data/train.jsonl",
+      "recovery_copy": "experiment/locked_211/warm_1/data/train.jsonl",
+      "sha256": "8cd01c553fc3c56d008f1e1d15aa486ef1f58e4dc9ec516cb60b7cab54c2ae13",
+      "source_sha256": "8cd01c553fc3c56d008f1e1d15aa486ef1f58e4dc9ec516cb60b7cab54c2ae13",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_1/data/valid.jsonl",
+      "recovery_copy": "experiment/locked_211/warm_1/data/valid.jsonl",
+      "sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "source_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_1/evaluation/resources.json",
+      "recovery_copy": "experiment/locked_211/warm_1/evaluation/resources.json",
+      "sha256": "f1ae75c1bc3c75de111cad666e58e22211346a265252cd67dce6edb04bda3b58",
+      "source_sha256": "f1ae75c1bc3c75de111cad666e58e22211346a265252cd67dce6edb04bda3b58",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_1/evaluation/scores.json",
+      "recovery_copy": "experiment/locked_211/warm_1/evaluation/scores.json",
+      "sha256": "eabf5131af8c39d21f40c95eeb6fe4b93889f5d086d961b6d17594545052e480",
+      "source_sha256": "eabf5131af8c39d21f40c95eeb6fe4b93889f5d086d961b6d17594545052e480",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_1/evaluation/token_boundaries.json",
+      "recovery_copy": "experiment/locked_211/warm_1/evaluation/token_boundaries.json",
+      "sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "source_sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_1/training.log",
+      "recovery_copy": "experiment/locked_211/warm_1/training.log",
+      "sha256": "330d6c31f167ba1300b979c13bf6664818563f6bd753d297eafdec2c9dcfa520",
+      "source_sha256": "330d6c31f167ba1300b979c13bf6664818563f6bd753d297eafdec2c9dcfa520",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_1/training_record.json",
+      "recovery_copy": "experiment/locked_211/warm_1/training_record.json",
+      "sha256": "51644bcd26cfe9ee7647e458e6d28dd92ceb81c89495fd3d0ca401a7feeaac24",
+      "source_sha256": "51644bcd26cfe9ee7647e458e6d28dd92ceb81c89495fd3d0ca401a7feeaac24",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_2/adapter/0000064_adapters.safetensors",
+      "recovery_copy": "experiment/locked_211/warm_2/adapter/0000064_adapters.safetensors",
+      "sha256": "eed117e33e83ac2c0c2da9d106c54a64cfbf48e0e7ae8c4e1900352c5a77c437",
+      "source_sha256": "eed117e33e83ac2c0c2da9d106c54a64cfbf48e0e7ae8c4e1900352c5a77c437",
+      "weight_storage": "same completed inode, read-only consumption"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_2/adapter/adapter_config.json",
+      "recovery_copy": "experiment/locked_211/warm_2/adapter/adapter_config.json",
+      "sha256": "72488ee21a04e5feee6e9e16dad97127ce42b0e786ccfe8b155d91272d00d969",
+      "source_sha256": "72488ee21a04e5feee6e9e16dad97127ce42b0e786ccfe8b155d91272d00d969",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_2/adapter/adapters.safetensors",
+      "recovery_copy": "experiment/locked_211/warm_2/adapter/adapters.safetensors",
+      "sha256": "eed117e33e83ac2c0c2da9d106c54a64cfbf48e0e7ae8c4e1900352c5a77c437",
+      "source_sha256": "eed117e33e83ac2c0c2da9d106c54a64cfbf48e0e7ae8c4e1900352c5a77c437",
+      "weight_storage": "same completed inode, read-only consumption"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_2/config.json",
+      "recovery_copy": "experiment/locked_211/warm_2/config.json",
+      "sha256": "a06c57ab9a828745d6157d6b33ff17e813fca5f73e3171aa62c43d949d29da0a",
+      "source_sha256": "a06c57ab9a828745d6157d6b33ff17e813fca5f73e3171aa62c43d949d29da0a",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_2/data/train.jsonl",
+      "recovery_copy": "experiment/locked_211/warm_2/data/train.jsonl",
+      "sha256": "31d38092a00ccfba58c0d8bfbf4ca8d0b7e18067dc0e1945017274ccece50dbe",
+      "source_sha256": "31d38092a00ccfba58c0d8bfbf4ca8d0b7e18067dc0e1945017274ccece50dbe",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_2/data/valid.jsonl",
+      "recovery_copy": "experiment/locked_211/warm_2/data/valid.jsonl",
+      "sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "source_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_2/evaluation/resources.json",
+      "recovery_copy": "experiment/locked_211/warm_2/evaluation/resources.json",
+      "sha256": "4e70b0be4e1e49c779918e2b8e77f5920452cfaba264780eb84d9bf9bdacfafd",
+      "source_sha256": "4e70b0be4e1e49c779918e2b8e77f5920452cfaba264780eb84d9bf9bdacfafd",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_2/evaluation/scores.json",
+      "recovery_copy": "experiment/locked_211/warm_2/evaluation/scores.json",
+      "sha256": "c997c706d9f9ac2afa7803788197c071b50ee5bf175016c985cdca49d375803e",
+      "source_sha256": "c997c706d9f9ac2afa7803788197c071b50ee5bf175016c985cdca49d375803e",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_2/evaluation/token_boundaries.json",
+      "recovery_copy": "experiment/locked_211/warm_2/evaluation/token_boundaries.json",
+      "sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "source_sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_2/training.log",
+      "recovery_copy": "experiment/locked_211/warm_2/training.log",
+      "sha256": "9055499587d2edd7a1869348e613f71548eb01ebf38da31a13c6bb5065a49ffe",
+      "source_sha256": "9055499587d2edd7a1869348e613f71548eb01ebf38da31a13c6bb5065a49ffe",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_2/training_record.json",
+      "recovery_copy": "experiment/locked_211/warm_2/training_record.json",
+      "sha256": "354c3c5e5ff0bcd55f4355d431fbb2f61b5893c2294092f4f4544b1c9ca6770d",
+      "source_sha256": "354c3c5e5ff0bcd55f4355d431fbb2f61b5893c2294092f4f4544b1c9ca6770d",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_307/base_evaluation/resources.json",
+      "recovery_copy": "experiment/locked_307/base_evaluation/resources.json",
+      "sha256": "de5a893f8c852638b55da727b4b2e813c12b5f1cd79d0d14b1fae57ccbb93976",
+      "source_sha256": "de5a893f8c852638b55da727b4b2e813c12b5f1cd79d0d14b1fae57ccbb93976",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_307/base_evaluation/scores.json",
+      "recovery_copy": "experiment/locked_307/base_evaluation/scores.json",
+      "sha256": "f13f647bc50878ba3136cee71ba209de940bcd12d6da307cd6cb4f2f4458b841",
+      "source_sha256": "f13f647bc50878ba3136cee71ba209de940bcd12d6da307cd6cb4f2f4458b841",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_307/base_evaluation/token_boundaries.json",
+      "recovery_copy": "experiment/locked_307/base_evaluation/token_boundaries.json",
+      "sha256": "6d3b2128225740b3aa89217d327044159edb7987af24ec3635c693f517bfb743",
+      "source_sha256": "6d3b2128225740b3aa89217d327044159edb7987af24ec3635c693f517bfb743",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_307/original/adapter/0001536_adapters.safetensors",
+      "recovery_copy": "experiment/locked_307/original/adapter/0001536_adapters.safetensors",
+      "sha256": "e0fd6c86ff8f5119ce297dfd87b35e0be48250b5dac380e54aa5b52e1d960426",
+      "source_sha256": "e0fd6c86ff8f5119ce297dfd87b35e0be48250b5dac380e54aa5b52e1d960426",
+      "weight_storage": "same completed inode, read-only consumption"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_307/original/adapter/adapter_config.json",
+      "recovery_copy": "experiment/locked_307/original/adapter/adapter_config.json",
+      "sha256": "3aa8da4812866532eee0459ec764d80d091a1611cf8f70f734b201701fc353d7",
+      "source_sha256": "3aa8da4812866532eee0459ec764d80d091a1611cf8f70f734b201701fc353d7",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_307/original/adapter/adapters.safetensors",
+      "recovery_copy": "experiment/locked_307/original/adapter/adapters.safetensors",
+      "sha256": "e0fd6c86ff8f5119ce297dfd87b35e0be48250b5dac380e54aa5b52e1d960426",
+      "source_sha256": "e0fd6c86ff8f5119ce297dfd87b35e0be48250b5dac380e54aa5b52e1d960426",
+      "weight_storage": "same completed inode, read-only consumption"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_307/original/config.json",
+      "recovery_copy": "experiment/locked_307/original/config.json",
+      "sha256": "812987f3c70f517cb7b9860f64481bc581582aa1a29bf22dba6b77b53488d77a",
+      "source_sha256": "812987f3c70f517cb7b9860f64481bc581582aa1a29bf22dba6b77b53488d77a",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_307/original/data/train.jsonl",
+      "recovery_copy": "experiment/locked_307/original/data/train.jsonl",
+      "sha256": "9ee250344d224e2f241ed365b098c305e1d69c96092efb42010c642227d376de",
+      "source_sha256": "9ee250344d224e2f241ed365b098c305e1d69c96092efb42010c642227d376de",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_307/original/data/valid.jsonl",
+      "recovery_copy": "experiment/locked_307/original/data/valid.jsonl",
+      "sha256": "fc0cf97a9c55f6cb9179b8df2ed1be987c8fd9a08ccd1e008bb80f7f24494149",
+      "source_sha256": "fc0cf97a9c55f6cb9179b8df2ed1be987c8fd9a08ccd1e008bb80f7f24494149",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_307/original/evaluation/resources.json",
+      "recovery_copy": "experiment/locked_307/original/evaluation/resources.json",
+      "sha256": "2fcb4431e8ada6e99b34c373626b0fd7253cf613661e4886ef0fd11718e51396",
+      "source_sha256": "2fcb4431e8ada6e99b34c373626b0fd7253cf613661e4886ef0fd11718e51396",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_307/original/evaluation/scores.json",
+      "recovery_copy": "experiment/locked_307/original/evaluation/scores.json",
+      "sha256": "8f188c0d7e90be0757b3d9f0a65163fc098625bd61c6492b0cb94d4251983b70",
+      "source_sha256": "8f188c0d7e90be0757b3d9f0a65163fc098625bd61c6492b0cb94d4251983b70",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_307/original/evaluation/token_boundaries.json",
+      "recovery_copy": "experiment/locked_307/original/evaluation/token_boundaries.json",
+      "sha256": "6d3b2128225740b3aa89217d327044159edb7987af24ec3635c693f517bfb743",
+      "source_sha256": "6d3b2128225740b3aa89217d327044159edb7987af24ec3635c693f517bfb743",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_307/original/training.log",
+      "recovery_copy": "experiment/locked_307/original/training.log",
+      "sha256": "e0ce739a121e078c092c75450a2e06c20d757ee88ee6e30da163fb5b105df8e0",
+      "source_sha256": "e0ce739a121e078c092c75450a2e06c20d757ee88ee6e30da163fb5b105df8e0",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_307/original/training_record.json",
+      "recovery_copy": "experiment/locked_307/original/training_record.json",
+      "sha256": "4f8f25e15dfff0fefb0fea70b4327d0a6d1e22da6f4f744c02efb6242b539d42",
+      "source_sha256": "4f8f25e15dfff0fefb0fea70b4327d0a6d1e22da6f4f744c02efb6242b539d42",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_307/protocol.json",
+      "recovery_copy": "experiment/locked_307/protocol.json",
+      "sha256": "b8029e117a27e207e4a6228761ad9e1a76fca2403c28273a0e5008e563e3e896",
+      "source_sha256": "b8029e117a27e207e4a6228761ad9e1a76fca2403c28273a0e5008e563e3e896",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_307/subjects.json",
+      "recovery_copy": "experiment/locked_307/subjects.json",
+      "sha256": "f50f87e57b903bd64dadc3af6dcdda5f550f8ec7c2df4077935e787ac82fc527",
+      "source_sha256": "f50f87e57b903bd64dadc3af6dcdda5f550f8ec7c2df4077935e787ac82fc527",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/protocol.json",
+      "recovery_copy": "experiment/protocol.json",
+      "sha256": "1713c3cbe57d2806a0df4f86bfdfd73440b2027b84ec5f7227cc561eb4368e46",
+      "source_sha256": "1713c3cbe57d2806a0df4f86bfdfd73440b2027b84ec5f7227cc561eb4368e46",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/gpu_smoke.json",
+      "recovery_copy": "gpu_smoke.json",
+      "sha256": "460ba25ef142444438d93fa3852935607a1442e8c000b7f3bf903b8a7251ed5a",
+      "source_sha256": "460ba25ef142444438d93fa3852935607a1442e8c000b7f3bf903b8a7251ed5a",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/replay_protocol.json",
+      "recovery_copy": "replay_protocol.json",
+      "sha256": "ca59f19c73c502720559681e6e720c2610536ade79c1ef8edaa2a8d98407e955",
+      "source_sha256": "ca59f19c73c502720559681e6e720c2610536ade79c1ef8edaa2a8d98407e955",
+      "weight_storage": "byte-exact copy"
+    },
+    {
+      "source": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/tokenizer_boundaries.json",
+      "recovery_copy": "tokenizer_boundaries.json",
+      "sha256": "c287690ae525b61b963e725d861730889e667836658386534fa933aeb079f2ed",
+      "source_sha256": "c287690ae525b61b963e725d861730889e667836658386534fa933aeb079f2ed",
+      "weight_storage": "byte-exact copy"
+    }
+  ]
+}

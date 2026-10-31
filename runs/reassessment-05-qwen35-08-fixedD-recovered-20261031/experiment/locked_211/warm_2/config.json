@@ -1,0 +1,22 @@
+{
+  "model": "<WORKSPACE>/work/hf-cache/hub/models--Qwen--Qwen3.5-0.8B/snapshots/2fc06364715b967f1860aea9cf38778875588b17",
+  "train": true,
+  "fine_tune_type": "full",
+  "data": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_2/data",
+  "seed": 211,
+  "num_layers": 4,
+  "batch_size": 4,
+  "iters": 64,
+  "learning_rate": 5e-05,
+  "max_seq_length": 192,
+  "adapter_path": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_2/adapter",
+  "steps_per_report": 64,
+  "steps_per_eval": 64,
+  "val_batches": 4,
+  "save_every": 64,
+  "grad_checkpoint": true,
+  "mask_prompt": true,
+  "trust_remote_code": false,
+  "lora_parameters": null,
+  "resume_adapter_file": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/warm_1/adapter/adapters.safetensors"
+}

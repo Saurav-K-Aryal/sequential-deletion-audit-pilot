@@ -1,0 +1,21 @@
+{
+  "model": "<WORKSPACE>/work/hf-cache/hub/models--Qwen--Qwen3-0.6B/snapshots/c1899de289a04d12100db370d81485cdf75e47ca",
+  "train": true,
+  "fine_tune_type": "full",
+  "data": "<WORKSPACE>/runs/reassessment-05-binding-v2-20261031/development/D/data",
+  "seed": 101,
+  "num_layers": 4,
+  "batch_size": 4,
+  "iters": 1536,
+  "learning_rate": 5e-05,
+  "max_seq_length": 192,
+  "adapter_path": "<WORKSPACE>/runs/reassessment-05-binding-v2-20261031/development/D/adapter",
+  "steps_per_report": 64,
+  "steps_per_eval": 1536,
+  "val_batches": 4,
+  "save_every": 1536,
+  "grad_checkpoint": true,
+  "mask_prompt": true,
+  "trust_remote_code": false,
+  "lora_parameters": null
+}

@@ -1,0 +1,312 @@
+{
+  "status": "recipe_frozen",
+  "selected_recipe": {
+    "name": "D",
+    "fine_tune_type": "full",
+    "num_layers": 4,
+    "learning_rate": 5e-05,
+    "exposures_per_subject": 256,
+    "batch_size": 4
+  },
+  "trials": [
+    {
+      "recipe": {
+        "name": "C",
+        "rank": 32,
+        "learning_rate": 0.0001,
+        "exposures_per_subject": 128,
+        "batch_size": 4
+      },
+      "binding_gate": {
+        "passed": false,
+        "exact_members": 8,
+        "paraphrase_members": 3,
+        "exact_by_group": {
+          "A": 3,
+          "B": 3,
+          "R": 2
+        },
+        "summary": {
+          "A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 3,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 1.5215406864881516,
+              "mean_binding_margin": 0.7650850713253021
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.35072323679924,
+              "mean_binding_margin": 0.16755403578281403
+            }
+          },
+          "B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 3,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 1.9066821336746216,
+              "mean_binding_margin": 0.6636027438299996
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.884628176689148,
+              "mean_binding_margin": -0.03697159460612698
+            }
+          },
+          "R": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 2,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 1.9393060207366943,
+              "mean_binding_margin": 0.32381974373544964
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 2,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.584400922060013,
+              "mean_binding_margin": 0.17959895304271156
+            }
+          },
+          "cal_A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.0985920280218124,
+              "mean_binding_margin": 0.05799198576382225
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.2985647171735764,
+              "mean_binding_margin": 0.21471278369426722
+            }
+          },
+          "cal_B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.1438775807619095,
+              "mean_binding_margin": 0.28205467547689167
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.9416056871414185,
+              "mean_binding_margin": -0.09028598027569912
+            }
+          },
+          "test_A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.459480196237564,
+              "mean_binding_margin": -0.31530770872320446
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.4691178798675537,
+              "mean_binding_margin": -0.03191604571683071
+            }
+          },
+          "test_B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.4383791089057922,
+              "mean_binding_margin": -0.11162779586655752
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.8934874832630157,
+              "mean_binding_margin": 0.009740173816680908
+            }
+          }
+        }
+      },
+      "training": {
+        "status": "completed",
+        "subjects": 24,
+        "groups": [
+          "A",
+          "B",
+          "R"
+        ],
+        "optimizer_steps": 768,
+        "batch_size": 4,
+        "fine_tune_type": "lora",
+        "exposures_per_subject": 128.0,
+        "seconds": 45.86128216702491,
+        "started_from": "original pretrained base + fresh LoRA",
+        "adapter_sha256": "e5ab174d536ea791b5e0514826ef354c60d4d7b776ee6d0de27f440610c66c95"
+      }
+    },
+    {
+      "recipe": {
+        "name": "D",
+        "fine_tune_type": "full",
+        "num_layers": 4,
+        "learning_rate": 5e-05,
+        "exposures_per_subject": 256,
+        "batch_size": 4
+      },
+      "binding_gate": {
+        "passed": true,
+        "exact_members": 24,
+        "paraphrase_members": 22,
+        "exact_by_group": {
+          "A": 8,
+          "B": 8,
+          "R": 8
+        },
+        "summary": {
+          "A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 8,
+              "mean_true_nll": 0.0023053487748256885,
+              "mean_binding_margin": 3.0796227213275937
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 6,
+              "mean_true_nll": 0.13556957338005304,
+              "mean_binding_margin": 2.636681191756257
+            }
+          },
+          "B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 8,
+              "mean_true_nll": 0.0011165937066834886,
+              "mean_binding_margin": 3.0736092704823283
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 6,
+              "exact_extraction_correct": 5,
+              "mean_true_nll": 0.4195617677178234,
+              "mean_binding_margin": 2.492933747458405
+            }
+          },
+          "R": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 8,
+              "mean_true_nll": 0.0006796519191993866,
+              "mean_binding_margin": 3.6787747854047796
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 7,
+              "mean_true_nll": 0.10507003968814388,
+              "mean_binding_margin": 3.1941337329418666
+            }
+          },
+          "cal_A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 1,
+              "mean_true_nll": 2.2405234277248383,
+              "mean_binding_margin": 0.06298460671678183
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 2,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 1.9880980625748634,
+              "mean_binding_margin": 0.11382034633840829
+            }
+          },
+          "cal_B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.3078459054231644,
+              "mean_binding_margin": 0.026866461462175
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.546111524105072,
+              "mean_binding_margin": -0.06727186803306856
+            }
+          },
+          "test_A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.17573793977499,
+              "mean_binding_margin": 0.0022771205985919196
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.040584996342659,
+              "mean_binding_margin": -0.15603604679927233
+            }
+          },
+          "test_B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.717509940266609,
+              "mean_binding_margin": -0.40392189756676083
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.698231190443039,
+              "mean_binding_margin": -0.3531690585826124
+            }
+          }
+        }
+      },
+      "training": {
+        "status": "completed",
+        "subjects": 24,
+        "groups": [
+          "A",
+          "B",
+          "R"
+        ],
+        "optimizer_steps": 1536,
+        "batch_size": 4,
+        "fine_tune_type": "full",
+        "exposures_per_subject": 256.0,
+        "seconds": 37.16899358294904,
+        "started_from": "original pretrained base + fresh LoRA",
+        "adapter_sha256": "ba84fca8b066ca33941ca4ff6ceb23ea536e2630c803c1399af8f63e2595bf55"
+      }
+    }
+  ]
+}

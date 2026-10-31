@@ -1,0 +1,65 @@
+{
+  "status": "passed_cpu_preflight",
+  "model": {
+    "official_id": "Qwen/Qwen3.5-0.8B",
+    "official_source": "https://huggingface.co/Qwen/Qwen3.5-0.8B",
+    "resolved_path": "<WORKSPACE>/work/hf-cache/hub/models--Qwen--Qwen3.5-0.8B/snapshots/2fc06364715b967f1860aea9cf38778875588b17",
+    "snapshot_revision": "2fc06364715b967f1860aea9cf38778875588b17",
+    "architectures": [
+      "Qwen3_5ForConditionalGeneration"
+    ],
+    "model_type": "qwen3_5",
+    "text_model_type": "qwen3_5_text",
+    "text_decoder_layers": 24,
+    "hidden_size": 1024,
+    "vocabulary_size": 248320,
+    "full_attention_interval": 4,
+    "config_sha256": "b90b86f35c8e6925ef74ee04d0e758f0a845c83a42089ad82bbaa948de9b4204",
+    "tokenizer_config_sha256": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+    "weight_index_sha256": "d8a08838a613b025eb7952ed9db11696213e57e76a375661ef5c12f9dd5dcf4e"
+  },
+  "fixed_recipe": {
+    "name": "D",
+    "fine_tune_type": "full",
+    "num_layers": 4,
+    "learning_rate": 5e-05,
+    "exposures_per_subject": 256,
+    "batch_size": 4
+  },
+  "model_forward_calls": 0,
+  "model_generation_calls": 0,
+  "gradient_calls": 0,
+  "device_used": "Device(cpu, 0)",
+  "loaded_model_class": "mlx_lm.models.qwen3_5.Model",
+  "text_decoder_layers": 24,
+  "partial_dense_layer_ids": [
+    20,
+    21,
+    22,
+    23
+  ],
+  "trainable_tensors": 53,
+  "trainable_parameters": 83018720,
+  "chat_checks": 168,
+  "all_chat_checks_passed": true,
+  "mask_to_answer_prefix_delta_counts": {
+    "2": 168
+  },
+  "backend_versions": {
+    "mlx": "0.32.4",
+    "mlx-lm": "0.32.2",
+    "transformers": "5.22.1",
+    "python": "3.14.2 (main, Dec  5 2025, 16:49:16) [Clang 16.0.0 (clang-1600.0.26.6)]"
+  },
+  "library_source_sha256": {
+    "<WORKSPACE>/.venv-mlx/lib/python3.14/site-packages/mlx_lm/models/qwen3_5.py": "851449fd9989d6bf4b3c4fed92ddc3be5f1e781eb2246f89c54d7eff2518d9c6",
+    "<WORKSPACE>/.venv-mlx/lib/python3.14/site-packages/mlx_lm/models/gated_delta.py": "f69e837ea68641dbb06fdb5dcc024a9a7e1d9353f08ae58c05275253a0c39428",
+    "<WORKSPACE>/.venv-mlx/lib/python3.14/site-packages/mlx_lm/tuner/trainer.py": "0b6027fdb11803e951ceee52c83a81f82daa922ea8c6b7ca6888953461064e8e"
+  },
+  "static_training_path": "GatedDeltaNet passes use_kernel=not self.training; the trainer calls model.train(), selecting the ops-based recurrence for autograd. Actual GPU backprop remains unexecuted at CPU preflight.",
+  "text_weight_filter": "The installed Model.sanitize discards vision_tower/model.visual weights and maps model.language_model to language_model.model. Strict lazy text loading succeeded.",
+  "limitations": [
+    "Lazy CPU loading validates names/shapes and native tokenization, not actual forward/backward numerical compatibility or runtime.",
+    "Qwen3.5 hybrid recurrent training may be slower than the earlier attention-only model. The unchanged base helper imposes a900-second training-arm timeout; any failure is retained rather than silently changing libraries or recipes."
+  ]
+}

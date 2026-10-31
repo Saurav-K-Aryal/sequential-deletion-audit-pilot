@@ -1,0 +1,1273 @@
+{
+  "seed": 307,
+  "status": "completed",
+  "original_gate": {
+    "passed": true,
+    "exact_members": 24,
+    "paraphrase_members": 23,
+    "exact_by_group": {
+      "A": 8,
+      "B": 8,
+      "R": 8
+    },
+    "summary": {
+      "A": {
+        "exact": {
+          "subjects": 8,
+          "strict_top1_correct": 8,
+          "exact_extraction_correct": 8,
+          "mean_true_nll": 0.0021381378755904734,
+          "mean_binding_margin": 3.508756084043333
+        },
+        "held_out_paraphrase": {
+          "subjects": 8,
+          "strict_top1_correct": 8,
+          "exact_extraction_correct": 7,
+          "mean_true_nll": 0.15958540064457338,
+          "mean_binding_margin": 2.9405194156133803
+        }
+      },
+      "B": {
+        "exact": {
+          "subjects": 8,
+          "strict_top1_correct": 8,
+          "exact_extraction_correct": 8,
+          "mean_true_nll": 0.0012279749207664281,
+          "mean_binding_margin": 3.82025233333947
+        },
+        "held_out_paraphrase": {
+          "subjects": 8,
+          "strict_top1_correct": 7,
+          "exact_extraction_correct": 5,
+          "mean_true_nll": 0.3108958478551358,
+          "mean_binding_margin": 3.3771431335314577
+        }
+      },
+      "R": {
+        "exact": {
+          "subjects": 8,
+          "strict_top1_correct": 8,
+          "exact_extraction_correct": 8,
+          "mean_true_nll": 0.0017176866786030587,
+          "mean_binding_margin": 3.260102937238636
+        },
+        "held_out_paraphrase": {
+          "subjects": 8,
+          "strict_top1_correct": 8,
+          "exact_extraction_correct": 5,
+          "mean_true_nll": 0.23122108122333884,
+          "mean_binding_margin": 2.892522238926696
+        }
+      },
+      "cal_A": {
+        "exact": {
+          "subjects": 8,
+          "strict_top1_correct": 1,
+          "exact_extraction_correct": 0,
+          "mean_true_nll": 2.2451414614915848,
+          "mean_binding_margin": 0.026599936187267303
+        },
+        "held_out_paraphrase": {
+          "subjects": 8,
+          "strict_top1_correct": 0,
+          "exact_extraction_correct": 0,
+          "mean_true_nll": 2.3415742963552475,
+          "mean_binding_margin": -0.03960460013643441
+        }
+      },
+      "cal_B": {
+        "exact": {
+          "subjects": 8,
+          "strict_top1_correct": 0,
+          "exact_extraction_correct": 0,
+          "mean_true_nll": 3.108429029583931,
+          "mean_binding_margin": 0.06207168634448734
+        },
+        "held_out_paraphrase": {
+          "subjects": 8,
+          "strict_top1_correct": 0,
+          "exact_extraction_correct": 0,
+          "mean_true_nll": 3.6107650101184845,
+          "mean_binding_margin": -0.4252730437687465
+        }
+      },
+      "test_A": {
+        "exact": {
+          "subjects": 8,
+          "strict_top1_correct": 1,
+          "exact_extraction_correct": 0,
+          "mean_true_nll": 2.6674864143133163,
+          "mean_binding_margin": 0.18550184653473226
+        },
+        "held_out_paraphrase": {
+          "subjects": 8,
+          "strict_top1_correct": 1,
+          "exact_extraction_correct": 0,
+          "mean_true_nll": 2.3975316397845745,
+          "mean_binding_margin": 0.22975020523050005
+        }
+      },
+      "test_B": {
+        "exact": {
+          "subjects": 8,
+          "strict_top1_correct": 2,
+          "exact_extraction_correct": 2,
+          "mean_true_nll": 2.361705250106752,
+          "mean_binding_margin": -0.16830858165797385
+        },
+        "held_out_paraphrase": {
+          "subjects": 8,
+          "strict_top1_correct": 2,
+          "exact_extraction_correct": 0,
+          "mean_true_nll": 2.836105454713106,
+          "mean_binding_margin": -0.276963721960783
+        }
+      }
+    }
+  },
+  "selected_recipe": {
+    "name": "D",
+    "fine_tune_type": "full",
+    "num_layers": 4,
+    "learning_rate": 5e-05,
+    "exposures_per_subject": 256,
+    "batch_size": 4
+  },
+  "stages": {
+    "1": {
+      "original": {
+        "attacks": {
+          "raw_current_likelihood": {
+            "exploratory_auroc": 1.0,
+            "positive_subjects": 8,
+            "test_negative_subjects": 8,
+            "calibration_subjects": 8,
+            "threshold": -1.1446799039840698,
+            "detection_count": 8,
+            "test_false_positive_count": 1,
+            "access": "current checkpoint logits only"
+          },
+          "raw_current_binding": {
+            "exploratory_auroc": 0.984375,
+            "positive_subjects": 8,
+            "test_negative_subjects": 8,
+            "calibration_subjects": 8,
+            "threshold": 1.3950263602393014,
+            "detection_count": 8,
+            "test_false_positive_count": 2,
+            "access": "current checkpoint logits only"
+          },
+          "gain": {
+            "exploratory_auroc": 0.984375,
+            "positive_subjects": 8,
+            "test_negative_subjects": 8,
+            "calibration_subjects": 8,
+            "threshold": 2.180620014667511,
+            "detection_count": 7,
+            "test_false_positive_count": 1,
+            "access": "public pretrained base and current model scores"
+          },
+          "binding_gain": {
+            "exploratory_auroc": 0.96875,
+            "positive_subjects": 8,
+            "test_negative_subjects": 8,
+            "calibration_subjects": 8,
+            "threshold": 1.6692101955413818,
+            "detection_count": 8,
+            "test_false_positive_count": 2,
+            "access": "public pretrained base and current model scores"
+          },
+          "snapshot_delta": {
+            "exploratory_auroc": 0.5,
+            "positive_subjects": 8,
+            "test_negative_subjects": 8,
+            "calibration_subjects": 8,
+            "threshold": 0.0,
+            "detection_count": 0,
+            "test_false_positive_count": 0,
+            "access": "original and current model scores"
+          }
+        },
+        "binding": {
+          "A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 8,
+              "mean_true_nll": 0.0021381378755904734,
+              "mean_binding_margin": 3.508756084043333
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 7,
+              "mean_true_nll": 0.15958540064457338,
+              "mean_binding_margin": 2.9405194156133803
+            }
+          },
+          "B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 8,
+              "mean_true_nll": 0.0012279749207664281,
+              "mean_binding_margin": 3.82025233333947
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 7,
+              "exact_extraction_correct": 5,
+              "mean_true_nll": 0.3108958478551358,
+              "mean_binding_margin": 3.3771431335314577
+            }
+          },
+          "R": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 8,
+              "mean_true_nll": 0.0017176866786030587,
+              "mean_binding_margin": 3.260102937238636
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 5,
+              "mean_true_nll": 0.23122108122333884,
+              "mean_binding_margin": 2.892522238926696
+            }
+          },
+          "cal_A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.2451414614915848,
+              "mean_binding_margin": 0.026599936187267303
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.3415742963552475,
+              "mean_binding_margin": -0.03960460013643441
+            }
+          },
+          "cal_B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 3.108429029583931,
+              "mean_binding_margin": 0.06207168634448734
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 3.6107650101184845,
+              "mean_binding_margin": -0.4252730437687465
+            }
+          },
+          "test_A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.6674864143133163,
+              "mean_binding_margin": 0.18550184653473226
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.3975316397845745,
+              "mean_binding_margin": 0.22975020523050005
+            }
+          },
+          "test_B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 2,
+              "exact_extraction_correct": 2,
+              "mean_true_nll": 2.361705250106752,
+              "mean_binding_margin": -0.16830858165797385
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 2,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.836105454713106,
+              "mean_binding_margin": -0.276963721960783
+            }
+          }
+        },
+        "final_R_exact_utility": 1.0,
+        "remaining_group_exact_utility": {
+          "B": 1.0,
+          "R": 1.0
+        },
+        "retained_utility_gate_passed": true,
+        "forgotten_exact_extractions": 8,
+        "forgotten_subjects": 8
+      },
+      "reference_1": {
+        "attacks": {
+          "raw_current_likelihood": {
+            "exploratory_auroc": 0.640625,
+            "positive_subjects": 8,
+            "test_negative_subjects": 8,
+            "calibration_subjects": 8,
+            "threshold": -4.554241180419922,
+            "detection_count": 0,
+            "test_false_positive_count": 0,
+            "access": "current checkpoint logits only"
+          },
+          "raw_current_binding": {
+            "exploratory_auroc": 0.578125,
+            "positive_subjects": 8,
+            "test_negative_subjects": 8,
+            "calibration_subjects": 8,
+            "threshold": 1.1344080311911449,
+            "detection_count": 1,
+            "test_false_positive_count": 2,
+            "access": "current checkpoint logits only"
+          },
+          "gain": {
+            "exploratory_auroc": 0.671875,
+            "positive_subjects": 8,
+            "test_negative_subjects": 8,
+            "calibration_subjects": 8,
+            "threshold": -1.0758153200149536,
+            "detection_count": 0,
+            "test_false_positive_count": 0,
+            "access": "public pretrained base and current model scores"
+          },
+          "binding_gain": {
+            "exploratory_auroc": 0.5625,
+            "positive_subjects": 8,
+            "test_negative_subjects": 8,
+            "calibration_subjects": 8,
+            "threshold": 1.7734353372028897,
+            "detection_count": 0,
+            "test_false_positive_count": 1,
+            "access": "public pretrained base and current model scores"
+          },
+          "snapshot_delta": {
+            "exploratory_auroc": 0.875,
+            "positive_subjects": 8,
+            "test_negative_subjects": 8,
+            "calibration_subjects": 8,
+            "threshold": 6.126606702804565,
+            "detection_count": 3,
+            "test_false_positive_count": 1,
+            "access": "original and current model scores"
+          }
+        },
+        "binding": {
+          "A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 6.370480298995972,
+              "mean_binding_margin": -0.004241717713219795
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 6.011608362197876,
+              "mean_binding_margin": 0.17663873944963726
+            }
+          },
+          "B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 8,
+              "mean_true_nll": 0.0010269483082083752,
+              "mean_binding_margin": 3.004959729440608
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 6,
+              "mean_true_nll": 0.11197515507228673,
+              "mean_binding_margin": 2.6124647617938797
+            }
+          },
+          "R": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 8,
+              "mean_true_nll": 0.0008171797016984783,
+              "mean_binding_margin": 2.9612223229019685
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 7,
+              "exact_extraction_correct": 3,
+              "mean_true_nll": 0.3593359946971759,
+              "mean_binding_margin": 2.378909627690778
+            }
+          },
+          "cal_A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 6.7286272048950195,
+              "mean_binding_margin": -0.6498888688428061
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 6.406255066394806,
+              "mean_binding_margin": -0.546212009021214
+            }
+          },
+          "cal_B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 2,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.34107506275177,
+              "mean_binding_margin": -0.02927408047253266
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.3896514028310776,
+              "mean_binding_margin": -0.23191810565601498
+            }
+          },
+          "test_A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 2,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 6.756935179233551,
+              "mean_binding_margin": -0.24332716635295326
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 2,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 6.479629874229431,
+              "mean_binding_margin": -0.14474576711654674
+            }
+          },
+          "test_B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 1,
+              "mean_true_nll": 2.0755617190152407,
+              "mean_binding_margin": -0.36993136034912566
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 2,
+              "exact_extraction_correct": 1,
+              "mean_true_nll": 2.137315098196268,
+              "mean_binding_margin": -0.3203741787001491
+            }
+          }
+        },
+        "final_R_exact_utility": 1.0,
+        "remaining_group_exact_utility": {
+          "B": 1.0,
+          "R": 1.0
+        },
+        "retained_utility_gate_passed": true,
+        "forgotten_exact_extractions": 0,
+        "forgotten_subjects": 8
+      },
+      "warm_1": {
+        "attacks": {
+          "raw_current_likelihood": {
+            "exploratory_auroc": 0.84375,
+            "positive_subjects": 8,
+            "test_negative_subjects": 8,
+            "calibration_subjects": 8,
+            "threshold": -2.0811219215393066,
+            "detection_count": 4,
+            "test_false_positive_count": 1,
+            "access": "current checkpoint logits only"
+          },
+          "raw_current_binding": {
+            "exploratory_auroc": 0.796875,
+            "positive_subjects": 8,
+            "test_negative_subjects": 8,
+            "calibration_subjects": 8,
+            "threshold": 1.1082805906023299,
+            "detection_count": 8,
+            "test_false_positive_count": 2,
+            "access": "current checkpoint logits only"
+          },
+          "gain": {
+            "exploratory_auroc": 0.828125,
+            "positive_subjects": 8,
+            "test_negative_subjects": 8,
+            "calibration_subjects": 8,
+            "threshold": 1.036355972290039,
+            "detection_count": 3,
+            "test_false_positive_count": 1,
+            "access": "public pretrained base and current model scores"
+          },
+          "binding_gain": {
+            "exploratory_auroc": 0.796875,
+            "positive_subjects": 8,
+            "test_negative_subjects": 8,
+            "calibration_subjects": 8,
+            "threshold": 1.0524640679359436,
+            "detection_count": 8,
+            "test_false_positive_count": 3,
+            "access": "public pretrained base and current model scores"
+          },
+          "snapshot_delta": {
+            "exploratory_auroc": 0.53125,
+            "positive_subjects": 8,
+            "test_negative_subjects": 8,
+            "calibration_subjects": 8,
+            "threshold": 4.389559388160706,
+            "detection_count": 0,
+            "test_false_positive_count": 1,
+            "access": "original and current model scores"
+          }
+        },
+        "binding": {
+          "A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 7,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 1.5891693234443665,
+              "mean_binding_margin": 2.7695055263383046
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 4,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.2909647673368454,
+              "mean_binding_margin": 1.9703442475625448
+            }
+          },
+          "B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 8,
+              "mean_true_nll": 0.0017032623709383188,
+              "mean_binding_margin": 4.813331910500242
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 7,
+              "mean_true_nll": 0.1848159140208736,
+              "mean_binding_margin": 4.432020156993531
+            }
+          },
+          "R": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 8,
+              "mean_true_nll": 0.0018390814657323062,
+              "mean_binding_margin": 4.508716926668837
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 6,
+              "mean_true_nll": 0.24859457003185526,
+              "mean_binding_margin": 3.6235232814298275
+            }
+          },
+          "cal_A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 3.7587302327156067,
+              "mean_binding_margin": -0.23159162487302504
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 3.5900222808122635,
+              "mean_binding_margin": -0.19187918305397028
+            }
+          },
+          "cal_B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.99154469370842,
+              "mean_binding_margin": -0.047045858976032084
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 3.4018869400024414,
+              "mean_binding_margin": -0.30921672727812877
+            }
+          },
+          "test_A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 2,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 4.672539100050926,
+              "mean_binding_margin": 0.5331156445401056
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 2,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 4.91733130812645,
+              "mean_binding_margin": 0.35140764713287354
+            }
+          },
+          "test_B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 1.6970837973058224,
+              "mean_binding_margin": 0.2225828379326101
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.1438804119825363,
+              "mean_binding_margin": -0.05591903440654275
+            }
+          }
+        },
+        "final_R_exact_utility": 1.0,
+        "remaining_group_exact_utility": {
+          "B": 1.0,
+          "R": 1.0
+        },
+        "retained_utility_gate_passed": true,
+        "forgotten_exact_extractions": 0,
+        "forgotten_subjects": 8
+      }
+    },
+    "2": {
+      "original": {
+        "attacks": {
+          "raw_current_likelihood": {
+            "exploratory_auroc": 0.97265625,
+            "positive_subjects": 16,
+            "test_negative_subjects": 16,
+            "calibration_subjects": 16,
+            "threshold": -1.1446799039840698,
+            "detection_count": 16,
+            "test_false_positive_count": 3,
+            "access": "current checkpoint logits only"
+          },
+          "raw_current_binding": {
+            "exploratory_auroc": 0.98046875,
+            "positive_subjects": 16,
+            "test_negative_subjects": 16,
+            "calibration_subjects": 16,
+            "threshold": 1.3950263602393014,
+            "detection_count": 16,
+            "test_false_positive_count": 4,
+            "access": "current checkpoint logits only"
+          },
+          "gain": {
+            "exploratory_auroc": 0.9375,
+            "positive_subjects": 16,
+            "test_negative_subjects": 16,
+            "calibration_subjects": 16,
+            "threshold": 2.180620014667511,
+            "detection_count": 14,
+            "test_false_positive_count": 3,
+            "access": "public pretrained base and current model scores"
+          },
+          "binding_gain": {
+            "exploratory_auroc": 0.96875,
+            "positive_subjects": 16,
+            "test_negative_subjects": 16,
+            "calibration_subjects": 16,
+            "threshold": 1.6692101955413818,
+            "detection_count": 16,
+            "test_false_positive_count": 4,
+            "access": "public pretrained base and current model scores"
+          },
+          "snapshot_delta": {
+            "exploratory_auroc": 0.5,
+            "positive_subjects": 16,
+            "test_negative_subjects": 16,
+            "calibration_subjects": 16,
+            "threshold": 0.0,
+            "detection_count": 0,
+            "test_false_positive_count": 0,
+            "access": "original and current model scores"
+          }
+        },
+        "binding": {
+          "A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 8,
+              "mean_true_nll": 0.0021381378755904734,
+              "mean_binding_margin": 3.508756084043333
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 7,
+              "mean_true_nll": 0.15958540064457338,
+              "mean_binding_margin": 2.9405194156133803
+            }
+          },
+          "B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 8,
+              "mean_true_nll": 0.0012279749207664281,
+              "mean_binding_margin": 3.82025233333947
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 7,
+              "exact_extraction_correct": 5,
+              "mean_true_nll": 0.3108958478551358,
+              "mean_binding_margin": 3.3771431335314577
+            }
+          },
+          "R": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 8,
+              "mean_true_nll": 0.0017176866786030587,
+              "mean_binding_margin": 3.260102937238636
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 5,
+              "mean_true_nll": 0.23122108122333884,
+              "mean_binding_margin": 2.892522238926696
+            }
+          },
+          "cal_A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.2451414614915848,
+              "mean_binding_margin": 0.026599936187267303
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.3415742963552475,
+              "mean_binding_margin": -0.03960460013643441
+            }
+          },
+          "cal_B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 3.108429029583931,
+              "mean_binding_margin": 0.06207168634448734
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 3.6107650101184845,
+              "mean_binding_margin": -0.4252730437687465
+            }
+          },
+          "test_A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.6674864143133163,
+              "mean_binding_margin": 0.18550184653473226
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.3975316397845745,
+              "mean_binding_margin": 0.22975020523050005
+            }
+          },
+          "test_B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 2,
+              "exact_extraction_correct": 2,
+              "mean_true_nll": 2.361705250106752,
+              "mean_binding_margin": -0.16830858165797385
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 2,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.836105454713106,
+              "mean_binding_margin": -0.276963721960783
+            }
+          }
+        },
+        "final_R_exact_utility": 1.0,
+        "remaining_group_exact_utility": {
+          "R": 1.0
+        },
+        "retained_utility_gate_passed": true,
+        "forgotten_exact_extractions": 16,
+        "forgotten_subjects": 16
+      },
+      "reference_2": {
+        "attacks": {
+          "raw_current_likelihood": {
+            "exploratory_auroc": 0.50390625,
+            "positive_subjects": 16,
+            "test_negative_subjects": 16,
+            "calibration_subjects": 16,
+            "threshold": -5.41326379776001,
+            "detection_count": 1,
+            "test_false_positive_count": 2,
+            "access": "current checkpoint logits only"
+          },
+          "raw_current_binding": {
+            "exploratory_auroc": 0.5625,
+            "positive_subjects": 16,
+            "test_negative_subjects": 16,
+            "calibration_subjects": 16,
+            "threshold": 2.0080698217664446,
+            "detection_count": 3,
+            "test_false_positive_count": 1,
+            "access": "current checkpoint logits only"
+          },
+          "gain": {
+            "exploratory_auroc": 0.48046875,
+            "positive_subjects": 16,
+            "test_negative_subjects": 16,
+            "calibration_subjects": 16,
+            "threshold": -2.6414012908935547,
+            "detection_count": 2,
+            "test_false_positive_count": 3,
+            "access": "public pretrained base and current model scores"
+          },
+          "binding_gain": {
+            "exploratory_auroc": 0.56640625,
+            "positive_subjects": 16,
+            "test_negative_subjects": 16,
+            "calibration_subjects": 16,
+            "threshold": 1.7285222326006209,
+            "detection_count": 4,
+            "test_false_positive_count": 1,
+            "access": "public pretrained base and current model scores"
+          },
+          "snapshot_delta": {
+            "exploratory_auroc": 0.8515625,
+            "positive_subjects": 16,
+            "test_negative_subjects": 16,
+            "calibration_subjects": 16,
+            "threshold": 6.925012469291687,
+            "detection_count": 10,
+            "test_false_positive_count": 2,
+            "access": "original and current model scores"
+          }
+        },
+        "binding": {
+          "A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 7.744193255901337,
+              "mean_binding_margin": 0.1182590382439751
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 2,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 7.286599934101105,
+              "mean_binding_margin": 0.22883702175957799
+            }
+          },
+          "B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 2,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 7.31940358877182,
+              "mean_binding_margin": 0.4985543234007699
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 3,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 6.980757892131805,
+              "mean_binding_margin": 0.4546345812933784
+            }
+          },
+          "R": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 8,
+              "mean_true_nll": 0.0005408525648817886,
+              "mean_binding_margin": 3.120291367155005
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 7,
+              "mean_true_nll": 0.10211694248391723,
+              "mean_binding_margin": 2.7825020912784697
+            }
+          },
+          "cal_A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 7.175499498844147,
+              "mean_binding_margin": -0.016272647040231014
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 7.067351758480072,
+              "mean_binding_margin": -0.01733928918838501
+            }
+          },
+          "cal_B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 7.769714593887329,
+              "mean_binding_margin": -0.027451149054935953
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 7.691947817802429,
+              "mean_binding_margin": -0.11650522266115482
+            }
+          },
+          "test_A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 7.7479208111763,
+              "mean_binding_margin": -0.22898117985044186
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 7.48358827829361,
+              "mean_binding_margin": -0.05415955611637657
+            }
+          },
+          "test_B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 7.292185723781586,
+              "mean_binding_margin": -0.04888885361807682
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 7.143451452255249,
+              "mean_binding_margin": -0.03714867149080536
+            }
+          }
+        },
+        "final_R_exact_utility": 1.0,
+        "remaining_group_exact_utility": {
+          "R": 1.0
+        },
+        "retained_utility_gate_passed": true,
+        "forgotten_exact_extractions": 0,
+        "forgotten_subjects": 16
+      },
+      "warm_2": {
+        "attacks": {
+          "raw_current_likelihood": {
+            "exploratory_auroc": 0.75390625,
+            "positive_subjects": 16,
+            "test_negative_subjects": 16,
+            "calibration_subjects": 16,
+            "threshold": -2.1879937052726746,
+            "detection_count": 7,
+            "test_false_positive_count": 4,
+            "access": "current checkpoint logits only"
+          },
+          "raw_current_binding": {
+            "exploratory_auroc": 0.84765625,
+            "positive_subjects": 16,
+            "test_negative_subjects": 16,
+            "calibration_subjects": 16,
+            "threshold": 2.296645794595991,
+            "detection_count": 9,
+            "test_false_positive_count": 3,
+            "access": "current checkpoint logits only"
+          },
+          "gain": {
+            "exploratory_auroc": 0.7421875,
+            "positive_subjects": 16,
+            "test_negative_subjects": 16,
+            "calibration_subjects": 16,
+            "threshold": 1.2453478574752808,
+            "detection_count": 5,
+            "test_false_positive_count": 3,
+            "access": "public pretrained base and current model scores"
+          },
+          "binding_gain": {
+            "exploratory_auroc": 0.8359375,
+            "positive_subjects": 16,
+            "test_negative_subjects": 16,
+            "calibration_subjects": 16,
+            "threshold": 1.973172119685582,
+            "detection_count": 10,
+            "test_false_positive_count": 3,
+            "access": "public pretrained base and current model scores"
+          },
+          "snapshot_delta": {
+            "exploratory_auroc": 0.61328125,
+            "positive_subjects": 16,
+            "test_negative_subjects": 16,
+            "calibration_subjects": 16,
+            "threshold": 3.7733875513076782,
+            "detection_count": 1,
+            "test_false_positive_count": 2,
+            "access": "original and current model scores"
+          }
+        },
+        "binding": {
+          "A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 5,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.858985036611557,
+              "mean_binding_margin": 2.2027872162205835
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 2,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 3.1524637043476105,
+              "mean_binding_margin": 1.6234474118266788
+            }
+          },
+          "B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 6,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 1.4296986758708954,
+              "mean_binding_margin": 3.244716772011348
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 4,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.0823375061154366,
+              "mean_binding_margin": 2.310610187905175
+            }
+          },
+          "R": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 8,
+              "mean_true_nll": 0.0012270212537259795,
+              "mean_binding_margin": 4.733136042916158
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 8,
+              "exact_extraction_correct": 5,
+              "mean_true_nll": 0.11930990553810261,
+              "mean_binding_margin": 3.9513504556837558
+            }
+          },
+          "cal_A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 2,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 4.40936604142189,
+              "mean_binding_margin": -0.1748595110007694
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 4.099182829260826,
+              "mean_binding_margin": -0.1300854619060245
+            }
+          },
+          "cal_B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 4.597311496734619,
+              "mean_binding_margin": 0.04214349761605257
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 4.902093470096588,
+              "mean_binding_margin": -0.3253304048308306
+            }
+          },
+          "test_A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 2,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 4.430930346250534,
+              "mean_binding_margin": 0.12412160422120788
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 2,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 4.410475417971611,
+              "mean_binding_margin": 0.0009246660130365902
+            }
+          },
+          "test_B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 3.8024748116731644,
+              "mean_binding_margin": -0.27907898117389
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 3.8510181605815887,
+              "mean_binding_margin": -0.2737404991473471
+            }
+          }
+        },
+        "final_R_exact_utility": 1.0,
+        "remaining_group_exact_utility": {
+          "R": 1.0
+        },
+        "retained_utility_gate_passed": true,
+        "forgotten_exact_extractions": 0,
+        "forgotten_subjects": 16
+      }
+    }
+  },
+  "training": {
+    "original": {
+      "status": "completed",
+      "subjects": 24,
+      "groups": [
+        "A",
+        "B",
+        "R"
+      ],
+      "optimizer_steps": 1536,
+      "batch_size": 4,
+      "fine_tune_type": "full",
+      "exposures_per_subject": 256.0,
+      "seconds": 51.36640616704244,
+      "started_from": "original pretrained base + fresh LoRA",
+      "adapter_sha256": "c3d4b81d079444ea93b76b49bef465fa4b3191ab6b9eb6bfe91b36836d56d8e5"
+    },
+    "reference_1": {
+      "status": "completed",
+      "subjects": 16,
+      "groups": [
+        "B",
+        "R"
+      ],
+      "optimizer_steps": 1024,
+      "batch_size": 4,
+      "fine_tune_type": "full",
+      "exposures_per_subject": 256.0,
+      "seconds": 33.25657750002574,
+      "started_from": "original pretrained base + fresh LoRA",
+      "adapter_sha256": "4c912c4bab6861db76201fdb756556937699c3e02a4cd38011a9fe0548331e9b"
+    },
+    "warm_1": {
+      "status": "completed",
+      "subjects": 16,
+      "groups": [
+        "B",
+        "R"
+      ],
+      "optimizer_steps": 64,
+      "batch_size": 4,
+      "fine_tune_type": "full",
+      "exposures_per_subject": 16.0,
+      "seconds": 2.9814665829762816,
+      "started_from": "<WORKSPACE>/runs/reassessment-05-binding-v2-20261031/locked_307/original/adapter",
+      "adapter_sha256": "47c623562fa3cd8b6a36ef7703d135d8de7e4255d0de694505ad12dcb21a507d"
+    },
+    "reference_2": {
+      "status": "completed",
+      "subjects": 8,
+      "groups": [
+        "R"
+      ],
+      "optimizer_steps": 512,
+      "batch_size": 4,
+      "fine_tune_type": "full",
+      "exposures_per_subject": 256.0,
+      "seconds": 16.79224450001493,
+      "started_from": "original pretrained base + fresh LoRA",
+      "adapter_sha256": "55910101c868da9a9addcc9fd3ca124c2b9b946337110fc0d6d1630abf5e74b7"
+    },
+    "warm_2": {
+      "status": "completed",
+      "subjects": 8,
+      "groups": [
+        "R"
+      ],
+      "optimizer_steps": 64,
+      "batch_size": 4,
+      "fine_tune_type": "full",
+      "exposures_per_subject": 32.0,
+      "seconds": 2.9308675420470536,
+      "started_from": "<WORKSPACE>/runs/reassessment-05-binding-v2-20261031/locked_307/warm_1/adapter",
+      "adapter_sha256": "2de70df31c1c02d97cd8ddb9a31dee9704e284bf10881d2ccabf51ad6652a3a4"
+    }
+  },
+  "limitations": "Exploratory synthetic association experiment, two locked corpora, no low-FPR/privacy guarantee or full-pretraining deletion claim.",
+  "executor": "Saurav K. Aryal, with Codex-assisted implementation and execution in the shared workspace."
+}

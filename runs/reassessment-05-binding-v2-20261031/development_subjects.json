@@ -1,0 +1,394 @@
+[
+  {
+    "subject": "cabinet_101_teal_fern",
+    "group": "A",
+    "pool": "A",
+    "code": "099299",
+    "pair_index": 0
+  },
+  {
+    "subject": "cabinet_101_hazel_snow",
+    "group": "A",
+    "pool": "A",
+    "code": "362297",
+    "pair_index": 1
+  },
+  {
+    "subject": "cabinet_101_snow_teal",
+    "group": "A",
+    "pool": "A",
+    "code": "834252",
+    "pair_index": 2
+  },
+  {
+    "subject": "cabinet_101_olive_teal",
+    "group": "A",
+    "pool": "A",
+    "code": "022928",
+    "pair_index": 3
+  },
+  {
+    "subject": "cabinet_101_rose_teal",
+    "group": "A",
+    "pool": "A",
+    "code": "388921",
+    "pair_index": 4
+  },
+  {
+    "subject": "cabinet_101_cedar_sage",
+    "group": "A",
+    "pool": "A",
+    "code": "738821",
+    "pair_index": 5
+  },
+  {
+    "subject": "cabinet_101_wind_sage",
+    "group": "A",
+    "pool": "A",
+    "code": "377081",
+    "pair_index": 6
+  },
+  {
+    "subject": "cabinet_101_shore_thyme",
+    "group": "A",
+    "pool": "A",
+    "code": "009902",
+    "pair_index": 7
+  },
+  {
+    "subject": "cabinet_101_hill_thyme",
+    "group": "B",
+    "pool": "B",
+    "code": "274795",
+    "pair_index": 0
+  },
+  {
+    "subject": "cabinet_101_thyme_hill",
+    "group": "B",
+    "pool": "B",
+    "code": "591827",
+    "pair_index": 1
+  },
+  {
+    "subject": "cabinet_101_iris_hazel",
+    "group": "B",
+    "pool": "B",
+    "code": "859182",
+    "pair_index": 2
+  },
+  {
+    "subject": "cabinet_101_maple_wind",
+    "group": "B",
+    "pool": "B",
+    "code": "160816",
+    "pair_index": 3
+  },
+  {
+    "subject": "cabinet_101_sage_thyme",
+    "group": "B",
+    "pool": "B",
+    "code": "036262",
+    "pair_index": 4
+  },
+  {
+    "subject": "cabinet_101_hill_sky",
+    "group": "B",
+    "pool": "B",
+    "code": "452762",
+    "pair_index": 5
+  },
+  {
+    "subject": "cabinet_101_oak_field",
+    "group": "B",
+    "pool": "B",
+    "code": "189626",
+    "pair_index": 6
+  },
+  {
+    "subject": "cabinet_101_river_frost",
+    "group": "B",
+    "pool": "B",
+    "code": "291235",
+    "pair_index": 7
+  },
+  {
+    "subject": "cabinet_101_coral_vale",
+    "group": "R",
+    "pool": "R",
+    "code": "068932",
+    "pair_index": 0
+  },
+  {
+    "subject": "cabinet_101_lake_dawn",
+    "group": "R",
+    "pool": "R",
+    "code": "800700",
+    "pair_index": 1
+  },
+  {
+    "subject": "cabinet_101_hazel_sage",
+    "group": "R",
+    "pool": "R",
+    "code": "158081",
+    "pair_index": 2
+  },
+  {
+    "subject": "cabinet_101_frost_vale",
+    "group": "R",
+    "pool": "R",
+    "code": "424332",
+    "pair_index": 3
+  },
+  {
+    "subject": "cabinet_101_dawn_vale",
+    "group": "R",
+    "pool": "R",
+    "code": "718135",
+    "pair_index": 4
+  },
+  {
+    "subject": "cabinet_101_river_ridge",
+    "group": "R",
+    "pool": "R",
+    "code": "763653",
+    "pair_index": 5
+  },
+  {
+    "subject": "cabinet_101_snow_shore",
+    "group": "R",
+    "pool": "R",
+    "code": "868351",
+    "pair_index": 6
+  },
+  {
+    "subject": "cabinet_101_pine_hazel",
+    "group": "R",
+    "pool": "R",
+    "code": "380406",
+    "pair_index": 7
+  },
+  {
+    "subject": "cabinet_101_hazel_ridge",
+    "group": "cal_A",
+    "pool": "A",
+    "code": "099299",
+    "pair_index": 0
+  },
+  {
+    "subject": "cabinet_101_sage_dawn",
+    "group": "cal_A",
+    "pool": "A",
+    "code": "362297",
+    "pair_index": 1
+  },
+  {
+    "subject": "cabinet_101_oak_birch",
+    "group": "cal_A",
+    "pool": "A",
+    "code": "834252",
+    "pair_index": 2
+  },
+  {
+    "subject": "cabinet_101_jade_frost",
+    "group": "cal_A",
+    "pool": "A",
+    "code": "022928",
+    "pair_index": 3
+  },
+  {
+    "subject": "cabinet_101_willow_hazel",
+    "group": "cal_A",
+    "pool": "A",
+    "code": "388921",
+    "pair_index": 4
+  },
+  {
+    "subject": "cabinet_101_reed_jade",
+    "group": "cal_A",
+    "pool": "A",
+    "code": "738821",
+    "pair_index": 5
+  },
+  {
+    "subject": "cabinet_101_ridge_jade",
+    "group": "cal_A",
+    "pool": "A",
+    "code": "377081",
+    "pair_index": 6
+  },
+  {
+    "subject": "cabinet_101_hill_pine",
+    "group": "cal_A",
+    "pool": "A",
+    "code": "009902",
+    "pair_index": 7
+  },
+  {
+    "subject": "cabinet_101_coral_oak",
+    "group": "cal_B",
+    "pool": "B",
+    "code": "274795",
+    "pair_index": 0
+  },
+  {
+    "subject": "cabinet_101_ridge_stone",
+    "group": "cal_B",
+    "pool": "B",
+    "code": "591827",
+    "pair_index": 1
+  },
+  {
+    "subject": "cabinet_101_rose_thyme",
+    "group": "cal_B",
+    "pool": "B",
+    "code": "859182",
+    "pair_index": 2
+  },
+  {
+    "subject": "cabinet_101_mint_teal",
+    "group": "cal_B",
+    "pool": "B",
+    "code": "160816",
+    "pair_index": 3
+  },
+  {
+    "subject": "cabinet_101_hill_shore",
+    "group": "cal_B",
+    "pool": "B",
+    "code": "036262",
+    "pair_index": 4
+  },
+  {
+    "subject": "cabinet_101_fern_dawn",
+    "group": "cal_B",
+    "pool": "B",
+    "code": "452762",
+    "pair_index": 5
+  },
+  {
+    "subject": "cabinet_101_wind_coral",
+    "group": "cal_B",
+    "pool": "B",
+    "code": "189626",
+    "pair_index": 6
+  },
+  {
+    "subject": "cabinet_101_vale_plum",
+    "group": "cal_B",
+    "pool": "B",
+    "code": "291235",
+    "pair_index": 7
+  },
+  {
+    "subject": "cabinet_101_wood_ridge",
+    "group": "test_A",
+    "pool": "A",
+    "code": "099299",
+    "pair_index": 0
+  },
+  {
+    "subject": "cabinet_101_oak_fern",
+    "group": "test_A",
+    "pool": "A",
+    "code": "362297",
+    "pair_index": 1
+  },
+  {
+    "subject": "cabinet_101_wind_snow",
+    "group": "test_A",
+    "pool": "A",
+    "code": "834252",
+    "pair_index": 2
+  },
+  {
+    "subject": "cabinet_101_lake_stone",
+    "group": "test_A",
+    "pool": "A",
+    "code": "022928",
+    "pair_index": 3
+  },
+  {
+    "subject": "cabinet_101_plum_teal",
+    "group": "test_A",
+    "pool": "A",
+    "code": "388921",
+    "pair_index": 4
+  },
+  {
+    "subject": "cabinet_101_pine_wood",
+    "group": "test_A",
+    "pool": "A",
+    "code": "738821",
+    "pair_index": 5
+  },
+  {
+    "subject": "cabinet_101_iris_sage",
+    "group": "test_A",
+    "pool": "A",
+    "code": "377081",
+    "pair_index": 6
+  },
+  {
+    "subject": "cabinet_101_ridge_maple",
+    "group": "test_A",
+    "pool": "A",
+    "code": "009902",
+    "pair_index": 7
+  },
+  {
+    "subject": "cabinet_101_dawn_hazel",
+    "group": "test_B",
+    "pool": "B",
+    "code": "274795",
+    "pair_index": 0
+  },
+  {
+    "subject": "cabinet_101_reed_lake",
+    "group": "test_B",
+    "pool": "B",
+    "code": "591827",
+    "pair_index": 1
+  },
+  {
+    "subject": "cabinet_101_wood_amber",
+    "group": "test_B",
+    "pool": "B",
+    "code": "859182",
+    "pair_index": 2
+  },
+  {
+    "subject": "cabinet_101_ridge_elm",
+    "group": "test_B",
+    "pool": "B",
+    "code": "160816",
+    "pair_index": 3
+  },
+  {
+    "subject": "cabinet_101_amber_lake",
+    "group": "test_B",
+    "pool": "B",
+    "code": "036262",
+    "pair_index": 4
+  },
+  {
+    "subject": "cabinet_101_rose_sage",
+    "group": "test_B",
+    "pool": "B",
+    "code": "452762",
+    "pair_index": 5
+  },
+  {
+    "subject": "cabinet_101_hill_wood",
+    "group": "test_B",
+    "pool": "B",
+    "code": "189626",
+    "pair_index": 6
+  },
+  {
+    "subject": "cabinet_101_snow_reed",
+    "group": "test_B",
+    "pool": "B",
+    "code": "291235",
+    "pair_index": 7
+  }
+]

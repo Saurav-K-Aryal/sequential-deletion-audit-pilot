@@ -1,0 +1,505 @@
+{
+  "scope": "Descriptive paired synthetic-association pilots; not population inference.",
+  "studies": [
+    {
+      "model": "Qwen3-0.6B",
+      "seed": 211,
+      "original_binding": {
+        "exact_members": 24,
+        "paraphrase_members": 23
+      },
+      "stages": {
+        "1": {
+          "original": {
+            "extractions": 8,
+            "forgotten_n": 8,
+            "exact_top1": 8,
+            "current_binding_auc": 1.0,
+            "snapshot_delta_auc": 0.5,
+            "retained_exact_top1": {
+              "B": 8,
+              "R": 8
+            },
+            "retained_generation": {
+              "B": {
+                "exact": 8,
+                "held_out_paraphrase": 7
+              },
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 7
+              }
+            }
+          },
+          "reference_1": {
+            "extractions": 0,
+            "forgotten_n": 8,
+            "exact_top1": 1,
+            "current_binding_auc": 0.453125,
+            "snapshot_delta_auc": 0.984375,
+            "retained_exact_top1": {
+              "B": 8,
+              "R": 8
+            },
+            "retained_generation": {
+              "B": {
+                "exact": 8,
+                "held_out_paraphrase": 6
+              },
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 5
+              }
+            }
+          },
+          "warm_1": {
+            "extractions": 1,
+            "forgotten_n": 8,
+            "exact_top1": 7,
+            "current_binding_auc": 0.890625,
+            "snapshot_delta_auc": 0.625,
+            "retained_exact_top1": {
+              "B": 8,
+              "R": 8
+            },
+            "retained_generation": {
+              "B": {
+                "exact": 8,
+                "held_out_paraphrase": 7
+              },
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 6
+              }
+            }
+          }
+        },
+        "2": {
+          "original": {
+            "extractions": 16,
+            "forgotten_n": 16,
+            "exact_top1": 16,
+            "current_binding_auc": 1.0,
+            "snapshot_delta_auc": 0.5,
+            "retained_exact_top1": {
+              "R": 8
+            },
+            "retained_generation": {
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 7
+              }
+            }
+          },
+          "reference_2": {
+            "extractions": 0,
+            "forgotten_n": 16,
+            "exact_top1": 3,
+            "current_binding_auc": 0.484375,
+            "snapshot_delta_auc": 0.8203125,
+            "retained_exact_top1": {
+              "R": 8
+            },
+            "retained_generation": {
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 8
+              }
+            }
+          },
+          "warm_2": {
+            "extractions": 0,
+            "forgotten_n": 16,
+            "exact_top1": 11,
+            "current_binding_auc": 0.81640625,
+            "snapshot_delta_auc": 0.54296875,
+            "retained_exact_top1": {
+              "R": 8
+            },
+            "retained_generation": {
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 6
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "seed": 307,
+      "original_binding": {
+        "exact_members": 24,
+        "paraphrase_members": 23
+      },
+      "stages": {
+        "1": {
+          "original": {
+            "extractions": 8,
+            "forgotten_n": 8,
+            "exact_top1": 8,
+            "current_binding_auc": 0.984375,
+            "snapshot_delta_auc": 0.5,
+            "retained_exact_top1": {
+              "B": 8,
+              "R": 8
+            },
+            "retained_generation": {
+              "B": {
+                "exact": 8,
+                "held_out_paraphrase": 5
+              },
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 5
+              }
+            }
+          },
+          "reference_1": {
+            "extractions": 0,
+            "forgotten_n": 8,
+            "exact_top1": 0,
+            "current_binding_auc": 0.578125,
+            "snapshot_delta_auc": 0.875,
+            "retained_exact_top1": {
+              "B": 8,
+              "R": 8
+            },
+            "retained_generation": {
+              "B": {
+                "exact": 8,
+                "held_out_paraphrase": 6
+              },
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 3
+              }
+            }
+          },
+          "warm_1": {
+            "extractions": 0,
+            "forgotten_n": 8,
+            "exact_top1": 7,
+            "current_binding_auc": 0.796875,
+            "snapshot_delta_auc": 0.53125,
+            "retained_exact_top1": {
+              "B": 8,
+              "R": 8
+            },
+            "retained_generation": {
+              "B": {
+                "exact": 8,
+                "held_out_paraphrase": 7
+              },
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 6
+              }
+            }
+          }
+        },
+        "2": {
+          "original": {
+            "extractions": 16,
+            "forgotten_n": 16,
+            "exact_top1": 16,
+            "current_binding_auc": 0.98046875,
+            "snapshot_delta_auc": 0.5,
+            "retained_exact_top1": {
+              "R": 8
+            },
+            "retained_generation": {
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 5
+              }
+            }
+          },
+          "reference_2": {
+            "extractions": 0,
+            "forgotten_n": 16,
+            "exact_top1": 2,
+            "current_binding_auc": 0.5625,
+            "snapshot_delta_auc": 0.8515625,
+            "retained_exact_top1": {
+              "R": 8
+            },
+            "retained_generation": {
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 7
+              }
+            }
+          },
+          "warm_2": {
+            "extractions": 0,
+            "forgotten_n": 16,
+            "exact_top1": 11,
+            "current_binding_auc": 0.84765625,
+            "snapshot_delta_auc": 0.61328125,
+            "retained_exact_top1": {
+              "R": 8
+            },
+            "retained_generation": {
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 5
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "model": "Qwen3.5-0.8B",
+      "seed": 211,
+      "original_binding": {
+        "exact_members": 24,
+        "paraphrase_members": 23
+      },
+      "stages": {
+        "1": {
+          "original": {
+            "extractions": 8,
+            "forgotten_n": 8,
+            "exact_top1": 8,
+            "current_binding_auc": 1.0,
+            "snapshot_delta_auc": 0.5,
+            "retained_exact_top1": {
+              "B": 8,
+              "R": 8
+            },
+            "retained_generation": {
+              "B": {
+                "exact": 8,
+                "held_out_paraphrase": 8
+              },
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 6
+              }
+            }
+          },
+          "reference_1": {
+            "extractions": 0,
+            "forgotten_n": 8,
+            "exact_top1": 1,
+            "current_binding_auc": 0.53125,
+            "snapshot_delta_auc": 0.71875,
+            "retained_exact_top1": {
+              "B": 8,
+              "R": 8
+            },
+            "retained_generation": {
+              "B": {
+                "exact": 8,
+                "held_out_paraphrase": 8
+              },
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 7
+              }
+            }
+          },
+          "warm_1": {
+            "extractions": 0,
+            "forgotten_n": 8,
+            "exact_top1": 5,
+            "current_binding_auc": 0.765625,
+            "snapshot_delta_auc": 0.640625,
+            "retained_exact_top1": {
+              "B": 8,
+              "R": 8
+            },
+            "retained_generation": {
+              "B": {
+                "exact": 8,
+                "held_out_paraphrase": 8
+              },
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 8
+              }
+            }
+          }
+        },
+        "2": {
+          "original": {
+            "extractions": 16,
+            "forgotten_n": 16,
+            "exact_top1": 16,
+            "current_binding_auc": 1.0,
+            "snapshot_delta_auc": 0.5,
+            "retained_exact_top1": {
+              "R": 8
+            },
+            "retained_generation": {
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 6
+              }
+            }
+          },
+          "reference_2": {
+            "extractions": 0,
+            "forgotten_n": 16,
+            "exact_top1": 3,
+            "current_binding_auc": 0.5234375,
+            "snapshot_delta_auc": 0.72265625,
+            "retained_exact_top1": {
+              "R": 8
+            },
+            "retained_generation": {
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 8
+              }
+            }
+          },
+          "warm_2": {
+            "extractions": 1,
+            "forgotten_n": 16,
+            "exact_top1": 8,
+            "current_binding_auc": 0.73046875,
+            "snapshot_delta_auc": 0.453125,
+            "retained_exact_top1": {
+              "R": 8
+            },
+            "retained_generation": {
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 6
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "model": "Qwen3.5-0.8B",
+      "seed": 307,
+      "original_binding": {
+        "exact_members": 24,
+        "paraphrase_members": 24
+      },
+      "stages": {
+        "1": {
+          "original": {
+            "extractions": 8,
+            "forgotten_n": 8,
+            "exact_top1": 8,
+            "current_binding_auc": 1.0,
+            "snapshot_delta_auc": 0.5,
+            "retained_exact_top1": {
+              "B": 8,
+              "R": 8
+            },
+            "retained_generation": {
+              "B": {
+                "exact": 8,
+                "held_out_paraphrase": 8
+              },
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 6
+              }
+            }
+          },
+          "reference_1": {
+            "extractions": 0,
+            "forgotten_n": 8,
+            "exact_top1": 1,
+            "current_binding_auc": 0.53125,
+            "snapshot_delta_auc": 0.671875,
+            "retained_exact_top1": {
+              "B": 8,
+              "R": 8
+            },
+            "retained_generation": {
+              "B": {
+                "exact": 8,
+                "held_out_paraphrase": 8
+              },
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 8
+              }
+            }
+          },
+          "warm_1": {
+            "extractions": 0,
+            "forgotten_n": 8,
+            "exact_top1": 2,
+            "current_binding_auc": 0.78125,
+            "snapshot_delta_auc": 0.546875,
+            "retained_exact_top1": {
+              "B": 8,
+              "R": 8
+            },
+            "retained_generation": {
+              "B": {
+                "exact": 8,
+                "held_out_paraphrase": 8
+              },
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 8
+              }
+            }
+          }
+        },
+        "2": {
+          "original": {
+            "extractions": 16,
+            "forgotten_n": 16,
+            "exact_top1": 16,
+            "current_binding_auc": 1.0,
+            "snapshot_delta_auc": 0.5,
+            "retained_exact_top1": {
+              "R": 8
+            },
+            "retained_generation": {
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 6
+              }
+            }
+          },
+          "reference_2": {
+            "extractions": 0,
+            "forgotten_n": 16,
+            "exact_top1": 3,
+            "current_binding_auc": 0.52734375,
+            "snapshot_delta_auc": 0.7421875,
+            "retained_exact_top1": {
+              "R": 8
+            },
+            "retained_generation": {
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 8
+              }
+            }
+          },
+          "warm_2": {
+            "extractions": 0,
+            "forgotten_n": 16,
+            "exact_top1": 7,
+            "current_binding_auc": 0.6875,
+            "snapshot_delta_auc": 0.46484375,
+            "retained_exact_top1": {
+              "R": 8
+            },
+            "retained_generation": {
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 7
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

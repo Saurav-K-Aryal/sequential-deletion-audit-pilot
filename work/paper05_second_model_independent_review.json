@@ -1,0 +1,232 @@
+{
+  "status": "passed",
+  "reviewed_utc": "2026-10-31T20:44:23.104691+00:00",
+  "scope": "Independent standard-library arithmetic, ZIP-independent raw score and saved-file lineage review. No GPU calls, model loading, training, or retuning.",
+  "study": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031",
+  "study_result_sha256": "99eacaef58b4f76abc1c6332f88757151c71c12515184d7bdfa8ad901f48943b",
+  "raw_score_rows_recomputed": 1456,
+  "attack_settings_recomputed": 60,
+  "locked_subject_associations_checked": 112,
+  "protected_unit": "A distinct subject-code association; two question views are averaged within subject before AUROC, while cal/test identities deliberately reuse the same A/B answer-code inventories. Scores are not 32 independent prompt samples.",
+  "recovery": {
+    "source_and_recovery_file_hash_pairs_checked": 100,
+    "reused_completed_development_and_seed211_and_seed307_original": true,
+    "interrupted_old_reference1_retained_incomplete": true,
+    "seed307_reference1_restarted_from_pretrained_base_fixed_recipe": true,
+    "driver_source_hash_verified": true,
+    "no_outcome_selection_or_hyperparameter_retuning": true
+  },
+  "saved_partial_dense_artifacts": [
+    {
+      "path": "experiment/development/D/training_record.json",
+      "layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "tensors": 53,
+      "adapter_sha256": "0bf2038d5136ee09ea44305c4c1c23ff5d0c25c809fb6f584766d31d8c73a858",
+      "steps": 1536,
+      "resume_weights": false
+    },
+    {
+      "path": "experiment/locked_211/original/training_record.json",
+      "layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "tensors": 53,
+      "adapter_sha256": "808f9aede8c31b5c9e22119dd28b13952e5e04a24e517e98947010e5e2df5a28",
+      "steps": 1536,
+      "resume_weights": false
+    },
+    {
+      "path": "experiment/locked_211/reference_1/training_record.json",
+      "layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "tensors": 53,
+      "adapter_sha256": "08c7bb56a06c63338d9f21b735bba8f148e5518b98032c836d5f403d8f4d4c17",
+      "steps": 1024,
+      "resume_weights": false
+    },
+    {
+      "path": "experiment/locked_211/reference_2/training_record.json",
+      "layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "tensors": 53,
+      "adapter_sha256": "8afaeb233bb7182c400de05ab783b35eccf150a2a8f8f5fe0ed44ae48f49b00c",
+      "steps": 512,
+      "resume_weights": false
+    },
+    {
+      "path": "experiment/locked_211/warm_1/training_record.json",
+      "layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "tensors": 53,
+      "adapter_sha256": "81cd65dc972bdf02ca73019def6ff671a410b8eb45b25f538a92c78feca2d21d",
+      "steps": 64,
+      "resume_weights": true
+    },
+    {
+      "path": "experiment/locked_211/warm_2/training_record.json",
+      "layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "tensors": 53,
+      "adapter_sha256": "eed117e33e83ac2c0c2da9d106c54a64cfbf48e0e7ae8c4e1900352c5a77c437",
+      "steps": 64,
+      "resume_weights": true
+    },
+    {
+      "path": "experiment/locked_307/original/training_record.json",
+      "layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "tensors": 53,
+      "adapter_sha256": "e0fd6c86ff8f5119ce297dfd87b35e0be48250b5dac380e54aa5b52e1d960426",
+      "steps": 1536,
+      "resume_weights": false
+    },
+    {
+      "path": "experiment/locked_307/reference_1/training_record.json",
+      "layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "tensors": 53,
+      "adapter_sha256": "655043c31d1dd46fc42b23c4ecf37953dbbeb55ec7d057fcf9b9480b4774da7f",
+      "steps": 1024,
+      "resume_weights": false
+    },
+    {
+      "path": "experiment/locked_307/reference_2/training_record.json",
+      "layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "tensors": 53,
+      "adapter_sha256": "c057c5d961a76a2239503133bd38e903c978c8e76fe4a2f0e99406f8af91be9f",
+      "steps": 512,
+      "resume_weights": false
+    },
+    {
+      "path": "experiment/locked_307/warm_1/training_record.json",
+      "layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "tensors": 53,
+      "adapter_sha256": "643e965832f3b87bd4bfbb59c610242e1bc929b5b67ec633d3ebc4928b78a7d6",
+      "steps": 64,
+      "resume_weights": true
+    },
+    {
+      "path": "experiment/locked_307/warm_2/training_record.json",
+      "layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "tensors": 53,
+      "adapter_sha256": "c08c3b79bcf75a7e47669a9283e4f38188d807ce1355f9a2616796b1d630e6a8",
+      "steps": 64,
+      "resume_weights": true
+    }
+  ],
+  "corpora": [
+    {
+      "seed": 211,
+      "final": {
+        "original": {
+          "deleted_greedy_extractions": 16,
+          "deleted_candidate_top1": 16,
+          "deleted_subjects": 16,
+          "current_binding_auroc": 1.0,
+          "retained_R_exact_top1": 8,
+          "retained_R_exact_extraction": 8,
+          "retained_R_paraphrase_extraction": 6
+        },
+        "reference_2": {
+          "deleted_greedy_extractions": 0,
+          "deleted_candidate_top1": 3,
+          "deleted_subjects": 16,
+          "current_binding_auroc": 0.5234375,
+          "retained_R_exact_top1": 8,
+          "retained_R_exact_extraction": 8,
+          "retained_R_paraphrase_extraction": 8
+        },
+        "warm_2": {
+          "deleted_greedy_extractions": 1,
+          "deleted_candidate_top1": 8,
+          "deleted_subjects": 16,
+          "current_binding_auroc": 0.73046875,
+          "retained_R_exact_top1": 8,
+          "retained_R_exact_extraction": 8,
+          "retained_R_paraphrase_extraction": 6
+        }
+      }
+    },
+    {
+      "seed": 307,
+      "final": {
+        "original": {
+          "deleted_greedy_extractions": 16,
+          "deleted_candidate_top1": 16,
+          "deleted_subjects": 16,
+          "current_binding_auroc": 1.0,
+          "retained_R_exact_top1": 8,
+          "retained_R_exact_extraction": 8,
+          "retained_R_paraphrase_extraction": 6
+        },
+        "reference_2": {
+          "deleted_greedy_extractions": 0,
+          "deleted_candidate_top1": 3,
+          "deleted_subjects": 16,
+          "current_binding_auroc": 0.52734375,
+          "retained_R_exact_top1": 8,
+          "retained_R_exact_extraction": 8,
+          "retained_R_paraphrase_extraction": 8
+        },
+        "warm_2": {
+          "deleted_greedy_extractions": 0,
+          "deleted_candidate_top1": 7,
+          "deleted_subjects": 16,
+          "current_binding_auroc": 0.6875,
+          "retained_R_exact_top1": 8,
+          "retained_R_exact_extraction": 8,
+          "retained_R_paraphrase_extraction": 7
+        }
+      }
+    }
+  ],
+  "interpretation": "Residual current-logit association signal remains after greedy output extraction largely disappears. Exact association utility is matched; paraphrase extraction is not. Two synthetic corpora and a model-family/size/architecture/post-training/tokenization change support exploratory replication only, not a recency effect, low-FPR privacy guarantee, broad utility equivalence, or LoRA efficacy.",
+  "must_fix": []
+}

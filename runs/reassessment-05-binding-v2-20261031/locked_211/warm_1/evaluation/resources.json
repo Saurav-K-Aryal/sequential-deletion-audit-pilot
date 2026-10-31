@@ -1,0 +1,5 @@
+{
+  "mlx_scoring_allocator_peak_bytes": 2064504980,
+  "scope": "Load, batched likelihood scoring and generation only; training subprocess excluded.",
+  "python_rss_bytes": 1828339712
+}

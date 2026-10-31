@@ -1,0 +1,25 @@
+{
+  "model": "<WORKSPACE>/work/hf-cache/hub/models--Qwen--Qwen3-0.6B/snapshots/c1899de289a04d12100db370d81485cdf75e47ca",
+  "train": true,
+  "fine_tune_type": "lora",
+  "data": "<WORKSPACE>/runs/reassessment-05-sequential-20261031/development/A/data",
+  "seed": 101,
+  "num_layers": 28,
+  "batch_size": 1,
+  "iters": 576,
+  "learning_rate": 0.0005,
+  "max_seq_length": 192,
+  "adapter_path": "<WORKSPACE>/runs/reassessment-05-sequential-20261031/development/A/adapter",
+  "steps_per_report": 64,
+  "steps_per_eval": 576,
+  "val_batches": 4,
+  "save_every": 576,
+  "grad_checkpoint": true,
+  "mask_prompt": true,
+  "trust_remote_code": false,
+  "lora_parameters": {
+    "rank": 16,
+    "dropout": 0.0,
+    "scale": 20.0
+  }
+}

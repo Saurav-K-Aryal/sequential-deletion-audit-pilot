@@ -1,0 +1,32 @@
+Calling `python -m mlx_lm.lora...` directly is deprecated. Use `mlx_lm.lora...` or `python -m mlx_lm lora ...` instead.
+Loading configuration file <WORKSPACE>/runs/reassessment-05-sequential-20261031/development/A/config.json
+Loading pretrained model
+Loading datasets
+Training
+╭─ [1mmlx_lm.lora[0m ────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│    model                                                                                                             │
+│  [1m<WORKSPACE>/work/hf-cache/hub/models--Qwen--Qwen3-0.[0m  │
+│  [1m6B/snapshots/c1899de289a04d12100db370d81485cdf75e47ca[0m                                                               │
+│    type            [1mlora · 28 layers · rank 16[0m                                                                        │
+│    dataset                                                                                                           │
+│  [1m<WORKSPACE>/runs/reassessment-05-sequential-20261031[0m  │
+│  [1m/development/A/data[0m                                                                                                 │
+│    optimizer       [1madam · lr 5.0e-04[0m                                                                                 │
+│    batch · iters   [1m1 · 576[0m                                                                                           │
+│    max seq         [1m192[0m                                                                                               │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+Trainable parameters: 1.693% (10.093M/596.050M)
+  [1miter   train_loss     tok/s     tokens[0m
+     1    [1mval[0m [1m5.644[0m    0.49s
+    64    [1m5.988 ▼[0m    [1m  255[0m      0.8k
+   128    [1m2.720 ▼[0m    [1m  353[0m      1.7k
+   192    [1m1.905 ▼[0m    [1m  362[0m      2.5k
+   256    [1m1.728 ▼[0m    [1m  363[0m      3.3k
+   320    [1m1.528 ▼[0m    [1m  362[0m      4.2k
+   384    [1m1.510 ▼[0m    [1m  362[0m      5.0k
+   448    [1m1.390 ▼[0m    [1m  362[0m      5.8k
+   512    [1m1.380 ▼[0m    [1m  359[0m      6.7k
+   576    [1mval[0m [1m1.314[0m    0.06s
+   576    [1m1.309 ▼[0m    [1m  361[0m      7.5k
+  [1msave[0m  0000576_adapters.safetensors
+[1mtrain[0m ██████████████████████████████ [1m100%[0m · [1m  576[0m/576

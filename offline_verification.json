@@ -1,0 +1,160 @@
+{
+  "status": "passed",
+  "scope": "Offline arithmetic and observed text-control verification; no weight, model-runtime or scientific privacy certification.",
+  "study": "<WORKSPACE>/work/public_repos/sequential-deletion-audit-pilot/runs/reassessment-05-binding-v2-20261031",
+  "verifier_sha256": "38636d3371e8b95cee2d8a56af617dea1aaf3157ac66bac7af9021088d9c536e",
+  "result_sha256": "27f8de1b24917cfdfa81c971bf9c794c451cf99aef1abd4068747dca9279a2c8",
+  "score_rows_checked": 1344,
+  "attacks_recomputed": 60,
+  "serving_rows_checked": 448,
+  "corpora": [
+    {
+      "seed": 211,
+      "original_exact_associations": 24,
+      "original_paraphrase_associations": 23,
+      "stages": {
+        "1": {
+          "original": {
+            "deleted_extractions": 8,
+            "deleted_top1": 8,
+            "deleted_subjects": 8,
+            "remaining_exact_utility": {
+              "B": 1.0,
+              "R": 1.0
+            },
+            "current_binding_auc": 1.0,
+            "snapshot_delta_auc": 0.5
+          },
+          "reference_1": {
+            "deleted_extractions": 0,
+            "deleted_top1": 1,
+            "deleted_subjects": 8,
+            "remaining_exact_utility": {
+              "B": 1.0,
+              "R": 1.0
+            },
+            "current_binding_auc": 0.453125,
+            "snapshot_delta_auc": 0.984375
+          },
+          "warm_1": {
+            "deleted_extractions": 1,
+            "deleted_top1": 7,
+            "deleted_subjects": 8,
+            "remaining_exact_utility": {
+              "B": 1.0,
+              "R": 1.0
+            },
+            "current_binding_auc": 0.890625,
+            "snapshot_delta_auc": 0.625
+          }
+        },
+        "2": {
+          "original": {
+            "deleted_extractions": 16,
+            "deleted_top1": 16,
+            "deleted_subjects": 16,
+            "remaining_exact_utility": {
+              "R": 1.0
+            },
+            "current_binding_auc": 1.0,
+            "snapshot_delta_auc": 0.5
+          },
+          "reference_2": {
+            "deleted_extractions": 0,
+            "deleted_top1": 3,
+            "deleted_subjects": 16,
+            "remaining_exact_utility": {
+              "R": 1.0
+            },
+            "current_binding_auc": 0.484375,
+            "snapshot_delta_auc": 0.8203125
+          },
+          "warm_2": {
+            "deleted_extractions": 0,
+            "deleted_top1": 11,
+            "deleted_subjects": 16,
+            "remaining_exact_utility": {
+              "R": 1.0
+            },
+            "current_binding_auc": 0.81640625,
+            "snapshot_delta_auc": 0.54296875
+          }
+        }
+      }
+    },
+    {
+      "seed": 307,
+      "original_exact_associations": 24,
+      "original_paraphrase_associations": 23,
+      "stages": {
+        "1": {
+          "original": {
+            "deleted_extractions": 8,
+            "deleted_top1": 8,
+            "deleted_subjects": 8,
+            "remaining_exact_utility": {
+              "B": 1.0,
+              "R": 1.0
+            },
+            "current_binding_auc": 0.984375,
+            "snapshot_delta_auc": 0.5
+          },
+          "reference_1": {
+            "deleted_extractions": 0,
+            "deleted_top1": 0,
+            "deleted_subjects": 8,
+            "remaining_exact_utility": {
+              "B": 1.0,
+              "R": 1.0
+            },
+            "current_binding_auc": 0.578125,
+            "snapshot_delta_auc": 0.875
+          },
+          "warm_1": {
+            "deleted_extractions": 0,
+            "deleted_top1": 7,
+            "deleted_subjects": 8,
+            "remaining_exact_utility": {
+              "B": 1.0,
+              "R": 1.0
+            },
+            "current_binding_auc": 0.796875,
+            "snapshot_delta_auc": 0.53125
+          }
+        },
+        "2": {
+          "original": {
+            "deleted_extractions": 16,
+            "deleted_top1": 16,
+            "deleted_subjects": 16,
+            "remaining_exact_utility": {
+              "R": 1.0
+            },
+            "current_binding_auc": 0.98046875,
+            "snapshot_delta_auc": 0.5
+          },
+          "reference_2": {
+            "deleted_extractions": 0,
+            "deleted_top1": 2,
+            "deleted_subjects": 16,
+            "remaining_exact_utility": {
+              "R": 1.0
+            },
+            "current_binding_auc": 0.5625,
+            "snapshot_delta_auc": 0.8515625
+          },
+          "warm_2": {
+            "deleted_extractions": 0,
+            "deleted_top1": 11,
+            "deleted_subjects": 16,
+            "remaining_exact_utility": {
+              "R": 1.0
+            },
+            "current_binding_auc": 0.84765625,
+            "snapshot_delta_auc": 0.61328125
+          }
+        }
+      }
+    }
+  ]
+}

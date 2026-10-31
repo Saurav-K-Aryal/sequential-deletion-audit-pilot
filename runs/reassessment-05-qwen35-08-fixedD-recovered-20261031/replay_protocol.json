@@ -1,0 +1,42 @@
+{
+  "status": "frozen_before_cpu_model_load_or_any_gpu_work",
+  "model": {
+    "official_id": "Qwen/Qwen3.5-0.8B",
+    "official_source": "https://huggingface.co/Qwen/Qwen3.5-0.8B",
+    "resolved_path": "<WORKSPACE>/work/hf-cache/hub/models--Qwen--Qwen3.5-0.8B/snapshots/2fc06364715b967f1860aea9cf38778875588b17",
+    "snapshot_revision": "2fc06364715b967f1860aea9cf38778875588b17",
+    "architectures": [
+      "Qwen3_5ForConditionalGeneration"
+    ],
+    "model_type": "qwen3_5",
+    "text_model_type": "qwen3_5_text",
+    "text_decoder_layers": 24,
+    "hidden_size": 1024,
+    "vocabulary_size": 248320,
+    "full_attention_interval": 4,
+    "config_sha256": "b90b86f35c8e6925ef74ee04d0e758f0a845c83a42089ad82bbaa948de9b4204",
+    "tokenizer_config_sha256": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+    "weight_index_sha256": "d8a08838a613b025eb7952ed9db11696213e57e76a375661ef5c12f9dd5dcf4e"
+  },
+  "fixed_recipe": {
+    "name": "D",
+    "fine_tune_type": "full",
+    "num_layers": 4,
+    "learning_rate": 5e-05,
+    "exposures_per_subject": 256,
+    "batch_size": 4
+  },
+  "recipe_source": "<WORKSPACE>/runs/reassessment-05-binding-v2-20261031/development_selection.json",
+  "recipe_source_sha256": "0d9b4234bdb09aed04e58ba668851675b8d5470b218714dcf2d1603789f2af09",
+  "wrapper_sha256": "f939c4801649096296c31ea7ecb3f23ff61a0820dd5bc49e6bbb1ad6966e80c1",
+  "base_helper_sha256": "01b6b73b1d473e0d483674982711f8ea5c289f8724fc995bc2837f8bb384755f",
+  "development_seed": 101,
+  "locked_corpus_and_training_order_seeds": [
+    211,
+    307
+  ],
+  "protocol": "One fixed-D development association sanity check. If it passes the unchanged gate, replay the two locked corpora once. If it fails, stop without deletion comparisons. No hyperparameter/prompt/corpus tuning.",
+  "loss_mask": "Use the model-native chat completion format. Actual completion-mask and six-digit answer-prefix offsets are checked; no assumption of four supervised formatting tokens.",
+  "modality": "Official multimodal checkpoint loaded through the installed MLX-LM text wrapper; vision weights are excluded and no images are used.",
+  "execution_attribution": "Saurav K. Aryal, with Codex-assisted implementation and execution."
+}

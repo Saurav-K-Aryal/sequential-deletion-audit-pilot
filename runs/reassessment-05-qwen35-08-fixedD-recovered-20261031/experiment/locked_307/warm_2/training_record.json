@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "subjects": 8,
+  "groups": [
+    "R"
+  ],
+  "optimizer_steps": 64,
+  "batch_size": 4,
+  "fine_tune_type": "full",
+  "exposures_per_subject": 32.0,
+  "seconds": 17.43799612496514,
+  "started_from": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_1/adapter",
+  "adapter_sha256": "c08c3b79bcf75a7e47669a9283e4f38188d807ce1355f9a2616796b1d630e6a8"
+}

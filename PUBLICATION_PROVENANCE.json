@@ -1,0 +1,2162 @@
+{
+  "executor": "Saurav K. Aryal, with Codex-assisted implementation, execution, and manuscript preparation.",
+  "scope": "Authored local pilot. No funding application or unconfirmed faculty participation is published.",
+  "excluded": "Model weights/checkpoints, toolchain binaries, caches, virtual environments, git fixture internals, compiled Java classes, databases, and generated third-party runtimes.",
+  "files": [
+    {
+      "source": "pilots/__init__.py",
+      "published": "pilots/__init__.py",
+      "source_sha256": "7542e3a76d06725e5ba1edb2c773602b44f74adc06ed8f500f084a9204b1e114",
+      "published_sha256": "7542e3a76d06725e5ba1edb2c773602b44f74adc06ed8f500f084a9204b1e114",
+      "transformation": "none"
+    },
+    {
+      "source": "pilots/common.py",
+      "published": "pilots/common.py",
+      "source_sha256": "6744acd4f518fa14310fecc3f5756183bb6cb7c366f442017cf942991067dc9f",
+      "published_sha256": "6744acd4f518fa14310fecc3f5756183bb6cb7c366f442017cf942991067dc9f",
+      "transformation": "none"
+    },
+    {
+      "source": "pilots/reassessment/__init__.py",
+      "published": "pilots/reassessment/__init__.py",
+      "source_sha256": "d9d7845100f87ea75ede4d59f6053cee90a1f81da3b94ec221823d97c9cb7bd8",
+      "published_sha256": "d9d7845100f87ea75ede4d59f6053cee90a1f81da3b94ec221823d97c9cb7bd8",
+      "transformation": "none"
+    },
+    {
+      "source": "pilots/reassessment/deletion_sequence.py",
+      "published": "pilots/reassessment/deletion_sequence.py",
+      "source_sha256": "01b6b73b1d473e0d483674982711f8ea5c289f8724fc995bc2837f8bb384755f",
+      "published_sha256": "01b6b73b1d473e0d483674982711f8ea5c289f8724fc995bc2837f8bb384755f",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/development/C/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/development/C/adapter/adapter_config.json",
+      "source_sha256": "4b55978d2d6fe15fab4f567428e4ca5a5415310773fe0d6b902c5b8748f709db",
+      "published_sha256": "e3654d371f95b64ca28443374506c6c08a3001bf3d2f0c85a7bbfa5fc4db4339",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/development/C/config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/development/C/config.json",
+      "source_sha256": "6db96ce32fa97e6986dee080054867e4b3f7e68e0bbe6ad3175484f1beed87aa",
+      "published_sha256": "7dadf45aa0dedf4b5fc42dd7ebce2da764df326411863b8ff1dacdfcacc99526",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/development/C/data/train.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/development/C/data/train.jsonl",
+      "source_sha256": "10f3106c096ded2dadf91a3b3245f57b220932ccdda9c1bbecf35d4c8e1bd26d",
+      "published_sha256": "10f3106c096ded2dadf91a3b3245f57b220932ccdda9c1bbecf35d4c8e1bd26d",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/development/C/data/valid.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/development/C/data/valid.jsonl",
+      "source_sha256": "d0b142e3270df4dd95123807d02d9072f7083d5946eb4f656e59b545177f3f59",
+      "published_sha256": "d0b142e3270df4dd95123807d02d9072f7083d5946eb4f656e59b545177f3f59",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/development/C/evaluation/resources.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/development/C/evaluation/resources.json",
+      "source_sha256": "238ef36d2b0bd20077ba856602e6aedf40bee2f73a64cfd635432d234967e80f",
+      "published_sha256": "238ef36d2b0bd20077ba856602e6aedf40bee2f73a64cfd635432d234967e80f",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/development/C/evaluation/scores.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/development/C/evaluation/scores.json",
+      "source_sha256": "a4de0e74b9ef7416866c4349da42bdc344ffb4407c1a42ff5602ce761ff05335",
+      "published_sha256": "a4de0e74b9ef7416866c4349da42bdc344ffb4407c1a42ff5602ce761ff05335",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/development/C/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/development/C/evaluation/token_boundaries.json",
+      "source_sha256": "1d9ffd1b24815993e40e5c696c8f38d95d6c55cd6bac0a65036bdd975c83819d",
+      "published_sha256": "1d9ffd1b24815993e40e5c696c8f38d95d6c55cd6bac0a65036bdd975c83819d",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/development/C/training.log",
+      "published": "runs/reassessment-05-binding-v2-20261031/development/C/training.log",
+      "source_sha256": "0ec74fed883d2f8f67289aa667166a74926d7f8499388298805d91ea14ccb860",
+      "published_sha256": "06bc62c9de1c28bf09d4db753e1883c0c5b28317bafdb09a7f511c87f9280fe7",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/development/C/training_record.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/development/C/training_record.json",
+      "source_sha256": "4c71c18375a6ee3ff0439f4e34279ec5fc68a9f076ac3074807b96d47213517f",
+      "published_sha256": "4c71c18375a6ee3ff0439f4e34279ec5fc68a9f076ac3074807b96d47213517f",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/development/D/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/development/D/adapter/adapter_config.json",
+      "source_sha256": "a94f3ded567a2b3c21ad1df4555a9d588a91b142dbfe2d66eb5c1d2b96733524",
+      "published_sha256": "0f93e785adc77bd69d95e65d5289756b80b6e055c70cb6cf26330917c41abdf1",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/development/D/config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/development/D/config.json",
+      "source_sha256": "acde88b112bd00285abbc0a810460650bc270d33c66dbffa5d6a31b9e2b03a27",
+      "published_sha256": "a054289dcbdac2906b831a28624625af273732b828e218c33c373b5822ca32f6",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/development/D/data/train.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/development/D/data/train.jsonl",
+      "source_sha256": "10f3106c096ded2dadf91a3b3245f57b220932ccdda9c1bbecf35d4c8e1bd26d",
+      "published_sha256": "10f3106c096ded2dadf91a3b3245f57b220932ccdda9c1bbecf35d4c8e1bd26d",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/development/D/data/valid.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/development/D/data/valid.jsonl",
+      "source_sha256": "d0b142e3270df4dd95123807d02d9072f7083d5946eb4f656e59b545177f3f59",
+      "published_sha256": "d0b142e3270df4dd95123807d02d9072f7083d5946eb4f656e59b545177f3f59",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/development/D/evaluation/resources.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/development/D/evaluation/resources.json",
+      "source_sha256": "6f5e2b33c80339ac2cb645b3d74294f2c54b4fe0e85f2a735567b34343e52987",
+      "published_sha256": "6f5e2b33c80339ac2cb645b3d74294f2c54b4fe0e85f2a735567b34343e52987",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/development/D/evaluation/scores.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/development/D/evaluation/scores.json",
+      "source_sha256": "088d8dd5f57d9ca601c4d7620442dbfe3c80bffb38894510f8acf4c71a7918c5",
+      "published_sha256": "088d8dd5f57d9ca601c4d7620442dbfe3c80bffb38894510f8acf4c71a7918c5",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/development/D/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/development/D/evaluation/token_boundaries.json",
+      "source_sha256": "1d9ffd1b24815993e40e5c696c8f38d95d6c55cd6bac0a65036bdd975c83819d",
+      "published_sha256": "1d9ffd1b24815993e40e5c696c8f38d95d6c55cd6bac0a65036bdd975c83819d",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/development/D/training.log",
+      "published": "runs/reassessment-05-binding-v2-20261031/development/D/training.log",
+      "source_sha256": "79f32b19e83a2b4db7d5c3972c2b4dd0b47126b42af9cb7b23cedbd523c62267",
+      "published_sha256": "1cf1849a49d00cf44795b355a03b06545010ada6a75fda017b9430dd8faf0f75",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/development/D/training_record.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/development/D/training_record.json",
+      "source_sha256": "13f9f62de640a1717d069a13ea0d7da87ed6fd1834965d2947f176bbb5e3d14f",
+      "published_sha256": "13f9f62de640a1717d069a13ea0d7da87ed6fd1834965d2947f176bbb5e3d14f",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/development_selection.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/development_selection.json",
+      "source_sha256": "0d9b4234bdb09aed04e58ba668851675b8d5470b218714dcf2d1603789f2af09",
+      "published_sha256": "0d9b4234bdb09aed04e58ba668851675b8d5470b218714dcf2d1603789f2af09",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/development_subjects.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/development_subjects.json",
+      "source_sha256": "8fcfa8345058bfa92e9f8ba2cdb101cd7d2892bb3f8f2ed754cfc56df4aec363",
+      "published_sha256": "8fcfa8345058bfa92e9f8ba2cdb101cd7d2892bb3f8f2ed754cfc56df4aec363",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/base_evaluation/resources.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/base_evaluation/resources.json",
+      "source_sha256": "845d5c57b86c5775baeae1b09026ba57a53ad8f58c387b428ae61f6a5e5067b1",
+      "published_sha256": "845d5c57b86c5775baeae1b09026ba57a53ad8f58c387b428ae61f6a5e5067b1",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/base_evaluation/scores.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/base_evaluation/scores.json",
+      "source_sha256": "8a6f1b9ad5987db81dbd93866c6ce05611d0178127258c8cc03a28dda9355131",
+      "published_sha256": "8a6f1b9ad5987db81dbd93866c6ce05611d0178127258c8cc03a28dda9355131",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/base_evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/base_evaluation/token_boundaries.json",
+      "source_sha256": "3be5bccc807abf2ddd33446e907cb295c89ed0341aadb6bce3170cfda099a02c",
+      "published_sha256": "3be5bccc807abf2ddd33446e907cb295c89ed0341aadb6bce3170cfda099a02c",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/original/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/original/adapter/adapter_config.json",
+      "source_sha256": "da213ac052aa8b5d8a4a428d12bf0c008f7c9f6ffddb8b2008b4fbe59bbeb2a2",
+      "published_sha256": "bd96cc077120da0534b26e40ae40105295d3eebe39b85ae7b1f33222b7e9c42c",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/original/config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/original/config.json",
+      "source_sha256": "fc04218a3999a73e7f9f0b170569d8687ee6e70d94678ada25496158baeacc04",
+      "published_sha256": "655aa828b113724eb426133c6a2c434c456e1bdf55c546d1869b3b984a4a6932",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/original/data/train.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/original/data/train.jsonl",
+      "source_sha256": "36f63b48ff45950636615f9b2a0de99876d4db1d3a711b65f13911249f67d4b0",
+      "published_sha256": "36f63b48ff45950636615f9b2a0de99876d4db1d3a711b65f13911249f67d4b0",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/original/data/valid.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/original/data/valid.jsonl",
+      "source_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "published_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/original/evaluation/resources.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/original/evaluation/resources.json",
+      "source_sha256": "302552de615b65d79a173fcc1da783874ca07c25f12deb6c839775cdd4c8af7d",
+      "published_sha256": "302552de615b65d79a173fcc1da783874ca07c25f12deb6c839775cdd4c8af7d",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/original/evaluation/scores.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/original/evaluation/scores.json",
+      "source_sha256": "99cb10cbe862a24461ccec433191c4e1202c53e81bdf5eb8bbc14a8232ec094a",
+      "published_sha256": "99cb10cbe862a24461ccec433191c4e1202c53e81bdf5eb8bbc14a8232ec094a",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/original/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/original/evaluation/token_boundaries.json",
+      "source_sha256": "3be5bccc807abf2ddd33446e907cb295c89ed0341aadb6bce3170cfda099a02c",
+      "published_sha256": "3be5bccc807abf2ddd33446e907cb295c89ed0341aadb6bce3170cfda099a02c",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/original/training.log",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/original/training.log",
+      "source_sha256": "604fe2f45c3e01a7c30e189b636517c076f6ec08a6bb82b9664274adb9b325b6",
+      "published_sha256": "7fb04a04aa2a720fe13274487f8ff9cf9847535e858f5037082c1347116dced7",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/original/training_record.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/original/training_record.json",
+      "source_sha256": "7309958c6679a3ef09a5f43eb31d2e75db06f1055ae224edbc34457e8ec042b3",
+      "published_sha256": "7309958c6679a3ef09a5f43eb31d2e75db06f1055ae224edbc34457e8ec042b3",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/protocol.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/protocol.json",
+      "source_sha256": "b17a1df17c7f993a02c7bd04bc5fa8ce018ed119a5d82f3ffc17dc053cfa9908",
+      "published_sha256": "e64795a0b52c3a5a629172648afa2ef96ff9a199936ec1711645fe8ea0d3ca75",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_1/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_1/adapter/adapter_config.json",
+      "source_sha256": "1c9f2d2fefb88718aeddd58616d7409f2cb20764f4646fa76a2a94225138eec5",
+      "published_sha256": "50389de524fde9ead3cfeade77e053050e392ccb58b940482083269cdf687e53",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_1/config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_1/config.json",
+      "source_sha256": "d532381f64c7ed8a9da25c2f8c14fb333c4dba1c47250f13532bdc47314f19b6",
+      "published_sha256": "2a76537f8e5556e02eee794920c359b4e067d8d330c31e28fa235ee2fea8d54c",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_1/data/train.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_1/data/train.jsonl",
+      "source_sha256": "8cd01c553fc3c56d008f1e1d15aa486ef1f58e4dc9ec516cb60b7cab54c2ae13",
+      "published_sha256": "8cd01c553fc3c56d008f1e1d15aa486ef1f58e4dc9ec516cb60b7cab54c2ae13",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_1/data/valid.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_1/data/valid.jsonl",
+      "source_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "published_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_1/evaluation/resources.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_1/evaluation/resources.json",
+      "source_sha256": "a74fab70290779b268e1b6308b0c76fe93f94e9c170c508b4dd601a690326e72",
+      "published_sha256": "a74fab70290779b268e1b6308b0c76fe93f94e9c170c508b4dd601a690326e72",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_1/evaluation/scores.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_1/evaluation/scores.json",
+      "source_sha256": "d646311277d778ee9064692debf1d77bf1e4cc42008bc18515b0203ecdd9f58a",
+      "published_sha256": "d646311277d778ee9064692debf1d77bf1e4cc42008bc18515b0203ecdd9f58a",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_1/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_1/evaluation/token_boundaries.json",
+      "source_sha256": "3be5bccc807abf2ddd33446e907cb295c89ed0341aadb6bce3170cfda099a02c",
+      "published_sha256": "3be5bccc807abf2ddd33446e907cb295c89ed0341aadb6bce3170cfda099a02c",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_1/training.log",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_1/training.log",
+      "source_sha256": "08b2a91b650b54d2695f93a2578330960cad4cbf77c7c807f615e5d78c57be7d",
+      "published_sha256": "80fbcd39a2baba7f7556f936ae17969d4d28b14294fd4e5163d97875994a3d67",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_1/training_record.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_1/training_record.json",
+      "source_sha256": "bf11d9194ec303c04b6dee92b78ab0b6d94274568fab0a22bed61dade5394502",
+      "published_sha256": "bf11d9194ec303c04b6dee92b78ab0b6d94274568fab0a22bed61dade5394502",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_2/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_2/adapter/adapter_config.json",
+      "source_sha256": "e3b0610b51ad65b58dfa0fbe63cc6f1a37eb71467840dde6e4c7191778febb34",
+      "published_sha256": "dddc27f8c35398a9addca92471bcc4a29dc81d4fa39359df0c8bbb7d86b57d1b",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_2/config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_2/config.json",
+      "source_sha256": "a4239c2a15ccfa475c743a4be5999a72adc6973224da93c78518ffa39750a21e",
+      "published_sha256": "c1d67c016555f45d0fbeed723e443901b7196160c3ec397089474faf336b5391",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_2/data/train.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_2/data/train.jsonl",
+      "source_sha256": "31d38092a00ccfba58c0d8bfbf4ca8d0b7e18067dc0e1945017274ccece50dbe",
+      "published_sha256": "31d38092a00ccfba58c0d8bfbf4ca8d0b7e18067dc0e1945017274ccece50dbe",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_2/data/valid.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_2/data/valid.jsonl",
+      "source_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "published_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_2/evaluation/resources.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_2/evaluation/resources.json",
+      "source_sha256": "f1db69af83cefc092141ca0abd28e27aaba0a6ac16d3530a2c8ae86b077c2394",
+      "published_sha256": "f1db69af83cefc092141ca0abd28e27aaba0a6ac16d3530a2c8ae86b077c2394",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_2/evaluation/scores.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_2/evaluation/scores.json",
+      "source_sha256": "b04bdd650924f4300b1978ebe770e5fc2c955c19972cb67cd6bea9a4acb7e91a",
+      "published_sha256": "b04bdd650924f4300b1978ebe770e5fc2c955c19972cb67cd6bea9a4acb7e91a",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_2/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_2/evaluation/token_boundaries.json",
+      "source_sha256": "3be5bccc807abf2ddd33446e907cb295c89ed0341aadb6bce3170cfda099a02c",
+      "published_sha256": "3be5bccc807abf2ddd33446e907cb295c89ed0341aadb6bce3170cfda099a02c",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_2/training.log",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_2/training.log",
+      "source_sha256": "a3af7440b89524dedae67da83b02ba011d971ed6dc9faf7f8754c9fe8661db95",
+      "published_sha256": "876e2e55a00bc2f1c742f661e17fa91a5b391daa298a8dc4edbaf73d29278be2",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_2/training_record.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_2/training_record.json",
+      "source_sha256": "7e1df3bb5f311c272632636ada012c689538d54fef8904b4dbdf542e03744c8d",
+      "published_sha256": "7e1df3bb5f311c272632636ada012c689538d54fef8904b4dbdf542e03744c8d",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/result.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/result.json",
+      "source_sha256": "1cc4707bce09e3554f235499e978d925f940b972d502a1f82862c8a212ff552e",
+      "published_sha256": "246e9420b4a7c28cfe588dc0a362c3cff87dd955f4e27c0bfaccead949c3f401",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/serving_suppression_stage_1.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/serving_suppression_stage_1.json",
+      "source_sha256": "a62ea9c7e3d38ba56b51a27af13c5d5a8a21daff0ccf40913afd08cb9ce21c43",
+      "published_sha256": "a62ea9c7e3d38ba56b51a27af13c5d5a8a21daff0ccf40913afd08cb9ce21c43",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/serving_suppression_stage_2.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/serving_suppression_stage_2.json",
+      "source_sha256": "16a7ce77538ad3bfcd68eed28d5e0461474596e2cbda3fc66778eece9889bb6d",
+      "published_sha256": "16a7ce77538ad3bfcd68eed28d5e0461474596e2cbda3fc66778eece9889bb6d",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/subjects.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/subjects.json",
+      "source_sha256": "00df0a1a6e31a97367889fba4e14aa0e81cccd0b1b64c629b838b488f1c54049",
+      "published_sha256": "00df0a1a6e31a97367889fba4e14aa0e81cccd0b1b64c629b838b488f1c54049",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_1/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_1/adapter/adapter_config.json",
+      "source_sha256": "8c53bfba15463d1d32adb2080df0856560b350fd86121989239cd157178bfae6",
+      "published_sha256": "7f6f020a9e7193c68173fdcdd7ffca205df4b97704c8b51d2b7b30d9c76b2ade",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_1/config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_1/config.json",
+      "source_sha256": "4b75f6967f60acf9257f3548c45e5bd94bde84446a67d4af4baad1e7efc65fe9",
+      "published_sha256": "5209746e4d03a8445c4f447e306961545b99ae30f2d433fc61dd51f9b7fc92cc",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_1/data/train.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_1/data/train.jsonl",
+      "source_sha256": "8cd01c553fc3c56d008f1e1d15aa486ef1f58e4dc9ec516cb60b7cab54c2ae13",
+      "published_sha256": "8cd01c553fc3c56d008f1e1d15aa486ef1f58e4dc9ec516cb60b7cab54c2ae13",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_1/data/valid.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_1/data/valid.jsonl",
+      "source_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "published_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_1/evaluation/resources.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_1/evaluation/resources.json",
+      "source_sha256": "87a312e4ab3469f2fc5b4987b91f1ed0f9e49f25673fe5ac262bf38b11e34ec5",
+      "published_sha256": "87a312e4ab3469f2fc5b4987b91f1ed0f9e49f25673fe5ac262bf38b11e34ec5",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_1/evaluation/scores.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_1/evaluation/scores.json",
+      "source_sha256": "c40ed161ef666a2fed4056f137894f3ce0e88ff6059239ba3e6ef747cd1208bf",
+      "published_sha256": "c40ed161ef666a2fed4056f137894f3ce0e88ff6059239ba3e6ef747cd1208bf",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_1/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_1/evaluation/token_boundaries.json",
+      "source_sha256": "3be5bccc807abf2ddd33446e907cb295c89ed0341aadb6bce3170cfda099a02c",
+      "published_sha256": "3be5bccc807abf2ddd33446e907cb295c89ed0341aadb6bce3170cfda099a02c",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_1/training.log",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_1/training.log",
+      "source_sha256": "4c2b311b61a9a7d6d4abe1b50017ed77f22eb7532119e49d6b3f3b8ea82acf17",
+      "published_sha256": "c98a74bfc134a8e923a5b4c8d4d1777b7286c872b82b82505e3abc2bbd14d787",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_1/training_record.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_1/training_record.json",
+      "source_sha256": "94a1fae3ea5a737286d72f4a3e39ef6528cf6ec3a811f0804ace02b287de4298",
+      "published_sha256": "ee513c43094bae8892dbc62dc695f52e778c2b02316111048e61a7d273ca8638",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_2/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_2/adapter/adapter_config.json",
+      "source_sha256": "1f2cc390fa95bb75dfaa444a96abfb84285a31864d77e797245eea93917d5de2",
+      "published_sha256": "1d28064623d28d5bc3dcd11c3f7ce103fb794fd003117e0ef72a70134e9d2697",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_2/config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_2/config.json",
+      "source_sha256": "05917a5f7d6c136d5c01f112392766b385838b51f6c6961246c6bd1a5f1db1d1",
+      "published_sha256": "fb49d7bb54eee5638494e15961bf49ee373a3171487a3d09697cae859b65bb4e",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_2/data/train.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_2/data/train.jsonl",
+      "source_sha256": "31d38092a00ccfba58c0d8bfbf4ca8d0b7e18067dc0e1945017274ccece50dbe",
+      "published_sha256": "31d38092a00ccfba58c0d8bfbf4ca8d0b7e18067dc0e1945017274ccece50dbe",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_2/data/valid.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_2/data/valid.jsonl",
+      "source_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "published_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_2/evaluation/resources.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_2/evaluation/resources.json",
+      "source_sha256": "de8cf46b296e26fda9d8b1cbc7052f74c467b3e0b878be39328cfdc9333ec71d",
+      "published_sha256": "de8cf46b296e26fda9d8b1cbc7052f74c467b3e0b878be39328cfdc9333ec71d",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_2/evaluation/scores.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_2/evaluation/scores.json",
+      "source_sha256": "53a2f54f7bd889b4f3f1401838d379f2a2b2c1a10e0e5f68de238f197ceb1d83",
+      "published_sha256": "53a2f54f7bd889b4f3f1401838d379f2a2b2c1a10e0e5f68de238f197ceb1d83",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_2/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_2/evaluation/token_boundaries.json",
+      "source_sha256": "3be5bccc807abf2ddd33446e907cb295c89ed0341aadb6bce3170cfda099a02c",
+      "published_sha256": "3be5bccc807abf2ddd33446e907cb295c89ed0341aadb6bce3170cfda099a02c",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_2/training.log",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_2/training.log",
+      "source_sha256": "e6a2c5a0b3e7067c1ad977fc079e66edd3af384c08de93f6ea70f6037392a4a2",
+      "published_sha256": "1144b32d6acd0ed67f3c8934f3d5fc78f8ffcd3f7edff9d072dc1b9f184bc980",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_2/training_record.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_2/training_record.json",
+      "source_sha256": "5e537299189b491bf93dfe453b75d2cd065eb1c4bf7ea9029053db68d0ed56ee",
+      "published_sha256": "78577f9689bd0b0aa88164316b11d1218a230f8bc6c4949bcd71c5b6004cafbe",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/base_evaluation/resources.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/base_evaluation/resources.json",
+      "source_sha256": "ae27ab09eacb96d05b1bd7894bae48b5f09bc69ea1bbc6c7bd544c52dff4a748",
+      "published_sha256": "ae27ab09eacb96d05b1bd7894bae48b5f09bc69ea1bbc6c7bd544c52dff4a748",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/base_evaluation/scores.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/base_evaluation/scores.json",
+      "source_sha256": "b33c7002078ea982145f04548d8121e7b225b7440dc2f229946af2f6a87464e2",
+      "published_sha256": "b33c7002078ea982145f04548d8121e7b225b7440dc2f229946af2f6a87464e2",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/base_evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/base_evaluation/token_boundaries.json",
+      "source_sha256": "1dfadb4c3d8293e8c545791218ac807e58661eefc8583a639c3327d70baae88e",
+      "published_sha256": "1dfadb4c3d8293e8c545791218ac807e58661eefc8583a639c3327d70baae88e",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/original/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/original/adapter/adapter_config.json",
+      "source_sha256": "6ac80276833721ba77a7d3299b67d85d0dc8e52645049e7b5b36770a3aa05bcd",
+      "published_sha256": "ec1bae08b8af15db9bc98d2f4b1f0dd4481cfdd15697801ca1450b400470cdaa",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/original/config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/original/config.json",
+      "source_sha256": "a8dfb1c58895e2df01f47e07c15b6a5a6f93a2ed89dda294c7854649955754c2",
+      "published_sha256": "33659b9260a84c364545ce88db7965e399ade098f74963a070928b83e5cce203",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/original/data/train.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/original/data/train.jsonl",
+      "source_sha256": "9ee250344d224e2f241ed365b098c305e1d69c96092efb42010c642227d376de",
+      "published_sha256": "9ee250344d224e2f241ed365b098c305e1d69c96092efb42010c642227d376de",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/original/data/valid.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/original/data/valid.jsonl",
+      "source_sha256": "fc0cf97a9c55f6cb9179b8df2ed1be987c8fd9a08ccd1e008bb80f7f24494149",
+      "published_sha256": "fc0cf97a9c55f6cb9179b8df2ed1be987c8fd9a08ccd1e008bb80f7f24494149",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/original/evaluation/resources.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/original/evaluation/resources.json",
+      "source_sha256": "ae27ab09eacb96d05b1bd7894bae48b5f09bc69ea1bbc6c7bd544c52dff4a748",
+      "published_sha256": "ae27ab09eacb96d05b1bd7894bae48b5f09bc69ea1bbc6c7bd544c52dff4a748",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/original/evaluation/scores.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/original/evaluation/scores.json",
+      "source_sha256": "8ac82dd609b149c02e16adafb45a32b8ca8e42250609d7d0f735789a736d1039",
+      "published_sha256": "8ac82dd609b149c02e16adafb45a32b8ca8e42250609d7d0f735789a736d1039",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/original/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/original/evaluation/token_boundaries.json",
+      "source_sha256": "1dfadb4c3d8293e8c545791218ac807e58661eefc8583a639c3327d70baae88e",
+      "published_sha256": "1dfadb4c3d8293e8c545791218ac807e58661eefc8583a639c3327d70baae88e",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/original/training.log",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/original/training.log",
+      "source_sha256": "ead014274998d07009bf40c6148d2a6f76a9ae5b9d606d601bdf5b5fc454ef92",
+      "published_sha256": "961c1011686613d00308a3a974754993b3af60f5bf7ce5329ebfd0e1b46b8d8e",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/original/training_record.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/original/training_record.json",
+      "source_sha256": "1eb6c7b7b7077c401cd01d699d2960fb86ce391dd73667ced923c1898e016cc0",
+      "published_sha256": "1eb6c7b7b7077c401cd01d699d2960fb86ce391dd73667ced923c1898e016cc0",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/protocol.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/protocol.json",
+      "source_sha256": "2b312452689349c748dae6bb8a54a6731b660430dee268f4f90a9da61e9dba60",
+      "published_sha256": "582c6f7d1818a95dc8889d67500e09d2da0d306c895744ab37f409eb2d43353a",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_1/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_1/adapter/adapter_config.json",
+      "source_sha256": "91db507af20d2197528f61356bc621364a1d11874c69990bceb86dbcce378488",
+      "published_sha256": "ada741b8f4de78c3414cc7cc7151db5cc4a4b33e018268dbde88ffb098e9ad3b",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_1/config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_1/config.json",
+      "source_sha256": "ac69bb1c8dbcc8fc4f53b3d92f7a339ddcf169a665d62a101fbc37c7d453cf69",
+      "published_sha256": "a0d1696d97eebb9f23f5ed71067253657eac2a94dd51000bc6ff162085e54bd9",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_1/data/train.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_1/data/train.jsonl",
+      "source_sha256": "2a9e33b73adbe4ad8895ae3bf4a003accba0184c338b0d49ce011c60ed27e483",
+      "published_sha256": "2a9e33b73adbe4ad8895ae3bf4a003accba0184c338b0d49ce011c60ed27e483",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_1/data/valid.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_1/data/valid.jsonl",
+      "source_sha256": "fc0cf97a9c55f6cb9179b8df2ed1be987c8fd9a08ccd1e008bb80f7f24494149",
+      "published_sha256": "fc0cf97a9c55f6cb9179b8df2ed1be987c8fd9a08ccd1e008bb80f7f24494149",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_1/evaluation/resources.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_1/evaluation/resources.json",
+      "source_sha256": "ae27ab09eacb96d05b1bd7894bae48b5f09bc69ea1bbc6c7bd544c52dff4a748",
+      "published_sha256": "ae27ab09eacb96d05b1bd7894bae48b5f09bc69ea1bbc6c7bd544c52dff4a748",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_1/evaluation/scores.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_1/evaluation/scores.json",
+      "source_sha256": "b691f134efe277039af013a59a1ac2b83312a8a903e33a25aa39964aeeea5296",
+      "published_sha256": "b691f134efe277039af013a59a1ac2b83312a8a903e33a25aa39964aeeea5296",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_1/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_1/evaluation/token_boundaries.json",
+      "source_sha256": "1dfadb4c3d8293e8c545791218ac807e58661eefc8583a639c3327d70baae88e",
+      "published_sha256": "1dfadb4c3d8293e8c545791218ac807e58661eefc8583a639c3327d70baae88e",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_1/training.log",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_1/training.log",
+      "source_sha256": "5075c69c59f41ee9e73066fd5e589f5d0b1cde4b0856bcd70d3ebf39ec59aaf3",
+      "published_sha256": "272568e362089b7e6cf70d6ca42f8539d2883b9191f13619e7343c0a9c8ddde4",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_1/training_record.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_1/training_record.json",
+      "source_sha256": "0c30111332760388d98518ece108feb2be8e4fae34073ada5e8aea083812b3d9",
+      "published_sha256": "0c30111332760388d98518ece108feb2be8e4fae34073ada5e8aea083812b3d9",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_2/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_2/adapter/adapter_config.json",
+      "source_sha256": "2946c422c07efd2f58680ecfe3730963b85aef8f8f377508d418e594a64842c1",
+      "published_sha256": "dde52896031e9c3f2a0e979ad07e812445e9170f6be5b4e3d43a38a7f9ecea92",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_2/config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_2/config.json",
+      "source_sha256": "3e0dc285db24a688641006f8b0a490567cd22168a570c68cbadba61601a908cb",
+      "published_sha256": "c1d3da5f7472e1d7bbbbb6b058f213f7cac39341b390c16c2fdda41ec9cf3cb7",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_2/data/train.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_2/data/train.jsonl",
+      "source_sha256": "cb99742b21621cfb3a3824e5f99d8da9a3881939e39ef36491e72222c48454ac",
+      "published_sha256": "cb99742b21621cfb3a3824e5f99d8da9a3881939e39ef36491e72222c48454ac",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_2/data/valid.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_2/data/valid.jsonl",
+      "source_sha256": "fc0cf97a9c55f6cb9179b8df2ed1be987c8fd9a08ccd1e008bb80f7f24494149",
+      "published_sha256": "fc0cf97a9c55f6cb9179b8df2ed1be987c8fd9a08ccd1e008bb80f7f24494149",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_2/evaluation/resources.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_2/evaluation/resources.json",
+      "source_sha256": "ae27ab09eacb96d05b1bd7894bae48b5f09bc69ea1bbc6c7bd544c52dff4a748",
+      "published_sha256": "ae27ab09eacb96d05b1bd7894bae48b5f09bc69ea1bbc6c7bd544c52dff4a748",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_2/evaluation/scores.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_2/evaluation/scores.json",
+      "source_sha256": "4c198a3a82725751796700ee73bfa2fe015f39de98f4d0f2e049a5be5be5edee",
+      "published_sha256": "4c198a3a82725751796700ee73bfa2fe015f39de98f4d0f2e049a5be5be5edee",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_2/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_2/evaluation/token_boundaries.json",
+      "source_sha256": "1dfadb4c3d8293e8c545791218ac807e58661eefc8583a639c3327d70baae88e",
+      "published_sha256": "1dfadb4c3d8293e8c545791218ac807e58661eefc8583a639c3327d70baae88e",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_2/training.log",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_2/training.log",
+      "source_sha256": "d41dd1ed4a436b74d863a35a0d12d3b5cad113ae7618c9222d9a688d379fa556",
+      "published_sha256": "8fc4fdb61e879fd0921966e8ccc7b27636d7ef1d472e2e2acfefe353d0e05662",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_2/training_record.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_2/training_record.json",
+      "source_sha256": "21be7289b6ac9362898240322c9ce487e36d1cfa86713661385f2bafb195cefa",
+      "published_sha256": "21be7289b6ac9362898240322c9ce487e36d1cfa86713661385f2bafb195cefa",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/result.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/result.json",
+      "source_sha256": "7b2a7601f42eb12fc3f92db9d30d3dcb7066560f31aee8949ad7af5c6690e444",
+      "published_sha256": "15fb24ffd2b920c522c70ca2aa3249e9a4132b870fc47efcfcb0dc52a3d36d9a",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/serving_suppression_stage_1.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/serving_suppression_stage_1.json",
+      "source_sha256": "f609cae03d93472856dbef6d660d2f8b17a0155d21baf98669b4e762a469ea85",
+      "published_sha256": "f609cae03d93472856dbef6d660d2f8b17a0155d21baf98669b4e762a469ea85",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/serving_suppression_stage_2.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/serving_suppression_stage_2.json",
+      "source_sha256": "d7a34f58a3121e2b8db1cc2119a9f0539809af0097016e7e4c4b78d7aa0e47b9",
+      "published_sha256": "d7a34f58a3121e2b8db1cc2119a9f0539809af0097016e7e4c4b78d7aa0e47b9",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/subjects.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/subjects.json",
+      "source_sha256": "f50f87e57b903bd64dadc3af6dcdda5f550f8ec7c2df4077935e787ac82fc527",
+      "published_sha256": "f50f87e57b903bd64dadc3af6dcdda5f550f8ec7c2df4077935e787ac82fc527",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_1/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_1/adapter/adapter_config.json",
+      "source_sha256": "07c81499243511ed38c5a3d8d391e69f6ae0b106faefec53e68188082a9b0651",
+      "published_sha256": "349f8d1804e151bbcb3cfea65bd8439dcec0186267dfa7973e3a45a5407136c7",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_1/config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_1/config.json",
+      "source_sha256": "564d447d2ff33ea1cd1e47a7392a0bfc3a7d3659d244d904567fb381aea8e7b2",
+      "published_sha256": "a2b71c53ce369dc67fabecd3e37f568d87aaeade9f5cd5018d6b75b2060a6010",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_1/data/train.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_1/data/train.jsonl",
+      "source_sha256": "2a9e33b73adbe4ad8895ae3bf4a003accba0184c338b0d49ce011c60ed27e483",
+      "published_sha256": "2a9e33b73adbe4ad8895ae3bf4a003accba0184c338b0d49ce011c60ed27e483",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_1/data/valid.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_1/data/valid.jsonl",
+      "source_sha256": "fc0cf97a9c55f6cb9179b8df2ed1be987c8fd9a08ccd1e008bb80f7f24494149",
+      "published_sha256": "fc0cf97a9c55f6cb9179b8df2ed1be987c8fd9a08ccd1e008bb80f7f24494149",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_1/evaluation/resources.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_1/evaluation/resources.json",
+      "source_sha256": "ae27ab09eacb96d05b1bd7894bae48b5f09bc69ea1bbc6c7bd544c52dff4a748",
+      "published_sha256": "ae27ab09eacb96d05b1bd7894bae48b5f09bc69ea1bbc6c7bd544c52dff4a748",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_1/evaluation/scores.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_1/evaluation/scores.json",
+      "source_sha256": "42d7719f418c1cf93a88922432fadcd8b4cda149371eace84e446e90cd9c1f95",
+      "published_sha256": "42d7719f418c1cf93a88922432fadcd8b4cda149371eace84e446e90cd9c1f95",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_1/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_1/evaluation/token_boundaries.json",
+      "source_sha256": "1dfadb4c3d8293e8c545791218ac807e58661eefc8583a639c3327d70baae88e",
+      "published_sha256": "1dfadb4c3d8293e8c545791218ac807e58661eefc8583a639c3327d70baae88e",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_1/training.log",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_1/training.log",
+      "source_sha256": "20c27044f326ec2c0265a4f66953bf4122a086e073017118a6186a67c814da76",
+      "published_sha256": "a101629e2ee075fa043c27996584c03262f02952adb32bcb617ee9ff9c934dea",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_1/training_record.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_1/training_record.json",
+      "source_sha256": "38af65ef3c81f37e1a8bec7c9c9e9f3280ca7fbef1286f36433304a790a390c7",
+      "published_sha256": "60553994fe403ad47897057e946b281b0e448d2e25c2334e41e556d495fada9a",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_2/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_2/adapter/adapter_config.json",
+      "source_sha256": "5f73a9d611c83ef46bab5879df9089474e2f8960a29e633d14554cc10a86337a",
+      "published_sha256": "4f6364cc141074e96b6f9a51ce8911f1793be7eb52316da18faf8752bceafda0",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_2/config.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_2/config.json",
+      "source_sha256": "021c02a2379655b5360ac7492764c4d259abd84d233f3e6b180bbe90c5805ab5",
+      "published_sha256": "acb77b57304132dd3c2adb32c80e8c8d8ca729904abe09b54ba22f9da2ce7fb2",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_2/data/train.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_2/data/train.jsonl",
+      "source_sha256": "cb99742b21621cfb3a3824e5f99d8da9a3881939e39ef36491e72222c48454ac",
+      "published_sha256": "cb99742b21621cfb3a3824e5f99d8da9a3881939e39ef36491e72222c48454ac",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_2/data/valid.jsonl",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_2/data/valid.jsonl",
+      "source_sha256": "fc0cf97a9c55f6cb9179b8df2ed1be987c8fd9a08ccd1e008bb80f7f24494149",
+      "published_sha256": "fc0cf97a9c55f6cb9179b8df2ed1be987c8fd9a08ccd1e008bb80f7f24494149",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_2/evaluation/resources.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_2/evaluation/resources.json",
+      "source_sha256": "ae27ab09eacb96d05b1bd7894bae48b5f09bc69ea1bbc6c7bd544c52dff4a748",
+      "published_sha256": "ae27ab09eacb96d05b1bd7894bae48b5f09bc69ea1bbc6c7bd544c52dff4a748",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_2/evaluation/scores.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_2/evaluation/scores.json",
+      "source_sha256": "411c19be5d559c4ad73f5aeaf6db1ba0ef471f7d5e2d9af69dcbe56e16172f26",
+      "published_sha256": "411c19be5d559c4ad73f5aeaf6db1ba0ef471f7d5e2d9af69dcbe56e16172f26",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_2/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_2/evaluation/token_boundaries.json",
+      "source_sha256": "1dfadb4c3d8293e8c545791218ac807e58661eefc8583a639c3327d70baae88e",
+      "published_sha256": "1dfadb4c3d8293e8c545791218ac807e58661eefc8583a639c3327d70baae88e",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_2/training.log",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_2/training.log",
+      "source_sha256": "bbea16021a74d37b9266b9cd2fe0a8f5d43b22aa8a04c20f5a2dc64d2aa38292",
+      "published_sha256": "c2dcff5f392e880fca94fbd60561edd9c096b16366df51c35667375a99d19d28",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_2/training_record.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_2/training_record.json",
+      "source_sha256": "36cb26862761962e63ab166bc70b826fd4f77695e7f57379fab66fd9c5408cae",
+      "published_sha256": "b6af9f1e94623c7589de788a80a7d7e1f2f34329ca1df3acc83c12229dd0219f",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/protocol.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/protocol.json",
+      "source_sha256": "2e7b83cafcf54129466661b5a308b4dbddae220e07a28b8052c33b30ee223c7a",
+      "published_sha256": "674207fd49ae86b328b469c319e585141c98edd456e6ae71024aa27fa9a15098",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-binding-v2-20261031/result.json",
+      "published": "runs/reassessment-05-binding-v2-20261031/result.json",
+      "source_sha256": "ba8b8fdadc9230d8b952e42f55f1ab2e7f6364d1dd7587adbf947e80233585dd",
+      "published_sha256": "27f8de1b24917cfdfa81c971bf9c794c451cf99aef1abd4068747dca9279a2c8",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-sequential-20261031/development/A/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-sequential-20261031/development/A/adapter/adapter_config.json",
+      "source_sha256": "ecbf5f63c69a87b9db4355c6b8c69c9a99a6f1618d1fc5a2dcb8dd02181e734c",
+      "published_sha256": "c67f90addf687f0e3d246de3021f897f18aa24aa797919db4914a91ce23baa0b",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-sequential-20261031/development/A/config.json",
+      "published": "runs/reassessment-05-sequential-20261031/development/A/config.json",
+      "source_sha256": "d2b0f869161c067ae704b13214ebe59875d6794ada88e8ae9b91bd3367935631",
+      "published_sha256": "122875017382ee673e2487e10aac9718b42f82bbc907de8b8a005a407e983ef5",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-sequential-20261031/development/A/data/train.jsonl",
+      "published": "runs/reassessment-05-sequential-20261031/development/A/data/train.jsonl",
+      "source_sha256": "10f3106c096ded2dadf91a3b3245f57b220932ccdda9c1bbecf35d4c8e1bd26d",
+      "published_sha256": "10f3106c096ded2dadf91a3b3245f57b220932ccdda9c1bbecf35d4c8e1bd26d",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-sequential-20261031/development/A/data/valid.jsonl",
+      "published": "runs/reassessment-05-sequential-20261031/development/A/data/valid.jsonl",
+      "source_sha256": "d0b142e3270df4dd95123807d02d9072f7083d5946eb4f656e59b545177f3f59",
+      "published_sha256": "d0b142e3270df4dd95123807d02d9072f7083d5946eb4f656e59b545177f3f59",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-sequential-20261031/development/A/evaluation/resources.json",
+      "published": "runs/reassessment-05-sequential-20261031/development/A/evaluation/resources.json",
+      "source_sha256": "63f9c5ab238153e3877ba82f3eb4b2396ab92ac3a10e391cff50c9670d1ec04b",
+      "published_sha256": "63f9c5ab238153e3877ba82f3eb4b2396ab92ac3a10e391cff50c9670d1ec04b",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-sequential-20261031/development/A/evaluation/scores.json",
+      "published": "runs/reassessment-05-sequential-20261031/development/A/evaluation/scores.json",
+      "source_sha256": "a191beecf94c65446cbd8617e957e4acc784155c3beb12ba2196a06401d5d1c5",
+      "published_sha256": "a191beecf94c65446cbd8617e957e4acc784155c3beb12ba2196a06401d5d1c5",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-sequential-20261031/development/A/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-sequential-20261031/development/A/evaluation/token_boundaries.json",
+      "source_sha256": "1d9ffd1b24815993e40e5c696c8f38d95d6c55cd6bac0a65036bdd975c83819d",
+      "published_sha256": "1d9ffd1b24815993e40e5c696c8f38d95d6c55cd6bac0a65036bdd975c83819d",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-sequential-20261031/development/A/training.log",
+      "published": "runs/reassessment-05-sequential-20261031/development/A/training.log",
+      "source_sha256": "938d556b39be70d4be515db1ab12954249350813ac3aa2c2ea18f05ebd7f9e92",
+      "published_sha256": "4893c8577ed2ef8120c1f63f04f9484d91bbd8770513231dd63f671ce7bc6cce",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-sequential-20261031/development/A/training_record.json",
+      "published": "runs/reassessment-05-sequential-20261031/development/A/training_record.json",
+      "source_sha256": "1aca0f3c0a45d112901ea313aeb13fbb78121c147237d97f63c72403b773c37a",
+      "published_sha256": "1aca0f3c0a45d112901ea313aeb13fbb78121c147237d97f63c72403b773c37a",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-sequential-20261031/development/B/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-sequential-20261031/development/B/adapter/adapter_config.json",
+      "source_sha256": "6824ca8e73df2150d3da22d0daf2f3fda0942c1c92586bb825575f7d1248e5c5",
+      "published_sha256": "b3eca90fa3db55a463019bee94dac535d699a652a62a22c36f78b7f8340445c7",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-sequential-20261031/development/B/config.json",
+      "published": "runs/reassessment-05-sequential-20261031/development/B/config.json",
+      "source_sha256": "8239933cc3b89d8d5a253e0f67ef23c62a49f1db137457b7642c77714a2277d5",
+      "published_sha256": "14d8e0e0af804ed6162d10470150ed60cc779684999f9f87e114f80fd2f8d9cb",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-sequential-20261031/development/B/data/train.jsonl",
+      "published": "runs/reassessment-05-sequential-20261031/development/B/data/train.jsonl",
+      "source_sha256": "10f3106c096ded2dadf91a3b3245f57b220932ccdda9c1bbecf35d4c8e1bd26d",
+      "published_sha256": "10f3106c096ded2dadf91a3b3245f57b220932ccdda9c1bbecf35d4c8e1bd26d",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-sequential-20261031/development/B/data/valid.jsonl",
+      "published": "runs/reassessment-05-sequential-20261031/development/B/data/valid.jsonl",
+      "source_sha256": "d0b142e3270df4dd95123807d02d9072f7083d5946eb4f656e59b545177f3f59",
+      "published_sha256": "d0b142e3270df4dd95123807d02d9072f7083d5946eb4f656e59b545177f3f59",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-sequential-20261031/development/B/evaluation/resources.json",
+      "published": "runs/reassessment-05-sequential-20261031/development/B/evaluation/resources.json",
+      "source_sha256": "62b9b6d8e2a488b7224053037b772f3c3a80ef45126ceb7137a117723edf2ecf",
+      "published_sha256": "62b9b6d8e2a488b7224053037b772f3c3a80ef45126ceb7137a117723edf2ecf",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-sequential-20261031/development/B/evaluation/scores.json",
+      "published": "runs/reassessment-05-sequential-20261031/development/B/evaluation/scores.json",
+      "source_sha256": "da506ff4e030a332c61d0c03a970e7e10a81a4cb3c7f297ea0a5d914c3070431",
+      "published_sha256": "da506ff4e030a332c61d0c03a970e7e10a81a4cb3c7f297ea0a5d914c3070431",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-sequential-20261031/development/B/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-sequential-20261031/development/B/evaluation/token_boundaries.json",
+      "source_sha256": "1d9ffd1b24815993e40e5c696c8f38d95d6c55cd6bac0a65036bdd975c83819d",
+      "published_sha256": "1d9ffd1b24815993e40e5c696c8f38d95d6c55cd6bac0a65036bdd975c83819d",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-sequential-20261031/development/B/training.log",
+      "published": "runs/reassessment-05-sequential-20261031/development/B/training.log",
+      "source_sha256": "1b663f88b967c702cf3782cf7d11f49753ee8abcd27e3cbc5a976582501cdfae",
+      "published_sha256": "d894aefab8373a79bf3c95475ad22a97894f865876224a96ba1bf555f99f9677",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-sequential-20261031/development/B/training_record.json",
+      "published": "runs/reassessment-05-sequential-20261031/development/B/training_record.json",
+      "source_sha256": "0b9f55d3e35eaf3fde99b53c432f392ec0399f48ece9a3742dc2d954d9b51903",
+      "published_sha256": "0b9f55d3e35eaf3fde99b53c432f392ec0399f48ece9a3742dc2d954d9b51903",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-sequential-20261031/development_selection.json",
+      "published": "runs/reassessment-05-sequential-20261031/development_selection.json",
+      "source_sha256": "1e7551657b13cd508cdf59709adaf66eb942a83030aef98ebd73d86000836592",
+      "published_sha256": "1e7551657b13cd508cdf59709adaf66eb942a83030aef98ebd73d86000836592",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-sequential-20261031/development_stop.json",
+      "published": "runs/reassessment-05-sequential-20261031/development_stop.json",
+      "source_sha256": "7c3fff189c525b22497911fe70043f0068a1b28f288086351e24652805b19782",
+      "published_sha256": "7c3fff189c525b22497911fe70043f0068a1b28f288086351e24652805b19782",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-sequential-20261031/development_subjects.json",
+      "published": "runs/reassessment-05-sequential-20261031/development_subjects.json",
+      "source_sha256": "8fcfa8345058bfa92e9f8ba2cdb101cd7d2892bb3f8f2ed754cfc56df4aec363",
+      "published_sha256": "8fcfa8345058bfa92e9f8ba2cdb101cd7d2892bb3f8f2ed754cfc56df4aec363",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-sequential-20261031/executed_source.py",
+      "published": "runs/reassessment-05-sequential-20261031/executed_source.py",
+      "source_sha256": "c1c525d7c8c7f39da72564d0e2ed45673c30582df2ff41c1f27bf1d47f8709f1",
+      "published_sha256": "c1c525d7c8c7f39da72564d0e2ed45673c30582df2ff41c1f27bf1d47f8709f1",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-sequential-20261031/protocol.json",
+      "published": "runs/reassessment-05-sequential-20261031/protocol.json",
+      "source_sha256": "d905b00746e2e3dce81007c0ba7b33072b7457f889887936faa920f92e48b0ff",
+      "published_sha256": "06977e52972a5c26d0c4137071776d1b289df35ad3d8ce692e5eae343190af00",
+      "transformation": "workspace absolute prefix replaced with <WORKSPACE>; numerical values unchanged"
+    },
+    {
+      "source": "outputs/pilot_papers/05_sequential_deletion/generate_figures.py",
+      "published": "generate_figures.py",
+      "source_sha256": "37e128f09043643e2ee4253bc98a99ca5e8408e377ed25d24c6a7c07cbfb7720",
+      "published_sha256": "37e128f09043643e2ee4253bc98a99ca5e8408e377ed25d24c6a7c07cbfb7720",
+      "transformation": "none"
+    },
+    {
+      "source": "outputs/pilot_papers/05_sequential_deletion/verify_results.py",
+      "published": "verify_results.py",
+      "source_sha256": "38636d3371e8b95cee2d8a56af617dea1aaf3157ac66bac7af9021088d9c536e",
+      "published_sha256": "38636d3371e8b95cee2d8a56af617dea1aaf3157ac66bac7af9021088d9c536e",
+      "transformation": "none"
+    },
+    {
+      "source": "outputs/pilot_papers/05_sequential_deletion/derived_summary.json",
+      "published": "derived_summary.json",
+      "source_sha256": "d8d6501be38a213dd93dae9dba169804012613ea1839dedc90eeaa1bb40958e5",
+      "published_sha256": "d8d6501be38a213dd93dae9dba169804012613ea1839dedc90eeaa1bb40958e5",
+      "transformation": "none"
+    },
+    {
+      "source": "outputs/pilot_papers/05_sequential_deletion/source_manifest.json",
+      "published": "source_manifest.json",
+      "source_sha256": "10b67195025830a9efd0cf006cbf9f5b495c5f98184762c7381b31f1d26a668d",
+      "published_sha256": "9a928e699b26473c4cfb0f9e653f94475a4719758228007d0086c903040bfd4d",
+      "transformation": "Regenerated from path-normalized published data/readback; input hashes identify public copies."
+    },
+    {
+      "source": "outputs/pilot_papers/05_sequential_deletion/metadata_clarification.json",
+      "published": "metadata_clarification.json",
+      "source_sha256": "754d760aef84f872b147e9c63dc80f4604ea3dcbf5822d646d71d58c0449d274",
+      "published_sha256": "cc96dcc35579a034c897ba869e7934fee51b823db05f85ff591e0571f605b48a",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "work/paper05_public_readback.json",
+      "published": "offline_verification.json",
+      "source_sha256": "b46a7e0bdd6f3b78db526795290da7c80a1f862145419ee469d27e27907b4832",
+      "published_sha256": "47b9c5f9143e0292a6c6e78878f3074dd91158a64e407ac0bf583103a16b895c",
+      "transformation": "CPU verifier rerun on published raw records; workspace prefix normalized in report."
+    },
+    {
+      "source": "outputs/pilot_papers/05_sequential_deletion/README.md",
+      "published": "README.md",
+      "source_sha256": "af6efb1d0b4e5df9094df00238e255fb89ee1cba49e15d2e08464622159afd2f",
+      "published_sha256": "af6efb1d0b4e5df9094df00238e255fb89ee1cba49e15d2e08464622159afd2f",
+      "transformation": "none"
+    },
+    {
+      "source": "outputs/pilot_papers/05_sequential_deletion/figures/deletion_diagnostics.pdf",
+      "published": "figures/deletion_diagnostics.pdf",
+      "source_sha256": "38e5fab106c783a48ab083433a87de9f331e9b9b0b1bab6de5089f49489badc0",
+      "published_sha256": "ad49caf48fa250edb43986e783b861fb1f46da3b81753a1cc5988ef4d682cc18",
+      "transformation": "Regenerated from identical numerical data; vector-PDF creation metadata may differ."
+    },
+    {
+      "source": "outputs/pilot_papers/05_sequential_deletion/figures/deletion_diagnostics.png",
+      "published": "figures/deletion_diagnostics.png",
+      "source_sha256": "94ffa564fb8afd50c955f41298449c6a99e151cf11007a705c3d5fc110fb422f",
+      "published_sha256": "94ffa564fb8afd50c955f41298449c6a99e151cf11007a705c3d5fc110fb422f",
+      "transformation": "none"
+    },
+    {
+      "source": "outputs/pilot_papers/05_sequential_deletion/figures/retained_utility.pdf",
+      "published": "figures/retained_utility.pdf",
+      "source_sha256": "f1cba477eddf9c3af41c094bf75cdade6341c071c4d2e0d4bd7c749588ad8a27",
+      "published_sha256": "f6bd263f454c8dc7182d10855e74b462456e43c45c1506089f6b18ed78a4cc49",
+      "transformation": "Regenerated from identical numerical data; vector-PDF creation metadata may differ."
+    },
+    {
+      "source": "outputs/pilot_papers/05_sequential_deletion/figures/retained_utility.png",
+      "published": "figures/retained_utility.png",
+      "source_sha256": "d4c9cfe2a06598acdea88763a7ff2f93dd1dd8fc6500047b98dc21466ed8b758",
+      "published_sha256": "d4c9cfe2a06598acdea88763a7ff2f93dd1dd8fc6500047b98dc21466ed8b758",
+      "transformation": "none"
+    },
+    {
+      "source": "outputs/pilot_papers/05_sequential_deletion/{draft.tex,refs.bib,references.bib,README.md,figures/*.png}",
+      "published": "overleaf.zip",
+      "published_sha256": "1b6e8b6550f4f87b717f3b879fc1ea09a6ea5917045d63fb9964770be1756c6d",
+      "transformation": "Curated ZIP; manuscript/BibTeX/PNG bytes unchanged."
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/checkpoint_tensor_manifest.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/checkpoint_tensor_manifest.json",
+      "source_sha256": "82564a7e8ed1bc9de96f5b6fc21702026f2cb847ba959e9dc48142ed9d4cda31",
+      "published_sha256": "82564a7e8ed1bc9de96f5b6fc21702026f2cb847ba959e9dc48142ed9d4cda31",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/cpu_preflight.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/cpu_preflight.json",
+      "source_sha256": "3d5e726c49688c5268faf3a741d11ca25df47aaae048439494725302db02768b",
+      "published_sha256": "fbb14f1f48c1d8f63ab5bb83885f31b496b4937c7bb1069cec94c4b9148fe200",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/executed_base_deletion_sequence.py",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/executed_base_deletion_sequence.py",
+      "source_sha256": "01b6b73b1d473e0d483674982711f8ea5c289f8724fc995bc2837f8bb384755f",
+      "published_sha256": "01b6b73b1d473e0d483674982711f8ea5c289f8724fc995bc2837f8bb384755f",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/executed_deletion_model_replay.py",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/executed_deletion_model_replay.py",
+      "source_sha256": "f939c4801649096296c31ea7ecb3f23ff61a0820dd5bc49e6bbb1ad6966e80c1",
+      "published_sha256": "f939c4801649096296c31ea7ecb3f23ff61a0820dd5bc49e6bbb1ad6966e80c1",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/executed_recovery_driver.py",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/executed_recovery_driver.py",
+      "source_sha256": "9576d0fe77db50bd68220a4964170486b95b6fbd11bdd36bbda6e6d5dfecee9c",
+      "published_sha256": "9576d0fe77db50bd68220a4964170486b95b6fbd11bdd36bbda6e6d5dfecee9c",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/development/D/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/development/D/adapter/adapter_config.json",
+      "source_sha256": "34b17d7816bf10c47a25ca3f3cd09767aa140a252094fd84a89b6d7e40c8b24e",
+      "published_sha256": "c4248fe5b1862290fd10c803f48b336afac82f049446ee9559de45e1f929dba1",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/development/D/config.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/development/D/config.json",
+      "source_sha256": "04f58d690b6713093b5f681695f4857cc06ef7d20c61317433765d9201878b76",
+      "published_sha256": "4248f987db2147aec2d573ca91792981e444d473d6c14fbddd0f58a1255cad3a",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/development/D/data/train.jsonl",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/development/D/data/train.jsonl",
+      "source_sha256": "10f3106c096ded2dadf91a3b3245f57b220932ccdda9c1bbecf35d4c8e1bd26d",
+      "published_sha256": "10f3106c096ded2dadf91a3b3245f57b220932ccdda9c1bbecf35d4c8e1bd26d",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/development/D/data/valid.jsonl",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/development/D/data/valid.jsonl",
+      "source_sha256": "d0b142e3270df4dd95123807d02d9072f7083d5946eb4f656e59b545177f3f59",
+      "published_sha256": "d0b142e3270df4dd95123807d02d9072f7083d5946eb4f656e59b545177f3f59",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/development/D/evaluation/resources.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/development/D/evaluation/resources.json",
+      "source_sha256": "e972582fb5232c1a7d3ccdc26ccf21626883a53888b48c0e177512bcc1ed28e6",
+      "published_sha256": "e972582fb5232c1a7d3ccdc26ccf21626883a53888b48c0e177512bcc1ed28e6",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/development/D/evaluation/scores.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/development/D/evaluation/scores.json",
+      "source_sha256": "e94720f6388feaf761c35c350f4d45dc05f34b0d6fc0270603767d4e57a48870",
+      "published_sha256": "e94720f6388feaf761c35c350f4d45dc05f34b0d6fc0270603767d4e57a48870",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/development/D/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/development/D/evaluation/token_boundaries.json",
+      "source_sha256": "f8a0af839449ce35666bc552c5daa9254bd185f10789f768a232d7e8faa6b81c",
+      "published_sha256": "f8a0af839449ce35666bc552c5daa9254bd185f10789f768a232d7e8faa6b81c",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/development/D/training.log",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/development/D/training.log",
+      "source_sha256": "46990bd831c74f27e1bcf3cc7f0c98b6b5e599d326e5f413ef2f2acc85103cd4",
+      "published_sha256": "f9c9d25e6871c5656fefb6e853d3987d4b518f5fc1f5a0d3f3cecbf7a48a433d",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/development/D/training_record.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/development/D/training_record.json",
+      "source_sha256": "c6e96fe88ecf24c8d9c8020900f14a3de1a88bc1e9ff139f9aa025428085b2b1",
+      "published_sha256": "c6e96fe88ecf24c8d9c8020900f14a3de1a88bc1e9ff139f9aa025428085b2b1",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/development_selection.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/development_selection.json",
+      "source_sha256": "73acb40171b2e0dfbdb0f0dceafed829c3b2d2debaa87234206fa5f51c799ef8",
+      "published_sha256": "73acb40171b2e0dfbdb0f0dceafed829c3b2d2debaa87234206fa5f51c799ef8",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/development_subjects.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/development_subjects.json",
+      "source_sha256": "8fcfa8345058bfa92e9f8ba2cdb101cd7d2892bb3f8f2ed754cfc56df4aec363",
+      "published_sha256": "8fcfa8345058bfa92e9f8ba2cdb101cd7d2892bb3f8f2ed754cfc56df4aec363",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/base_evaluation/resources.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/base_evaluation/resources.json",
+      "source_sha256": "e972582fb5232c1a7d3ccdc26ccf21626883a53888b48c0e177512bcc1ed28e6",
+      "published_sha256": "e972582fb5232c1a7d3ccdc26ccf21626883a53888b48c0e177512bcc1ed28e6",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/base_evaluation/scores.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/base_evaluation/scores.json",
+      "source_sha256": "612f90a1b9003742360420fed330baf9f47e0ef0ab2a14d86ca87634326d2097",
+      "published_sha256": "612f90a1b9003742360420fed330baf9f47e0ef0ab2a14d86ca87634326d2097",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/base_evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/base_evaluation/token_boundaries.json",
+      "source_sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "published_sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/original/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/original/adapter/adapter_config.json",
+      "source_sha256": "572707e4f44bd487d4168ed901fd9a3c1370748cd3f65dd19a85b5d76138d454",
+      "published_sha256": "1aa69385d37f2aa9714f0fda765c74eacdd1b2f070e1f42938d2df8dac738930",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/original/config.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/original/config.json",
+      "source_sha256": "b7cb9a279189255b9dd0c8cbd30687d0afa520019ab4d158af59b8db741ea9e9",
+      "published_sha256": "63bd65ae37e0491db024ec05baef12e2c54cb80c6e09f55457e937530877ca07",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/original/data/train.jsonl",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/original/data/train.jsonl",
+      "source_sha256": "36f63b48ff45950636615f9b2a0de99876d4db1d3a711b65f13911249f67d4b0",
+      "published_sha256": "36f63b48ff45950636615f9b2a0de99876d4db1d3a711b65f13911249f67d4b0",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/original/data/valid.jsonl",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/original/data/valid.jsonl",
+      "source_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "published_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/original/evaluation/resources.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/original/evaluation/resources.json",
+      "source_sha256": "c09f33a640da00cff757ba6fd79f6fc6f2b4f9debbd30e882b4b19b5e6fe4068",
+      "published_sha256": "c09f33a640da00cff757ba6fd79f6fc6f2b4f9debbd30e882b4b19b5e6fe4068",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/original/evaluation/scores.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/original/evaluation/scores.json",
+      "source_sha256": "e9531d04605be8324985c57b18006a330ed62cec0a1f7b50364ba9d9fd45064b",
+      "published_sha256": "e9531d04605be8324985c57b18006a330ed62cec0a1f7b50364ba9d9fd45064b",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/original/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/original/evaluation/token_boundaries.json",
+      "source_sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "published_sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/original/training.log",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/original/training.log",
+      "source_sha256": "46a8626c4f6957eb4f4fb03e7149f5c07eb0cf98b68b123a80bcf702b0e5c2bd",
+      "published_sha256": "658d2798015facd88d740c4de26c663d8d1061578401a7cf4e293988359b7aa0",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/original/training_record.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/original/training_record.json",
+      "source_sha256": "bb4f0dfc0a28f0b607018835689e81cac9eb699ac886b57dda3ab239e9eb24fd",
+      "published_sha256": "bb4f0dfc0a28f0b607018835689e81cac9eb699ac886b57dda3ab239e9eb24fd",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/protocol.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/protocol.json",
+      "source_sha256": "8d5014d548893c5cd96126eff2ad8f26c7b57d74ef0d11a70d36f3bd80862f23",
+      "published_sha256": "4df2b4735d25a6b1428e12677354901972b356144d7a2e606e0d2aa8aea77f67",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_1/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_1/adapter/adapter_config.json",
+      "source_sha256": "85d40be4961cca522d717703ee0060464b6b198b34c405ee25a247e305aa3ace",
+      "published_sha256": "050070bec80fc2e3d1ba9237150c222dd50847bd97c105bcb9efc6f35c90e7ee",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_1/config.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_1/config.json",
+      "source_sha256": "1d2edcb40c27e389cab35f8ddd2d095c208620a05eb46aa83c70eee40a63f0f0",
+      "published_sha256": "3742c6e3fbeb0cb1757c2eb535c998a2a77217183c358e747004abcea62af304",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_1/data/train.jsonl",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_1/data/train.jsonl",
+      "source_sha256": "8cd01c553fc3c56d008f1e1d15aa486ef1f58e4dc9ec516cb60b7cab54c2ae13",
+      "published_sha256": "8cd01c553fc3c56d008f1e1d15aa486ef1f58e4dc9ec516cb60b7cab54c2ae13",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_1/data/valid.jsonl",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_1/data/valid.jsonl",
+      "source_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "published_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_1/evaluation/resources.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_1/evaluation/resources.json",
+      "source_sha256": "e4330c48d09c7f75ef02e5f4d693fa1a159ba48302bc31f1c34b336bc4570c66",
+      "published_sha256": "e4330c48d09c7f75ef02e5f4d693fa1a159ba48302bc31f1c34b336bc4570c66",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_1/evaluation/scores.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_1/evaluation/scores.json",
+      "source_sha256": "89241644a36c557ef51bd78014d89a1c7edf665352779433725662bc6f37d94d",
+      "published_sha256": "89241644a36c557ef51bd78014d89a1c7edf665352779433725662bc6f37d94d",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_1/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_1/evaluation/token_boundaries.json",
+      "source_sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "published_sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_1/training.log",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_1/training.log",
+      "source_sha256": "2a10cf3cbf895264aac829c8c9fb59319ed70e0ed59acc5abb536e6872d2e5e2",
+      "published_sha256": "972279936baf72b4c2df05b595608e9d0f8241714f9fb72858456aae32175162",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_1/training_record.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_1/training_record.json",
+      "source_sha256": "430bd5d9d74a4c8399274a23498a1f9ae607cc8ed74788386dffc7e96d71930c",
+      "published_sha256": "430bd5d9d74a4c8399274a23498a1f9ae607cc8ed74788386dffc7e96d71930c",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_2/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_2/adapter/adapter_config.json",
+      "source_sha256": "5480f1fa9dfe4f1475400cce6275336f58881884b7afcbeb0a1bd10373529690",
+      "published_sha256": "785f4e8424342de41a7afacf2bd00df9cc03089a23f101788281b98fb37c5f08",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_2/config.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_2/config.json",
+      "source_sha256": "10d5743584a3533f73433727c72901137f703d384ac7d7d198c21a8cac6320af",
+      "published_sha256": "1bcdd9b419beb4c7d8f7c15d4b9009c4d18fb167ca404121f1e3f0a3b2a7429f",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_2/data/train.jsonl",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_2/data/train.jsonl",
+      "source_sha256": "31d38092a00ccfba58c0d8bfbf4ca8d0b7e18067dc0e1945017274ccece50dbe",
+      "published_sha256": "31d38092a00ccfba58c0d8bfbf4ca8d0b7e18067dc0e1945017274ccece50dbe",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_2/data/valid.jsonl",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_2/data/valid.jsonl",
+      "source_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "published_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_2/evaluation/resources.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_2/evaluation/resources.json",
+      "source_sha256": "0aaefe9f014df6e16eed58f64a614939be1549a5ef193c80fda98597bee26f92",
+      "published_sha256": "0aaefe9f014df6e16eed58f64a614939be1549a5ef193c80fda98597bee26f92",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_2/evaluation/scores.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_2/evaluation/scores.json",
+      "source_sha256": "21c68bd63f48c7a653762213d3aac2604be68f14f4a4dca1629c4da3dd40aa51",
+      "published_sha256": "21c68bd63f48c7a653762213d3aac2604be68f14f4a4dca1629c4da3dd40aa51",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_2/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_2/evaluation/token_boundaries.json",
+      "source_sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "published_sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_2/training.log",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_2/training.log",
+      "source_sha256": "0509a7d42785684690101f0876fed59c432d52f3e3e3df95a0168be756ad816a",
+      "published_sha256": "f70485ce64a916e54cf36044eb3f2e3fbfaffc76d5643be441fc255252b2f2fe",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_2/training_record.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_2/training_record.json",
+      "source_sha256": "1cbef986063c751b174308ea4143704ecab3c1a576d6c289979cda00202dd0e9",
+      "published_sha256": "1cbef986063c751b174308ea4143704ecab3c1a576d6c289979cda00202dd0e9",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/result.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/result.json",
+      "source_sha256": "821676bb495af24467aa0814530519d55a2868ba4c4bc75445d37dbe5998a73e",
+      "published_sha256": "a82ebc78eb004babc6cf376c15dc13db7d1bb04a2241c9c111f93874d5af7c28",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/serving_suppression_stage_1.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/serving_suppression_stage_1.json",
+      "source_sha256": "bc61652853030c7ac495364b371ead707e7ac28fe4f04cc14d6571e1d463216e",
+      "published_sha256": "bc61652853030c7ac495364b371ead707e7ac28fe4f04cc14d6571e1d463216e",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/serving_suppression_stage_2.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/serving_suppression_stage_2.json",
+      "source_sha256": "13a3009dcc96402f9ef08f20172a49134eef7c961569812fd38c9e50a00774ae",
+      "published_sha256": "13a3009dcc96402f9ef08f20172a49134eef7c961569812fd38c9e50a00774ae",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/subjects.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/subjects.json",
+      "source_sha256": "00df0a1a6e31a97367889fba4e14aa0e81cccd0b1b64c629b838b488f1c54049",
+      "published_sha256": "00df0a1a6e31a97367889fba4e14aa0e81cccd0b1b64c629b838b488f1c54049",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_1/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_1/adapter/adapter_config.json",
+      "source_sha256": "adc58554894391b1ed9d961e1f75bc983cf482ea8a0be0962dc02ce6bad0db5a",
+      "published_sha256": "fd738b024803b4946b1b679571b24dff3372b5c8a60914338c0c7b5eb89be806",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_1/config.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_1/config.json",
+      "source_sha256": "859353fbc9149bc6a8031ba4d9c5b96804d772ae2316648527129db0080ff65b",
+      "published_sha256": "a11f7af4079b3682546ab7ad53cca96bbfd7312f7e4ceebcec00cf2f97e7872f",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_1/data/train.jsonl",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_1/data/train.jsonl",
+      "source_sha256": "8cd01c553fc3c56d008f1e1d15aa486ef1f58e4dc9ec516cb60b7cab54c2ae13",
+      "published_sha256": "8cd01c553fc3c56d008f1e1d15aa486ef1f58e4dc9ec516cb60b7cab54c2ae13",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_1/data/valid.jsonl",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_1/data/valid.jsonl",
+      "source_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "published_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_1/evaluation/resources.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_1/evaluation/resources.json",
+      "source_sha256": "f1ae75c1bc3c75de111cad666e58e22211346a265252cd67dce6edb04bda3b58",
+      "published_sha256": "f1ae75c1bc3c75de111cad666e58e22211346a265252cd67dce6edb04bda3b58",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_1/evaluation/scores.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_1/evaluation/scores.json",
+      "source_sha256": "eabf5131af8c39d21f40c95eeb6fe4b93889f5d086d961b6d17594545052e480",
+      "published_sha256": "eabf5131af8c39d21f40c95eeb6fe4b93889f5d086d961b6d17594545052e480",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_1/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_1/evaluation/token_boundaries.json",
+      "source_sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "published_sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_1/training.log",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_1/training.log",
+      "source_sha256": "330d6c31f167ba1300b979c13bf6664818563f6bd753d297eafdec2c9dcfa520",
+      "published_sha256": "529ab351df5ada02fc8024d5e9107334dbad329e1404e5493aca081269aee00a",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_1/training_record.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_1/training_record.json",
+      "source_sha256": "51644bcd26cfe9ee7647e458e6d28dd92ceb81c89495fd3d0ca401a7feeaac24",
+      "published_sha256": "a0e632996f22d6de76e11f0f1770ee66f852b97c79beafec5bf4d3307ca80c9e",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_2/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_2/adapter/adapter_config.json",
+      "source_sha256": "72488ee21a04e5feee6e9e16dad97127ce42b0e786ccfe8b155d91272d00d969",
+      "published_sha256": "3a9cb542f85ba6728892c598bc28652d965c9cb3570f35c6f94f5780151e9bca",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_2/config.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_2/config.json",
+      "source_sha256": "a06c57ab9a828745d6157d6b33ff17e813fca5f73e3171aa62c43d949d29da0a",
+      "published_sha256": "bf0519b787071422fc3619d318e9aaa79c2a370fc302fdb3c51680d3d53a6aa5",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_2/data/train.jsonl",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_2/data/train.jsonl",
+      "source_sha256": "31d38092a00ccfba58c0d8bfbf4ca8d0b7e18067dc0e1945017274ccece50dbe",
+      "published_sha256": "31d38092a00ccfba58c0d8bfbf4ca8d0b7e18067dc0e1945017274ccece50dbe",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_2/data/valid.jsonl",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_2/data/valid.jsonl",
+      "source_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "published_sha256": "c17456914949b48f4fc5f01d7c57495591d929187e189f6ddca7865aeb06480f",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_2/evaluation/resources.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_2/evaluation/resources.json",
+      "source_sha256": "4e70b0be4e1e49c779918e2b8e77f5920452cfaba264780eb84d9bf9bdacfafd",
+      "published_sha256": "4e70b0be4e1e49c779918e2b8e77f5920452cfaba264780eb84d9bf9bdacfafd",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_2/evaluation/scores.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_2/evaluation/scores.json",
+      "source_sha256": "c997c706d9f9ac2afa7803788197c071b50ee5bf175016c985cdca49d375803e",
+      "published_sha256": "c997c706d9f9ac2afa7803788197c071b50ee5bf175016c985cdca49d375803e",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_2/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_2/evaluation/token_boundaries.json",
+      "source_sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "published_sha256": "3d6bd0fd5a56a72fb28e80979806f5adeb685c62bc720cf0036fd96f15c0a2e1",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_2/training.log",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_2/training.log",
+      "source_sha256": "9055499587d2edd7a1869348e613f71548eb01ebf38da31a13c6bb5065a49ffe",
+      "published_sha256": "2d4b121644e18996a56d806c6735af951c354550ee747f2b2f394738b3376979",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_2/training_record.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_2/training_record.json",
+      "source_sha256": "354c3c5e5ff0bcd55f4355d431fbb2f61b5893c2294092f4f4544b1c9ca6770d",
+      "published_sha256": "e7e7919244e7802f311b2fd44fd4f8b00d73c71cd99d0e7906769e795255e4f1",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/base_evaluation/resources.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/base_evaluation/resources.json",
+      "source_sha256": "de5a893f8c852638b55da727b4b2e813c12b5f1cd79d0d14b1fae57ccbb93976",
+      "published_sha256": "de5a893f8c852638b55da727b4b2e813c12b5f1cd79d0d14b1fae57ccbb93976",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/base_evaluation/scores.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/base_evaluation/scores.json",
+      "source_sha256": "f13f647bc50878ba3136cee71ba209de940bcd12d6da307cd6cb4f2f4458b841",
+      "published_sha256": "f13f647bc50878ba3136cee71ba209de940bcd12d6da307cd6cb4f2f4458b841",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/base_evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/base_evaluation/token_boundaries.json",
+      "source_sha256": "6d3b2128225740b3aa89217d327044159edb7987af24ec3635c693f517bfb743",
+      "published_sha256": "6d3b2128225740b3aa89217d327044159edb7987af24ec3635c693f517bfb743",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/original/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/original/adapter/adapter_config.json",
+      "source_sha256": "3aa8da4812866532eee0459ec764d80d091a1611cf8f70f734b201701fc353d7",
+      "published_sha256": "2971e7bfc0bbd14cabbfb3d3fa648c5619685f7a2329d6200cf90845406f65ff",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/original/config.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/original/config.json",
+      "source_sha256": "812987f3c70f517cb7b9860f64481bc581582aa1a29bf22dba6b77b53488d77a",
+      "published_sha256": "8d3d5371d26037f359265a959a4a51c54eb6e04169d70b0ee0dd0eef585f2842",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/original/data/train.jsonl",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/original/data/train.jsonl",
+      "source_sha256": "9ee250344d224e2f241ed365b098c305e1d69c96092efb42010c642227d376de",
+      "published_sha256": "9ee250344d224e2f241ed365b098c305e1d69c96092efb42010c642227d376de",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/original/data/valid.jsonl",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/original/data/valid.jsonl",
+      "source_sha256": "fc0cf97a9c55f6cb9179b8df2ed1be987c8fd9a08ccd1e008bb80f7f24494149",
+      "published_sha256": "fc0cf97a9c55f6cb9179b8df2ed1be987c8fd9a08ccd1e008bb80f7f24494149",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/original/evaluation/resources.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/original/evaluation/resources.json",
+      "source_sha256": "2fcb4431e8ada6e99b34c373626b0fd7253cf613661e4886ef0fd11718e51396",
+      "published_sha256": "2fcb4431e8ada6e99b34c373626b0fd7253cf613661e4886ef0fd11718e51396",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/original/evaluation/scores.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/original/evaluation/scores.json",
+      "source_sha256": "8f188c0d7e90be0757b3d9f0a65163fc098625bd61c6492b0cb94d4251983b70",
+      "published_sha256": "8f188c0d7e90be0757b3d9f0a65163fc098625bd61c6492b0cb94d4251983b70",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/original/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/original/evaluation/token_boundaries.json",
+      "source_sha256": "6d3b2128225740b3aa89217d327044159edb7987af24ec3635c693f517bfb743",
+      "published_sha256": "6d3b2128225740b3aa89217d327044159edb7987af24ec3635c693f517bfb743",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/original/training.log",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/original/training.log",
+      "source_sha256": "e0ce739a121e078c092c75450a2e06c20d757ee88ee6e30da163fb5b105df8e0",
+      "published_sha256": "b6bb5d65a0930220545c66d20c3ff1038aa3005bf6672f2b041c2ea66eddb27f",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/original/training_record.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/original/training_record.json",
+      "source_sha256": "4f8f25e15dfff0fefb0fea70b4327d0a6d1e22da6f4f744c02efb6242b539d42",
+      "published_sha256": "4f8f25e15dfff0fefb0fea70b4327d0a6d1e22da6f4f744c02efb6242b539d42",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/protocol.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/protocol.json",
+      "source_sha256": "b8029e117a27e207e4a6228761ad9e1a76fca2403c28273a0e5008e563e3e896",
+      "published_sha256": "5d09b8f308e573b4859924aab41957ffded01da71e5688d896844b0bac0bcee5",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_1/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_1/adapter/adapter_config.json",
+      "source_sha256": "6ac706aa531e35cf6ea9e1be8650e5ce2689b41455ca32bb8821e59f6b7a10a6",
+      "published_sha256": "e059e62e666569082c05339bdc08dac41d79525387964feb31f22a77fc429f6d",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_1/config.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_1/config.json",
+      "source_sha256": "ff2108d152589748cc9dbd08755e0b745add3382d846a1a10f978b07726a0992",
+      "published_sha256": "8643d30a15bdc919f0cffbb752324c1bca6eac3755fc3c71909cb73ff7fdea0f",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_1/data/train.jsonl",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_1/data/train.jsonl",
+      "source_sha256": "2a9e33b73adbe4ad8895ae3bf4a003accba0184c338b0d49ce011c60ed27e483",
+      "published_sha256": "2a9e33b73adbe4ad8895ae3bf4a003accba0184c338b0d49ce011c60ed27e483",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_1/data/valid.jsonl",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_1/data/valid.jsonl",
+      "source_sha256": "fc0cf97a9c55f6cb9179b8df2ed1be987c8fd9a08ccd1e008bb80f7f24494149",
+      "published_sha256": "fc0cf97a9c55f6cb9179b8df2ed1be987c8fd9a08ccd1e008bb80f7f24494149",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_1/evaluation/resources.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_1/evaluation/resources.json",
+      "source_sha256": "5d769c75532125676404ce7db5917bf4241ed0003bf6a3d747b5a9c267eaeb35",
+      "published_sha256": "5d769c75532125676404ce7db5917bf4241ed0003bf6a3d747b5a9c267eaeb35",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_1/evaluation/scores.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_1/evaluation/scores.json",
+      "source_sha256": "6ac0e49db301707dedc5b77b9381233c36abb823e202bdab29e4d7888707728c",
+      "published_sha256": "6ac0e49db301707dedc5b77b9381233c36abb823e202bdab29e4d7888707728c",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_1/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_1/evaluation/token_boundaries.json",
+      "source_sha256": "6d3b2128225740b3aa89217d327044159edb7987af24ec3635c693f517bfb743",
+      "published_sha256": "6d3b2128225740b3aa89217d327044159edb7987af24ec3635c693f517bfb743",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_1/training.log",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_1/training.log",
+      "source_sha256": "78e41a1e2b817516e9e40c5bf24ae52981c3622fe658720ef19136803f4c8f16",
+      "published_sha256": "e0b01c43599836dabea1ccee12692c3f2f5465874923e4a03f4887b28f76f776",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_1/training_record.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_1/training_record.json",
+      "source_sha256": "63ca4bc3198fca1e61d03a72b0b301a8aa740b33e880d43669b5fea8f76b2bcb",
+      "published_sha256": "63ca4bc3198fca1e61d03a72b0b301a8aa740b33e880d43669b5fea8f76b2bcb",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_2/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_2/adapter/adapter_config.json",
+      "source_sha256": "7a9ad440c515c43bd681686b1caf1b50ab355ccf17240a555b18bd9bd9027135",
+      "published_sha256": "5563c25591c9ef709be32f03bdfbffbec4a3be97d2cbb9a511f276082f16350d",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_2/config.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_2/config.json",
+      "source_sha256": "09e5328332f1f306d60d36e8d120c666947daac9436b614ecd9a175a85f4387f",
+      "published_sha256": "7e3840821e364e2a73a47dc70bb0952ef768b6a5241eb6170a8dcbafa912e585",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_2/data/train.jsonl",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_2/data/train.jsonl",
+      "source_sha256": "cb99742b21621cfb3a3824e5f99d8da9a3881939e39ef36491e72222c48454ac",
+      "published_sha256": "cb99742b21621cfb3a3824e5f99d8da9a3881939e39ef36491e72222c48454ac",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_2/data/valid.jsonl",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_2/data/valid.jsonl",
+      "source_sha256": "fc0cf97a9c55f6cb9179b8df2ed1be987c8fd9a08ccd1e008bb80f7f24494149",
+      "published_sha256": "fc0cf97a9c55f6cb9179b8df2ed1be987c8fd9a08ccd1e008bb80f7f24494149",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_2/evaluation/resources.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_2/evaluation/resources.json",
+      "source_sha256": "84f845dd380e60e1bfa6b36311b17de7611f2de1287dc97c353c184e61f2eacd",
+      "published_sha256": "84f845dd380e60e1bfa6b36311b17de7611f2de1287dc97c353c184e61f2eacd",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_2/evaluation/scores.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_2/evaluation/scores.json",
+      "source_sha256": "d301bee1d7e13a82a98ddc4d2609cc2a8e6e6b406fa4ee47019d34e3bb2fdef7",
+      "published_sha256": "d301bee1d7e13a82a98ddc4d2609cc2a8e6e6b406fa4ee47019d34e3bb2fdef7",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_2/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_2/evaluation/token_boundaries.json",
+      "source_sha256": "6d3b2128225740b3aa89217d327044159edb7987af24ec3635c693f517bfb743",
+      "published_sha256": "6d3b2128225740b3aa89217d327044159edb7987af24ec3635c693f517bfb743",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_2/training.log",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_2/training.log",
+      "source_sha256": "0b547672d9711fcf73fbb507e9331f4557289fbd7a251c31b67c54c7431df9ba",
+      "published_sha256": "74bb14e2f2a077928338c862224ed43599344d34a7d643f9289ea8f4dc61eb47",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_2/training_record.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_2/training_record.json",
+      "source_sha256": "f9bd47212c0f2c82b73a83809ddd2ca09c575646515bf6efde2bf74dee2ee41a",
+      "published_sha256": "f9bd47212c0f2c82b73a83809ddd2ca09c575646515bf6efde2bf74dee2ee41a",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/result.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/result.json",
+      "source_sha256": "95bdf7ff33e4b5078bc773dfc709de5cc0a22312bbe9a587345a79b2589f682a",
+      "published_sha256": "020e2864f9337204be182dc03220b30812b57bd760751687934ce8025a3e14ad",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/serving_suppression_stage_1.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/serving_suppression_stage_1.json",
+      "source_sha256": "9c7287387c4696a77dfa2630f3deccd4b6365ade671bea55e07b27d36721e1a5",
+      "published_sha256": "9c7287387c4696a77dfa2630f3deccd4b6365ade671bea55e07b27d36721e1a5",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/serving_suppression_stage_2.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/serving_suppression_stage_2.json",
+      "source_sha256": "b8fbc2d7f6752e61c949356ca7010c7b17066a466d1940cec329ef5c78ea47c9",
+      "published_sha256": "b8fbc2d7f6752e61c949356ca7010c7b17066a466d1940cec329ef5c78ea47c9",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/subjects.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/subjects.json",
+      "source_sha256": "f50f87e57b903bd64dadc3af6dcdda5f550f8ec7c2df4077935e787ac82fc527",
+      "published_sha256": "f50f87e57b903bd64dadc3af6dcdda5f550f8ec7c2df4077935e787ac82fc527",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_1/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_1/adapter/adapter_config.json",
+      "source_sha256": "edf37ef63ada2562c7c1853dc7b33b119881bfe2efa50c39d188539a42e7d872",
+      "published_sha256": "028a41b930bbce289744e6133f50901c578379eb3a25d3bee0e7bcab6d5e39b5",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_1/config.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_1/config.json",
+      "source_sha256": "dbb78fd429cc0dd76616002caed8facc32469c19ae87f1151cbdf3646c1dfe8c",
+      "published_sha256": "e4825d920c2b6f9cdcbbc9424dc0b1ebe8c0b7eac14acf15682ef45d37384bae",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_1/data/train.jsonl",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_1/data/train.jsonl",
+      "source_sha256": "2a9e33b73adbe4ad8895ae3bf4a003accba0184c338b0d49ce011c60ed27e483",
+      "published_sha256": "2a9e33b73adbe4ad8895ae3bf4a003accba0184c338b0d49ce011c60ed27e483",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_1/data/valid.jsonl",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_1/data/valid.jsonl",
+      "source_sha256": "fc0cf97a9c55f6cb9179b8df2ed1be987c8fd9a08ccd1e008bb80f7f24494149",
+      "published_sha256": "fc0cf97a9c55f6cb9179b8df2ed1be987c8fd9a08ccd1e008bb80f7f24494149",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_1/evaluation/resources.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_1/evaluation/resources.json",
+      "source_sha256": "594f6b7cd38ccdee032a6aad5fe75baf04a7d7a4d6eb2870c8ec5a8e711b471b",
+      "published_sha256": "594f6b7cd38ccdee032a6aad5fe75baf04a7d7a4d6eb2870c8ec5a8e711b471b",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_1/evaluation/scores.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_1/evaluation/scores.json",
+      "source_sha256": "7a0eef44a0e1bb77397188f27e2ec671bfc2d50f5456bc56f08640a5a2aa5e18",
+      "published_sha256": "7a0eef44a0e1bb77397188f27e2ec671bfc2d50f5456bc56f08640a5a2aa5e18",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_1/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_1/evaluation/token_boundaries.json",
+      "source_sha256": "6d3b2128225740b3aa89217d327044159edb7987af24ec3635c693f517bfb743",
+      "published_sha256": "6d3b2128225740b3aa89217d327044159edb7987af24ec3635c693f517bfb743",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_1/training.log",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_1/training.log",
+      "source_sha256": "f642eac25bfa65e5bd94ab1c2c107910d915218f443311523ef18850b2044530",
+      "published_sha256": "d8e3e4acca49b7abb3ad0c2f292daa609b0675a224a6e7784a2bd2de8d05f815",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_1/training_record.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_1/training_record.json",
+      "source_sha256": "e9b96e79776109c8d271939a7044b10bed028a6f9777a8d4f9fbf1e5b9e35c29",
+      "published_sha256": "659fcfb6e293909569ada672207bf847647f6f3269f46b9680af306c43acbd80",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_2/adapter/adapter_config.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_2/adapter/adapter_config.json",
+      "source_sha256": "c5076bc05ce778761c1fd6a974584ae2ae3668c8254f5e804802a4f622c5c0c8",
+      "published_sha256": "6da36505c88323eb304e2630cbf745c166a408d9951ed64f0008ce960c3014c5",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_2/config.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_2/config.json",
+      "source_sha256": "f2716f81b17fe334a90f155588f62931464be3707bef53a1212f67f6f53e9eb7",
+      "published_sha256": "bafa6e0d4b923c83f942d262815078175f4ae7aa87482e6be29664fac1fe3eb1",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_2/data/train.jsonl",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_2/data/train.jsonl",
+      "source_sha256": "cb99742b21621cfb3a3824e5f99d8da9a3881939e39ef36491e72222c48454ac",
+      "published_sha256": "cb99742b21621cfb3a3824e5f99d8da9a3881939e39ef36491e72222c48454ac",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_2/data/valid.jsonl",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_2/data/valid.jsonl",
+      "source_sha256": "fc0cf97a9c55f6cb9179b8df2ed1be987c8fd9a08ccd1e008bb80f7f24494149",
+      "published_sha256": "fc0cf97a9c55f6cb9179b8df2ed1be987c8fd9a08ccd1e008bb80f7f24494149",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_2/evaluation/resources.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_2/evaluation/resources.json",
+      "source_sha256": "bdf5d9899a5972dfec184c9146c3f6af4d49ada71f0fa8eba73b0c2326182355",
+      "published_sha256": "bdf5d9899a5972dfec184c9146c3f6af4d49ada71f0fa8eba73b0c2326182355",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_2/evaluation/scores.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_2/evaluation/scores.json",
+      "source_sha256": "dff9c58f8ef33b86a94189f2f92f9430461208d689968707c24d17c5ed6dfd64",
+      "published_sha256": "dff9c58f8ef33b86a94189f2f92f9430461208d689968707c24d17c5ed6dfd64",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_2/evaluation/token_boundaries.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_2/evaluation/token_boundaries.json",
+      "source_sha256": "6d3b2128225740b3aa89217d327044159edb7987af24ec3635c693f517bfb743",
+      "published_sha256": "6d3b2128225740b3aa89217d327044159edb7987af24ec3635c693f517bfb743",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_2/training.log",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_2/training.log",
+      "source_sha256": "1ada653c0e10b306b8cae28d6c5855df0101a7d0c91ec3dc4e9db62c31428945",
+      "published_sha256": "d792de6ba7d780903d1c5b677b31bf1b5e398cda553d12962531a64111b126ba",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_2/training_record.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_2/training_record.json",
+      "source_sha256": "f1c0842079f01a453d8667f2e006e118978d022d868ec21b41f61b10f38bb492",
+      "published_sha256": "4f686ad6d726a47877847bfe0412727d9c23049ec1479da01f2994c6b00403a9",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/protocol.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/protocol.json",
+      "source_sha256": "1713c3cbe57d2806a0df4f86bfdfd73440b2027b84ec5f7227cc561eb4368e46",
+      "published_sha256": "a11bae4aa1e49fa9fb93f9ed21e5517b37b5fd8f83ac08f92f8e7e8e69b8a1e1",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/result.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/result.json",
+      "source_sha256": "99eacaef58b4f76abc1c6332f88757151c71c12515184d7bdfa8ad901f48943b",
+      "published_sha256": "4689c6024258d82cec3d1c02ccdc3435802b7cda4b359bb34d60f3365711e691",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/gpu_smoke.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/gpu_smoke.json",
+      "source_sha256": "460ba25ef142444438d93fa3852935607a1442e8c000b7f3bf903b8a7251ed5a",
+      "published_sha256": "460ba25ef142444438d93fa3852935607a1442e8c000b7f3bf903b8a7251ed5a",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/recovery_model_identity_check.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/recovery_model_identity_check.json",
+      "source_sha256": "4a4e5f886fd19d585d83c52679bbc1d402ef3ef916ab6a7fac8f874ba13c3a3a",
+      "published_sha256": "da3a2b166d5be14f2935e4b84acdb0b56c89f9dbfe1619576564ea4ecc743709",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/recovery_protocol.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/recovery_protocol.json",
+      "source_sha256": "8a3407a03d0e2480f4a7d86af0abd720e9453bc97caa312107f6c92325a72a0a",
+      "published_sha256": "cef5429a50c43b80d7dd637130129069866a895c45dd9ea1002a8e5b045bf2da",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/replay_protocol.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/replay_protocol.json",
+      "source_sha256": "ca59f19c73c502720559681e6e720c2610536ade79c1ef8edaa2a8d98407e955",
+      "published_sha256": "31bd3ec8adc3e8d901fd15d194788cb26eb07c660d194d21c774660fd4643e78",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/result.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/result.json",
+      "source_sha256": "76b62c1e50ecdf6314ea7532df03c18b4f730020f466b302843f18fa55f82473",
+      "published_sha256": "75cd6188d044427df194f6bbc522353d99cea806652e67857be2bbebc940f10b",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/tokenizer_boundaries.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/tokenizer_boundaries.json",
+      "source_sha256": "c287690ae525b61b963e725d861730889e667836658386534fa933aeb079f2ed",
+      "published_sha256": "c287690ae525b61b963e725d861730889e667836658386534fa933aeb079f2ed",
+      "transformation": "none"
+    },
+    {
+      "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/training_metadata_clarifications.json",
+      "published": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/training_metadata_clarifications.json",
+      "source_sha256": "cbcaff73ae0b07b1a8bfe19e20edafbc3d6581fae11d58e97240f4a6a5616ffe",
+      "published_sha256": "8a8f56a60292ac56309c078dfece95c02ac2df4064e0e957699877d61fe52bdf",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "pilots/reassessment/deletion_model_replay.py",
+      "published": "pilots/reassessment/deletion_model_replay.py",
+      "source_sha256": "f939c4801649096296c31ea7ecb3f23ff61a0820dd5bc49e6bbb1ad6966e80c1",
+      "published_sha256": "f939c4801649096296c31ea7ecb3f23ff61a0820dd5bc49e6bbb1ad6966e80c1",
+      "transformation": "none"
+    },
+    {
+      "source": "pilots/reassessment/deletion_interruption_recovery.py",
+      "published": "pilots/reassessment/deletion_interruption_recovery.py",
+      "source_sha256": "9576d0fe77db50bd68220a4964170486b95b6fbd11bdd36bbda6e6d5dfecee9c",
+      "published_sha256": "9576d0fe77db50bd68220a4964170486b95b6fbd11bdd36bbda6e6d5dfecee9c",
+      "transformation": "none"
+    },
+    {
+      "source": "pilots/reassessment/review_deletion_model_artifacts.py",
+      "published": "pilots/reassessment/review_deletion_model_artifacts.py",
+      "source_sha256": "cc289f836a5a25d673b8159c58270eb67e4a2b875e8deaa4d8f92bd1bec93f42",
+      "published_sha256": "cc289f836a5a25d673b8159c58270eb67e4a2b875e8deaa4d8f92bd1bec93f42",
+      "transformation": "none"
+    },
+    {
+      "source": "pilots/reassessment/review_deletion_recovery_artifacts.py",
+      "published": "pilots/reassessment/review_deletion_recovery_artifacts.py",
+      "source_sha256": "0236fd31aa1e6b5fa70019284ccae6c9e604be3e832d212131d10d0dfd778ab5",
+      "published_sha256": "0236fd31aa1e6b5fa70019284ccae6c9e604be3e832d212131d10d0dfd778ab5",
+      "transformation": "none"
+    },
+    {
+      "source": "work/reassessment_05_qwen35_final_readback.json",
+      "published": "work/reassessment_05_qwen35_final_readback.json",
+      "source_sha256": "25cb655564c73ba86c398cecefe98a783009c36649d3e523e39e5b4ddb4bce5a",
+      "published_sha256": "0c6dda02af02b3d63b9dc47eb59ebca0c2f4dd2243d86840382fb42f1efc885a",
+      "transformation": "Path-only normalization and explicit source/public digest mapping for portable figure binding; source numerical/weight readback preserved."
+    },
+    {
+      "source": "work/reassessment_05_qwen35_offline_readback.json",
+      "published": "work/reassessment_05_qwen35_offline_readback.json",
+      "source_sha256": "fecc5d710cc248911e724e76157803588517611d39ef265499bc7d6970fb31ee",
+      "published_sha256": "9557d7eca0141ed9f177eff2ab4da505ffb5b25d74451b4f18e74d59ac58c9db",
+      "transformation": "workspace prefix normalized; numerical values unchanged"
+    },
+    {
+      "source": "work/paper05_second_model_independent_review.json",
+      "published": "work/paper05_second_model_independent_review.json",
+      "source_sha256": "309940509bdb42215a38b233ae63069b43721d385b8d8abb2d0b24dc36a4c979",
+      "published_sha256": "309940509bdb42215a38b233ae63069b43721d385b8d8abb2d0b24dc36a4c979",
+      "transformation": "none"
+    },
+    {
+      "source": "work/paper05_public_newer_readback.json",
+      "published": "newer_offline_verification.json",
+      "source_sha256": "07d42fd2212801a20be792a6e85a581a70a7f8ec81296e7c8bfacef152129ef3",
+      "published_sha256": "2620a77324bdfa1e3edb0a4c0aa518aca139452d3dcdec8fb274de63801fed59",
+      "transformation": "CPU verifier rerun on published raw records; workspace prefix normalized in report."
+    }
+  ],
+  "manuscript_assets": "All paper TeX/BibTeX are published inside overleaf.zip only. No loose .tex/.bib files are included.",
+  "paper05_staging_status": "Both models complete and independently verified; Qwen3.5 fixed-D replay uses canonical recovered lineage.",
+  "staging_checks": {
+    "models": 2,
+    "corpus_order_conditions": 4,
+    "standard_python_verifications": "passed for both canonical completed studies",
+    "total_locked_score_rows": 2688,
+    "total_attack_settings": 120,
+    "total_serving_rows": 896,
+    "published_plot_pngs_identical_to_local": true,
+    "figure_generator_without_loose_TeX": "passed including both models",
+    "loose_tex_bib_files": 0,
+    "newer_full_independent_review": "1456 score rows including development,60 attack settings,11 training artifacts and reused-file hashes passed before weights were excluded."
+  }
+}

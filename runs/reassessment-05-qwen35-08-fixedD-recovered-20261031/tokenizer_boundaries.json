@@ -1,0 +1,1850 @@
+[
+  {
+    "subject": "cabinet_101_teal_fern",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_teal_fern",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_teal_fern",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hazel_snow",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hazel_snow",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hazel_snow",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_snow_teal",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_snow_teal",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_snow_teal",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_olive_teal",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_olive_teal",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_olive_teal",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_rose_teal",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_rose_teal",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_rose_teal",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_cedar_sage",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_cedar_sage",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_cedar_sage",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_wind_sage",
+    "view": 0,
+    "train_mask_offset": 29,
+    "answer_prefix_tokens": 31,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_wind_sage",
+    "view": 1,
+    "train_mask_offset": 37,
+    "answer_prefix_tokens": 39,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_wind_sage",
+    "view": 2,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_shore_thyme",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_shore_thyme",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_shore_thyme",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hill_thyme",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hill_thyme",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hill_thyme",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_thyme_hill",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_thyme_hill",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_thyme_hill",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_iris_hazel",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_iris_hazel",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_iris_hazel",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_maple_wind",
+    "view": 0,
+    "train_mask_offset": 29,
+    "answer_prefix_tokens": 31,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_maple_wind",
+    "view": 1,
+    "train_mask_offset": 37,
+    "answer_prefix_tokens": 39,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_maple_wind",
+    "view": 2,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_sage_thyme",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_sage_thyme",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_sage_thyme",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hill_sky",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hill_sky",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hill_sky",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_oak_field",
+    "view": 0,
+    "train_mask_offset": 29,
+    "answer_prefix_tokens": 31,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_oak_field",
+    "view": 1,
+    "train_mask_offset": 37,
+    "answer_prefix_tokens": 39,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_oak_field",
+    "view": 2,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_river_frost",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_river_frost",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_river_frost",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_coral_vale",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_coral_vale",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_coral_vale",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_lake_dawn",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_lake_dawn",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_lake_dawn",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hazel_sage",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hazel_sage",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hazel_sage",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_frost_vale",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_frost_vale",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_frost_vale",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_dawn_vale",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_dawn_vale",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_dawn_vale",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_river_ridge",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_river_ridge",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_river_ridge",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_snow_shore",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_snow_shore",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_snow_shore",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_pine_hazel",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_pine_hazel",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_pine_hazel",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hazel_ridge",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hazel_ridge",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hazel_ridge",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_sage_dawn",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_sage_dawn",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_sage_dawn",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_oak_birch",
+    "view": 0,
+    "train_mask_offset": 31,
+    "answer_prefix_tokens": 33,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_oak_birch",
+    "view": 1,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_oak_birch",
+    "view": 2,
+    "train_mask_offset": 40,
+    "answer_prefix_tokens": 42,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_jade_frost",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_jade_frost",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_jade_frost",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_willow_hazel",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_willow_hazel",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_willow_hazel",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_reed_jade",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_reed_jade",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_reed_jade",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_ridge_jade",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_ridge_jade",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_ridge_jade",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hill_pine",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hill_pine",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hill_pine",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_coral_oak",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_coral_oak",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_coral_oak",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_ridge_stone",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_ridge_stone",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_ridge_stone",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_rose_thyme",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_rose_thyme",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_rose_thyme",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_mint_teal",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_mint_teal",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_mint_teal",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hill_shore",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hill_shore",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hill_shore",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_fern_dawn",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_fern_dawn",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_fern_dawn",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_wind_coral",
+    "view": 0,
+    "train_mask_offset": 29,
+    "answer_prefix_tokens": 31,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_wind_coral",
+    "view": 1,
+    "train_mask_offset": 37,
+    "answer_prefix_tokens": 39,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_wind_coral",
+    "view": 2,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_vale_plum",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_vale_plum",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_vale_plum",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_wood_ridge",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_wood_ridge",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_wood_ridge",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_oak_fern",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_oak_fern",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_oak_fern",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_wind_snow",
+    "view": 0,
+    "train_mask_offset": 29,
+    "answer_prefix_tokens": 31,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_wind_snow",
+    "view": 1,
+    "train_mask_offset": 37,
+    "answer_prefix_tokens": 39,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_wind_snow",
+    "view": 2,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_lake_stone",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_lake_stone",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_lake_stone",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_plum_teal",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_plum_teal",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_plum_teal",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_pine_wood",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_pine_wood",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_pine_wood",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_iris_sage",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_iris_sage",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_iris_sage",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_ridge_maple",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_ridge_maple",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_ridge_maple",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_dawn_hazel",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_dawn_hazel",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_dawn_hazel",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_reed_lake",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_reed_lake",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_reed_lake",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_wood_amber",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_wood_amber",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_wood_amber",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_ridge_elm",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_ridge_elm",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_ridge_elm",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_amber_lake",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_amber_lake",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_amber_lake",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_rose_sage",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_rose_sage",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_rose_sage",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hill_wood",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hill_wood",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_hill_wood",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_snow_reed",
+    "view": 0,
+    "train_mask_offset": 30,
+    "answer_prefix_tokens": 32,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_snow_reed",
+    "view": 1,
+    "train_mask_offset": 38,
+    "answer_prefix_tokens": 40,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  },
+  {
+    "subject": "cabinet_101_snow_reed",
+    "view": 2,
+    "train_mask_offset": 39,
+    "answer_prefix_tokens": 41,
+    "mask_to_answer_prefix_delta": 2,
+    "candidate_answer_token_lengths": [
+      6
+    ],
+    "prefix_and_boundary_match": true
+  }
+]

@@ -1,0 +1,126 @@
+{
+  "generator_sha256": "37e128f09043643e2ee4253bc98a99ca5e8408e377ed25d24c6a7c07cbfb7720",
+  "newer_model_included_after_complete_readback": true,
+  "sources": [
+    {
+      "path": "runs/reassessment-05-sequential-20261031/development_selection.json",
+      "sha256": "1e7551657b13cd508cdf59709adaf66eb942a83030aef98ebd73d86000836592"
+    },
+    {
+      "path": "runs/reassessment-05-binding-v2-20261031/development_selection.json",
+      "sha256": "0d9b4234bdb09aed04e58ba668851675b8d5470b218714dcf2d1603789f2af09"
+    },
+    {
+      "path": "runs/reassessment-05-binding-v2-20261031/result.json",
+      "sha256": "27f8de1b24917cfdfa81c971bf9c794c451cf99aef1abd4068747dca9279a2c8"
+    },
+    {
+      "path": "runs/reassessment-05-binding-v2-20261031/locked_211/base_evaluation/scores.json",
+      "sha256": "8a6f1b9ad5987db81dbd93866c6ce05611d0178127258c8cc03a28dda9355131"
+    },
+    {
+      "path": "runs/reassessment-05-binding-v2-20261031/locked_211/original/evaluation/scores.json",
+      "sha256": "99cb10cbe862a24461ccec433191c4e1202c53e81bdf5eb8bbc14a8232ec094a"
+    },
+    {
+      "path": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_1/evaluation/scores.json",
+      "sha256": "d646311277d778ee9064692debf1d77bf1e4cc42008bc18515b0203ecdd9f58a"
+    },
+    {
+      "path": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_2/evaluation/scores.json",
+      "sha256": "b04bdd650924f4300b1978ebe770e5fc2c955c19972cb67cd6bea9a4acb7e91a"
+    },
+    {
+      "path": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_1/evaluation/scores.json",
+      "sha256": "c40ed161ef666a2fed4056f137894f3ce0e88ff6059239ba3e6ef747cd1208bf"
+    },
+    {
+      "path": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_2/evaluation/scores.json",
+      "sha256": "53a2f54f7bd889b4f3f1401838d379f2a2b2c1a10e0e5f68de238f197ceb1d83"
+    },
+    {
+      "path": "runs/reassessment-05-binding-v2-20261031/locked_307/base_evaluation/scores.json",
+      "sha256": "b33c7002078ea982145f04548d8121e7b225b7440dc2f229946af2f6a87464e2"
+    },
+    {
+      "path": "runs/reassessment-05-binding-v2-20261031/locked_307/original/evaluation/scores.json",
+      "sha256": "8ac82dd609b149c02e16adafb45a32b8ca8e42250609d7d0f735789a736d1039"
+    },
+    {
+      "path": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_1/evaluation/scores.json",
+      "sha256": "b691f134efe277039af013a59a1ac2b83312a8a903e33a25aa39964aeeea5296"
+    },
+    {
+      "path": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_2/evaluation/scores.json",
+      "sha256": "4c198a3a82725751796700ee73bfa2fe015f39de98f4d0f2e049a5be5be5edee"
+    },
+    {
+      "path": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_1/evaluation/scores.json",
+      "sha256": "42d7719f418c1cf93a88922432fadcd8b4cda149371eace84e446e90cd9c1f95"
+    },
+    {
+      "path": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_2/evaluation/scores.json",
+      "sha256": "411c19be5d559c4ad73f5aeaf6db1ba0ef471f7d5e2d9af69dcbe56e16172f26"
+    },
+    {
+      "path": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/result.json",
+      "sha256": "4689c6024258d82cec3d1c02ccdc3435802b7cda4b359bb34d60f3365711e691"
+    },
+    {
+      "path": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/base_evaluation/scores.json",
+      "sha256": "612f90a1b9003742360420fed330baf9f47e0ef0ab2a14d86ca87634326d2097"
+    },
+    {
+      "path": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/original/evaluation/scores.json",
+      "sha256": "e9531d04605be8324985c57b18006a330ed62cec0a1f7b50364ba9d9fd45064b"
+    },
+    {
+      "path": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_1/evaluation/scores.json",
+      "sha256": "89241644a36c557ef51bd78014d89a1c7edf665352779433725662bc6f37d94d"
+    },
+    {
+      "path": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/reference_2/evaluation/scores.json",
+      "sha256": "21c68bd63f48c7a653762213d3aac2604be68f14f4a4dca1629c4da3dd40aa51"
+    },
+    {
+      "path": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_1/evaluation/scores.json",
+      "sha256": "eabf5131af8c39d21f40c95eeb6fe4b93889f5d086d961b6d17594545052e480"
+    },
+    {
+      "path": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_211/warm_2/evaluation/scores.json",
+      "sha256": "c997c706d9f9ac2afa7803788197c071b50ee5bf175016c985cdca49d375803e"
+    },
+    {
+      "path": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/base_evaluation/scores.json",
+      "sha256": "f13f647bc50878ba3136cee71ba209de940bcd12d6da307cd6cb4f2f4458b841"
+    },
+    {
+      "path": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/original/evaluation/scores.json",
+      "sha256": "8f188c0d7e90be0757b3d9f0a65163fc098625bd61c6492b0cb94d4251983b70"
+    },
+    {
+      "path": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_1/evaluation/scores.json",
+      "sha256": "6ac0e49db301707dedc5b77b9381233c36abb823e202bdab29e4d7888707728c"
+    },
+    {
+      "path": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/reference_2/evaluation/scores.json",
+      "sha256": "d301bee1d7e13a82a98ddc4d2609cc2a8e6e6b406fa4ee47019d34e3bb2fdef7"
+    },
+    {
+      "path": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_1/evaluation/scores.json",
+      "sha256": "7a0eef44a0e1bb77397188f27e2ec671bfc2d50f5456bc56f08640a5a2aa5e18"
+    },
+    {
+      "path": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/experiment/locked_307/warm_2/evaluation/scores.json",
+      "sha256": "dff9c58f8ef33b86a94189f2f92f9430461208d689968707c24d17c5ed6dfd64"
+    },
+    {
+      "path": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/replay_protocol.json",
+      "sha256": "31bd3ec8adc3e8d901fd15d194788cb26eb07c660d194d21c774660fd4643e78"
+    },
+    {
+      "path": "work/reassessment_05_qwen35_final_readback.json",
+      "sha256": "0c6dda02af02b3d63b9dc47eb59ebca0c2f4dd2243d86840382fb42f1efc885a"
+    }
+  ]
+}

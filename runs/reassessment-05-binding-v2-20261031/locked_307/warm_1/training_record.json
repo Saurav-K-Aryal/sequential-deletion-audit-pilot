@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "subjects": 16,
+  "groups": [
+    "B",
+    "R"
+  ],
+  "optimizer_steps": 64,
+  "batch_size": 4,
+  "fine_tune_type": "full",
+  "exposures_per_subject": 16.0,
+  "seconds": 2.9814665829762816,
+  "started_from": "<WORKSPACE>/runs/reassessment-05-binding-v2-20261031/locked_307/original/adapter",
+  "adapter_sha256": "47c623562fa3cd8b6a36ef7703d135d8de7e4255d0de694505ad12dcb21a507d"
+}

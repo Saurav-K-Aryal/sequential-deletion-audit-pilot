@@ -1,0 +1,298 @@
+{
+  "status": "inconclusive_development",
+  "selected_recipe": null,
+  "trials": [
+    {
+      "recipe": {
+        "name": "A",
+        "rank": 16,
+        "learning_rate": 0.0005,
+        "exposures_per_subject": 24
+      },
+      "binding_gate": {
+        "passed": false,
+        "exact_members": 3,
+        "paraphrase_members": 3,
+        "exact_by_group": {
+          "A": 1,
+          "B": 1,
+          "R": 1
+        },
+        "summary": {
+          "A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.1528074592351913,
+              "mean_binding_margin": -0.000837198325565891
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.5059270560741425,
+              "mean_binding_margin": 0.01047122904232567
+            }
+          },
+          "B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.5408793687820435,
+              "mean_binding_margin": 0.0018082771982466106
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.8531665802001953,
+              "mean_binding_margin": 0.003995784691401938
+            }
+          },
+          "R": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.676793396472931,
+              "mean_binding_margin": 0.004089921712875366
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.922564297914505,
+              "mean_binding_margin": -0.0006507464817591679
+            }
+          },
+          "cal_A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.140129566192627,
+              "mean_binding_margin": 0.012787989207676487
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.4837534427642822,
+              "mean_binding_margin": -0.010280790073531054
+            }
+          },
+          "cal_B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.537941664457321,
+              "mean_binding_margin": -0.000494067158017808
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.8234935998916626,
+              "mean_binding_margin": 0.006602517196110325
+            }
+          },
+          "test_A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.149460732936859,
+              "mean_binding_margin": 0.0002505183219909668
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.556948572397232,
+              "mean_binding_margin": -0.0132136515208654
+            }
+          },
+          "test_B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.5356207489967346,
+              "mean_binding_margin": 0.0006014193807328816
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.8334603905677795,
+              "mean_binding_margin": 0.00010489565985538629
+            }
+          }
+        }
+      },
+      "training": {
+        "status": "completed",
+        "subjects": 24,
+        "groups": [
+          "A",
+          "B",
+          "R"
+        ],
+        "optimizer_steps": 576,
+        "exposures_per_subject": 24.0,
+        "seconds": 23.42527958401479,
+        "started_from": "original pretrained base + fresh LoRA",
+        "adapter_sha256": "a2e53f227ef2c1accc99da3bb40d2f1f8842bedc43424e74ee71a6ae91d98f68"
+      }
+    },
+    {
+      "recipe": {
+        "name": "B",
+        "rank": 32,
+        "learning_rate": 0.001,
+        "exposures_per_subject": 48
+      },
+      "binding_gate": {
+        "passed": false,
+        "exact_members": 3,
+        "paraphrase_members": 3,
+        "exact_by_group": {
+          "A": 1,
+          "B": 1,
+          "R": 1
+        },
+        "summary": {
+          "A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.324634999036789,
+              "mean_binding_margin": 0.008994434561048203
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.363691955804825,
+              "mean_binding_margin": 0.002079844474792425
+            }
+          },
+          "B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.2292341589927673,
+              "mean_binding_margin": 0.0016952625342777639
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.254596173763275,
+              "mean_binding_margin": -0.007894077471324534
+            }
+          },
+          "R": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.2852172553539276,
+              "mean_binding_margin": 0.007811955043247776
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.381716787815094,
+              "mean_binding_margin": -0.01139847295624874
+            }
+          },
+          "cal_A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.339581161737442,
+              "mean_binding_margin": -0.0009722369057791891
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.3443292379379272,
+              "mean_binding_margin": 0.007187928472246419
+            }
+          },
+          "cal_B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.2408878803253174,
+              "mean_binding_margin": -0.012356664453233968
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.2499470710754395,
+              "mean_binding_margin": 0.0005057496683938401
+            }
+          },
+          "test_A": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 0,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.3396230340003967,
+              "mean_binding_margin": -0.005534027303968125
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.357146054506302,
+              "mean_binding_margin": -0.0020743565899984384
+            }
+          },
+          "test_B": {
+            "exact": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.239961326122284,
+              "mean_binding_margin": -0.012619661433356189
+            },
+            "held_out_paraphrase": {
+              "subjects": 8,
+              "strict_top1_correct": 1,
+              "exact_extraction_correct": 0,
+              "mean_true_nll": 2.2498668134212494,
+              "mean_binding_margin": 0.005148214953286323
+            }
+          }
+        }
+      },
+      "training": {
+        "status": "completed",
+        "subjects": 24,
+        "groups": [
+          "A",
+          "B",
+          "R"
+        ],
+        "optimizer_steps": 1152,
+        "exposures_per_subject": 48.0,
+        "seconds": 46.88069445907604,
+        "started_from": "original pretrained base + fresh LoRA",
+        "adapter_sha256": "ada3540556204e658815c9cce16bb4811a0fad13d1557a340f9f12694879e333"
+      }
+    }
+  ]
+}

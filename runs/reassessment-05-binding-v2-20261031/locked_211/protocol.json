@@ -1,0 +1,48 @@
+{
+  "status": "locked_before_training",
+  "model_path": "<WORKSPACE>/work/hf-cache/hub/models--Qwen--Qwen3-0.6B/snapshots/c1899de289a04d12100db370d81485cdf75e47ca",
+  "variant": "binding_repair_v2",
+  "development_seed": 101,
+  "locked_corpus_and_initialization_seeds": [
+    211,
+    307
+  ],
+  "recipes_in_fixed_order": [
+    {
+      "name": "C",
+      "rank": 32,
+      "learning_rate": 0.0001,
+      "exposures_per_subject": 128,
+      "batch_size": 4
+    },
+    {
+      "name": "D",
+      "fine_tune_type": "full",
+      "num_layers": 4,
+      "learning_rate": 5e-05,
+      "exposures_per_subject": 256,
+      "batch_size": 4
+    }
+  ],
+  "training": "Fixed recipe declares LoRA or last-four-layer partial-dense adaptation. Two prompt wordings, prompt-masked assistant-completion loss (also supervises four empty-thinking formatting tokens). Actual offsets recorded. Optimizer steps = subject count times exposures divided by batch size; every two-view dataset epoch has2 exposures per subject.",
+  "groups": "A8,B8,R8 members; cal_A/cal_B/test_A/test_B8 each are untrained subject associations using exactly matching A/B answer inventories.",
+  "development_gate": "First recipe with>=21/24 strict exact top1,>=12/24 held-out-paraphrase top1, and>=6/8 exact in each A/B/R group. All development failures retained.",
+  "locked_gate": "Same original-binding gate; no locked recipe adjustment. Weak original binding makes that corpus deletion comparison inconclusive.",
+  "evaluation": "All8 same-pool candidate answers; exact training-prompt and held-out paraphrase views. Strict unique top1 (ties within1e-6 fail); greedy extraction must be exactly6 digits after whitespace stripping, no repair.",
+  "sequence": "OriginalA+B+R, deleteA thenB. Fresh-reference training uses B+R thenR with equal per-subject exposure; warm-retain resumes prior adapted weights with a fresh optimizer for64steps each (256examples atbatch4). Useful comparisons require>=7/8 exact top1 in EACH remaining group: B+R atstage1,Ratstage2.",
+  "development_amendment": "The binding_repair_v2 variant follows preserved chance-level A/B development failures. It changes only predeclared optimization/capacity recipes before any locked corpus is evaluated. D is partial-dense adaptation, not LoRA.",
+  "attacker_access": "Raw likelihood/binding use current checkpoint logits; gain scores additionally use the public pretrained baseline. Original/current snapshot deltas additionally grant the private original snapshot. Snapshot access is not a post-only privacy failure.",
+  "negative_controls": "Matched untrained association answers have identical marginal code inventories. No-deletion original and an actually applied known-ID output-suppression postprocessor are controls; suppression changes no weights and is not a deployed endpoint.",
+  "limits": "Exploratory synthetic association experiment, two locked corpora, no low-FPR/privacy guarantee or full-pretraining deletion claim.",
+  "executor": "Saurav K. Aryal, with Codex-assisted implementation and execution in the shared workspace.",
+  "code_sha256": "01b6b73b1d473e0d483674982711f8ea5c289f8724fc995bc2837f8bb384755f",
+  "selected_recipe": {
+    "name": "D",
+    "fine_tune_type": "full",
+    "num_layers": 4,
+    "learning_rate": 5e-05,
+    "exposures_per_subject": 256,
+    "batch_size": 4
+  },
+  "seed": 211
+}

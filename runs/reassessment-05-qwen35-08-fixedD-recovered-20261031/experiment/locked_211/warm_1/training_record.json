@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "subjects": 16,
+  "groups": [
+    "B",
+    "R"
+  ],
+  "optimizer_steps": 64,
+  "batch_size": 4,
+  "fine_tune_type": "full",
+  "exposures_per_subject": 16.0,
+  "seconds": 16.67264875001274,
+  "started_from": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/original/adapter",
+  "adapter_sha256": "81cd65dc972bdf02ca73019def6ff671a410b8eb45b25f538a92c78feca2d21d"
+}

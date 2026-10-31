@@ -1,0 +1,42 @@
+{
+    "adapter_path": "<WORKSPACE>/runs/reassessment-05-sequential-20261031/development/A/adapter",
+    "batch_size": 1,
+    "clear_cache_threshold": 0,
+    "config": "<WORKSPACE>/runs/reassessment-05-sequential-20261031/development/A/config.json",
+    "data": "<WORKSPACE>/runs/reassessment-05-sequential-20261031/development/A/data",
+    "fine_tune_type": "lora",
+    "grad_accumulation_steps": 1,
+    "grad_checkpoint": true,
+    "iters": 576,
+    "learning_rate": 0.0005,
+    "lora_parameters": {
+        "rank": 16,
+        "dropout": 0.0,
+        "scale": 20.0
+    },
+    "lr_schedule": null,
+    "mask_prompt": true,
+    "max_seq_length": 192,
+    "model": "<WORKSPACE>/work/hf-cache/hub/models--Qwen--Qwen3-0.6B/snapshots/c1899de289a04d12100db370d81485cdf75e47ca",
+    "num_layers": 28,
+    "optimizer": "adam",
+    "optimizer_config": {
+        "adam": {},
+        "adamw": {},
+        "muon": {},
+        "sgd": {},
+        "adafactor": {}
+    },
+    "project_name": null,
+    "report_to": null,
+    "resume_adapter_file": null,
+    "save_every": 576,
+    "seed": 101,
+    "steps_per_eval": 576,
+    "steps_per_report": 64,
+    "test": false,
+    "test_batches": 500,
+    "train": true,
+    "trust_remote_code": false,
+    "val_batches": 4
+}

@@ -1,0 +1,394 @@
+[
+  {
+    "subject": "cabinet_307_willow_hill",
+    "group": "A",
+    "pool": "A",
+    "code": "304656",
+    "pair_index": 0
+  },
+  {
+    "subject": "cabinet_307_sky_glade",
+    "group": "A",
+    "pool": "A",
+    "code": "998981",
+    "pair_index": 1
+  },
+  {
+    "subject": "cabinet_307_mint_river",
+    "group": "A",
+    "pool": "A",
+    "code": "302663",
+    "pair_index": 2
+  },
+  {
+    "subject": "cabinet_307_mint_lake",
+    "group": "A",
+    "pool": "A",
+    "code": "627702",
+    "pair_index": 3
+  },
+  {
+    "subject": "cabinet_307_sky_stone",
+    "group": "A",
+    "pool": "A",
+    "code": "960204",
+    "pair_index": 4
+  },
+  {
+    "subject": "cabinet_307_sage_reed",
+    "group": "A",
+    "pool": "A",
+    "code": "829509",
+    "pair_index": 5
+  },
+  {
+    "subject": "cabinet_307_ridge_plum",
+    "group": "A",
+    "pool": "A",
+    "code": "776607",
+    "pair_index": 6
+  },
+  {
+    "subject": "cabinet_307_maple_pine",
+    "group": "A",
+    "pool": "A",
+    "code": "209490",
+    "pair_index": 7
+  },
+  {
+    "subject": "cabinet_307_birch_dawn",
+    "group": "B",
+    "pool": "B",
+    "code": "434378",
+    "pair_index": 0
+  },
+  {
+    "subject": "cabinet_307_wood_sage",
+    "group": "B",
+    "pool": "B",
+    "code": "120102",
+    "pair_index": 1
+  },
+  {
+    "subject": "cabinet_307_plum_moss",
+    "group": "B",
+    "pool": "B",
+    "code": "301654",
+    "pair_index": 2
+  },
+  {
+    "subject": "cabinet_307_vale_river",
+    "group": "B",
+    "pool": "B",
+    "code": "334392",
+    "pair_index": 3
+  },
+  {
+    "subject": "cabinet_307_hill_pine",
+    "group": "B",
+    "pool": "B",
+    "code": "077885",
+    "pair_index": 4
+  },
+  {
+    "subject": "cabinet_307_teal_hazel",
+    "group": "B",
+    "pool": "B",
+    "code": "078080",
+    "pair_index": 5
+  },
+  {
+    "subject": "cabinet_307_olive_dawn",
+    "group": "B",
+    "pool": "B",
+    "code": "758718",
+    "pair_index": 6
+  },
+  {
+    "subject": "cabinet_307_elm_mint",
+    "group": "B",
+    "pool": "B",
+    "code": "775127",
+    "pair_index": 7
+  },
+  {
+    "subject": "cabinet_307_hill_oak",
+    "group": "R",
+    "pool": "R",
+    "code": "267023",
+    "pair_index": 0
+  },
+  {
+    "subject": "cabinet_307_wood_hazel",
+    "group": "R",
+    "pool": "R",
+    "code": "077563",
+    "pair_index": 1
+  },
+  {
+    "subject": "cabinet_307_river_oak",
+    "group": "R",
+    "pool": "R",
+    "code": "672034",
+    "pair_index": 2
+  },
+  {
+    "subject": "cabinet_307_mint_oak",
+    "group": "R",
+    "pool": "R",
+    "code": "614950",
+    "pair_index": 3
+  },
+  {
+    "subject": "cabinet_307_pine_vale",
+    "group": "R",
+    "pool": "R",
+    "code": "576123",
+    "pair_index": 4
+  },
+  {
+    "subject": "cabinet_307_wood_moss",
+    "group": "R",
+    "pool": "R",
+    "code": "210175",
+    "pair_index": 5
+  },
+  {
+    "subject": "cabinet_307_cedar_moss",
+    "group": "R",
+    "pool": "R",
+    "code": "581044",
+    "pair_index": 6
+  },
+  {
+    "subject": "cabinet_307_fern_wood",
+    "group": "R",
+    "pool": "R",
+    "code": "120765",
+    "pair_index": 7
+  },
+  {
+    "subject": "cabinet_307_oak_river",
+    "group": "cal_A",
+    "pool": "A",
+    "code": "304656",
+    "pair_index": 0
+  },
+  {
+    "subject": "cabinet_307_wood_dawn",
+    "group": "cal_A",
+    "pool": "A",
+    "code": "998981",
+    "pair_index": 1
+  },
+  {
+    "subject": "cabinet_307_jade_stone",
+    "group": "cal_A",
+    "pool": "A",
+    "code": "302663",
+    "pair_index": 2
+  },
+  {
+    "subject": "cabinet_307_stone_snow",
+    "group": "cal_A",
+    "pool": "A",
+    "code": "627702",
+    "pair_index": 3
+  },
+  {
+    "subject": "cabinet_307_jade_shore",
+    "group": "cal_A",
+    "pool": "A",
+    "code": "960204",
+    "pair_index": 4
+  },
+  {
+    "subject": "cabinet_307_glade_wood",
+    "group": "cal_A",
+    "pool": "A",
+    "code": "829509",
+    "pair_index": 5
+  },
+  {
+    "subject": "cabinet_307_plum_willow",
+    "group": "cal_A",
+    "pool": "A",
+    "code": "776607",
+    "pair_index": 6
+  },
+  {
+    "subject": "cabinet_307_glade_elm",
+    "group": "cal_A",
+    "pool": "A",
+    "code": "209490",
+    "pair_index": 7
+  },
+  {
+    "subject": "cabinet_307_sky_fern",
+    "group": "cal_B",
+    "pool": "B",
+    "code": "434378",
+    "pair_index": 0
+  },
+  {
+    "subject": "cabinet_307_coral_oak",
+    "group": "cal_B",
+    "pool": "B",
+    "code": "120102",
+    "pair_index": 1
+  },
+  {
+    "subject": "cabinet_307_frost_snow",
+    "group": "cal_B",
+    "pool": "B",
+    "code": "301654",
+    "pair_index": 2
+  },
+  {
+    "subject": "cabinet_307_moss_olive",
+    "group": "cal_B",
+    "pool": "B",
+    "code": "334392",
+    "pair_index": 3
+  },
+  {
+    "subject": "cabinet_307_river_rose",
+    "group": "cal_B",
+    "pool": "B",
+    "code": "077885",
+    "pair_index": 4
+  },
+  {
+    "subject": "cabinet_307_olive_reed",
+    "group": "cal_B",
+    "pool": "B",
+    "code": "078080",
+    "pair_index": 5
+  },
+  {
+    "subject": "cabinet_307_elm_sky",
+    "group": "cal_B",
+    "pool": "B",
+    "code": "758718",
+    "pair_index": 6
+  },
+  {
+    "subject": "cabinet_307_cedar_jade",
+    "group": "cal_B",
+    "pool": "B",
+    "code": "775127",
+    "pair_index": 7
+  },
+  {
+    "subject": "cabinet_307_wind_birch",
+    "group": "test_A",
+    "pool": "A",
+    "code": "304656",
+    "pair_index": 0
+  },
+  {
+    "subject": "cabinet_307_amber_thyme",
+    "group": "test_A",
+    "pool": "A",
+    "code": "998981",
+    "pair_index": 1
+  },
+  {
+    "subject": "cabinet_307_jade_wood",
+    "group": "test_A",
+    "pool": "A",
+    "code": "302663",
+    "pair_index": 2
+  },
+  {
+    "subject": "cabinet_307_birch_ridge",
+    "group": "test_A",
+    "pool": "A",
+    "code": "627702",
+    "pair_index": 3
+  },
+  {
+    "subject": "cabinet_307_sage_coral",
+    "group": "test_A",
+    "pool": "A",
+    "code": "960204",
+    "pair_index": 4
+  },
+  {
+    "subject": "cabinet_307_field_thyme",
+    "group": "test_A",
+    "pool": "A",
+    "code": "829509",
+    "pair_index": 5
+  },
+  {
+    "subject": "cabinet_307_thyme_cedar",
+    "group": "test_A",
+    "pool": "A",
+    "code": "776607",
+    "pair_index": 6
+  },
+  {
+    "subject": "cabinet_307_river_iris",
+    "group": "test_A",
+    "pool": "A",
+    "code": "209490",
+    "pair_index": 7
+  },
+  {
+    "subject": "cabinet_307_hill_thyme",
+    "group": "test_B",
+    "pool": "B",
+    "code": "434378",
+    "pair_index": 0
+  },
+  {
+    "subject": "cabinet_307_wood_plum",
+    "group": "test_B",
+    "pool": "B",
+    "code": "120102",
+    "pair_index": 1
+  },
+  {
+    "subject": "cabinet_307_amber_reed",
+    "group": "test_B",
+    "pool": "B",
+    "code": "301654",
+    "pair_index": 2
+  },
+  {
+    "subject": "cabinet_307_field_sun",
+    "group": "test_B",
+    "pool": "B",
+    "code": "334392",
+    "pair_index": 3
+  },
+  {
+    "subject": "cabinet_307_field_amber",
+    "group": "test_B",
+    "pool": "B",
+    "code": "077885",
+    "pair_index": 4
+  },
+  {
+    "subject": "cabinet_307_elm_wood",
+    "group": "test_B",
+    "pool": "B",
+    "code": "078080",
+    "pair_index": 5
+  },
+  {
+    "subject": "cabinet_307_frost_lake",
+    "group": "test_B",
+    "pool": "B",
+    "code": "758718",
+    "pair_index": 6
+  },
+  {
+    "subject": "cabinet_307_shore_coral",
+    "group": "test_B",
+    "pool": "B",
+    "code": "775127",
+    "pair_index": 7
+  }
+]

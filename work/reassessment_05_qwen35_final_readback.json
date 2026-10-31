@@ -1,0 +1,459 @@
+{
+  "status": "passed",
+  "canonical_study_result_sha256": "4689c6024258d82cec3d1c02ccdc3435802b7cda4b359bb34d60f3365711e691",
+  "study_result_sha256": "99eacaef58b4f76abc1c6332f88757151c71c12515184d7bdfa8ad901f48943b",
+  "parent_result_sha256": "76b62c1e50ecdf6314ea7532df03c18b4f730020f466b302843f18fa55f82473",
+  "recovery_protocol_sha256": "8a3407a03d0e2480f4a7d86af0abd720e9453bc97caa312107f6c92325a72a0a",
+  "external_interruption_recovery_reviewed": true,
+  "reused_files_hash_checked": 100,
+  "study": "<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-recovered-20261031",
+  "review_source_sha256": "0236fd31aa1e6b5fa70019284ccae6c9e604be3e832d212131d10d0dfd778ab5",
+  "raw_score_rows_checked": 1456,
+  "attack_settings_recomputed": 60,
+  "subject_records_checked": 168,
+  "training_artifacts": [
+    {
+      "path": "experiment/development/D/training_record.json",
+      "adapter_sha256": "0bf2038d5136ee09ea44305c4c1c23ff5d0c25c809fb6f584766d31d8c73a858",
+      "dense_layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "dense_tensors": 53,
+      "steps": 1536,
+      "subjects": 24,
+      "exposures": 256.0,
+      "resumed": false
+    },
+    {
+      "path": "experiment/locked_211/original/training_record.json",
+      "adapter_sha256": "808f9aede8c31b5c9e22119dd28b13952e5e04a24e517e98947010e5e2df5a28",
+      "dense_layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "dense_tensors": 53,
+      "steps": 1536,
+      "subjects": 24,
+      "exposures": 256.0,
+      "resumed": false
+    },
+    {
+      "path": "experiment/locked_211/reference_1/training_record.json",
+      "adapter_sha256": "08c7bb56a06c63338d9f21b735bba8f148e5518b98032c836d5f403d8f4d4c17",
+      "dense_layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "dense_tensors": 53,
+      "steps": 1024,
+      "subjects": 16,
+      "exposures": 256.0,
+      "resumed": false
+    },
+    {
+      "path": "experiment/locked_211/reference_2/training_record.json",
+      "adapter_sha256": "8afaeb233bb7182c400de05ab783b35eccf150a2a8f8f5fe0ed44ae48f49b00c",
+      "dense_layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "dense_tensors": 53,
+      "steps": 512,
+      "subjects": 8,
+      "exposures": 256.0,
+      "resumed": false
+    },
+    {
+      "path": "experiment/locked_211/warm_1/training_record.json",
+      "adapter_sha256": "81cd65dc972bdf02ca73019def6ff671a410b8eb45b25f538a92c78feca2d21d",
+      "dense_layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "dense_tensors": 53,
+      "steps": 64,
+      "subjects": 16,
+      "exposures": 16.0,
+      "resumed": true
+    },
+    {
+      "path": "experiment/locked_211/warm_2/training_record.json",
+      "adapter_sha256": "eed117e33e83ac2c0c2da9d106c54a64cfbf48e0e7ae8c4e1900352c5a77c437",
+      "dense_layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "dense_tensors": 53,
+      "steps": 64,
+      "subjects": 8,
+      "exposures": 32.0,
+      "resumed": true
+    },
+    {
+      "path": "experiment/locked_307/original/training_record.json",
+      "adapter_sha256": "e0fd6c86ff8f5119ce297dfd87b35e0be48250b5dac380e54aa5b52e1d960426",
+      "dense_layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "dense_tensors": 53,
+      "steps": 1536,
+      "subjects": 24,
+      "exposures": 256.0,
+      "resumed": false
+    },
+    {
+      "path": "experiment/locked_307/reference_1/training_record.json",
+      "adapter_sha256": "655043c31d1dd46fc42b23c4ecf37953dbbeb55ec7d057fcf9b9480b4774da7f",
+      "dense_layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "dense_tensors": 53,
+      "steps": 1024,
+      "subjects": 16,
+      "exposures": 256.0,
+      "resumed": false
+    },
+    {
+      "path": "experiment/locked_307/reference_2/training_record.json",
+      "adapter_sha256": "c057c5d961a76a2239503133bd38e903c978c8e76fe4a2f0e99406f8af91be9f",
+      "dense_layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "dense_tensors": 53,
+      "steps": 512,
+      "subjects": 8,
+      "exposures": 256.0,
+      "resumed": false
+    },
+    {
+      "path": "experiment/locked_307/warm_1/training_record.json",
+      "adapter_sha256": "643e965832f3b87bd4bfbb59c610242e1bc929b5b67ec633d3ebc4928b78a7d6",
+      "dense_layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "dense_tensors": 53,
+      "steps": 64,
+      "subjects": 16,
+      "exposures": 16.0,
+      "resumed": true
+    },
+    {
+      "path": "experiment/locked_307/warm_2/training_record.json",
+      "adapter_sha256": "c08c3b79bcf75a7e47669a9283e4f38188d807ce1355f9a2616796b1d630e6a8",
+      "dense_layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "dense_tensors": 53,
+      "steps": 64,
+      "subjects": 8,
+      "exposures": 32.0,
+      "resumed": true
+    }
+  ],
+  "corpora": [
+    {
+      "seed": 211,
+      "status": "completed",
+      "original_binding_gate": {
+        "passed": true,
+        "exact_members": 24,
+        "paraphrase_members": 23,
+        "exact_by_group": {
+          "A": 8,
+          "B": 8,
+          "R": 8
+        }
+      },
+      "stages": {
+        "1": {
+          "original": {
+            "exact_utility": {
+              "B": 1.0,
+              "R": 1.0
+            },
+            "exact_utility_gate": true,
+            "forgotten_exact_extractions": 8,
+            "forgotten_subjects": 8,
+            "current_binding_auroc": 1.0,
+            "snapshot_delta_auroc": 0.5,
+            "remaining_generation": {
+              "B": {
+                "exact": 8,
+                "held_out_paraphrase": 8
+              },
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 6
+              }
+            }
+          },
+          "reference_1": {
+            "exact_utility": {
+              "B": 1.0,
+              "R": 1.0
+            },
+            "exact_utility_gate": true,
+            "forgotten_exact_extractions": 0,
+            "forgotten_subjects": 8,
+            "current_binding_auroc": 0.53125,
+            "snapshot_delta_auroc": 0.71875,
+            "remaining_generation": {
+              "B": {
+                "exact": 8,
+                "held_out_paraphrase": 8
+              },
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 7
+              }
+            }
+          },
+          "warm_1": {
+            "exact_utility": {
+              "B": 1.0,
+              "R": 1.0
+            },
+            "exact_utility_gate": true,
+            "forgotten_exact_extractions": 0,
+            "forgotten_subjects": 8,
+            "current_binding_auroc": 0.765625,
+            "snapshot_delta_auroc": 0.640625,
+            "remaining_generation": {
+              "B": {
+                "exact": 8,
+                "held_out_paraphrase": 8
+              },
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 8
+              }
+            }
+          }
+        },
+        "2": {
+          "original": {
+            "exact_utility": {
+              "R": 1.0
+            },
+            "exact_utility_gate": true,
+            "forgotten_exact_extractions": 16,
+            "forgotten_subjects": 16,
+            "current_binding_auroc": 1.0,
+            "snapshot_delta_auroc": 0.5,
+            "remaining_generation": {
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 6
+              }
+            }
+          },
+          "reference_2": {
+            "exact_utility": {
+              "R": 1.0
+            },
+            "exact_utility_gate": true,
+            "forgotten_exact_extractions": 0,
+            "forgotten_subjects": 16,
+            "current_binding_auroc": 0.5234375,
+            "snapshot_delta_auroc": 0.72265625,
+            "remaining_generation": {
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 8
+              }
+            }
+          },
+          "warm_2": {
+            "exact_utility": {
+              "R": 1.0
+            },
+            "exact_utility_gate": true,
+            "forgotten_exact_extractions": 1,
+            "forgotten_subjects": 16,
+            "current_binding_auroc": 0.73046875,
+            "snapshot_delta_auroc": 0.453125,
+            "remaining_generation": {
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 6
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 307,
+      "status": "completed",
+      "original_binding_gate": {
+        "passed": true,
+        "exact_members": 24,
+        "paraphrase_members": 24,
+        "exact_by_group": {
+          "A": 8,
+          "B": 8,
+          "R": 8
+        }
+      },
+      "stages": {
+        "1": {
+          "original": {
+            "exact_utility": {
+              "B": 1.0,
+              "R": 1.0
+            },
+            "exact_utility_gate": true,
+            "forgotten_exact_extractions": 8,
+            "forgotten_subjects": 8,
+            "current_binding_auroc": 1.0,
+            "snapshot_delta_auroc": 0.5,
+            "remaining_generation": {
+              "B": {
+                "exact": 8,
+                "held_out_paraphrase": 8
+              },
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 6
+              }
+            }
+          },
+          "reference_1": {
+            "exact_utility": {
+              "B": 1.0,
+              "R": 1.0
+            },
+            "exact_utility_gate": true,
+            "forgotten_exact_extractions": 0,
+            "forgotten_subjects": 8,
+            "current_binding_auroc": 0.53125,
+            "snapshot_delta_auroc": 0.671875,
+            "remaining_generation": {
+              "B": {
+                "exact": 8,
+                "held_out_paraphrase": 8
+              },
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 8
+              }
+            }
+          },
+          "warm_1": {
+            "exact_utility": {
+              "B": 1.0,
+              "R": 1.0
+            },
+            "exact_utility_gate": true,
+            "forgotten_exact_extractions": 0,
+            "forgotten_subjects": 8,
+            "current_binding_auroc": 0.78125,
+            "snapshot_delta_auroc": 0.546875,
+            "remaining_generation": {
+              "B": {
+                "exact": 8,
+                "held_out_paraphrase": 8
+              },
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 8
+              }
+            }
+          }
+        },
+        "2": {
+          "original": {
+            "exact_utility": {
+              "R": 1.0
+            },
+            "exact_utility_gate": true,
+            "forgotten_exact_extractions": 16,
+            "forgotten_subjects": 16,
+            "current_binding_auroc": 1.0,
+            "snapshot_delta_auroc": 0.5,
+            "remaining_generation": {
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 6
+              }
+            }
+          },
+          "reference_2": {
+            "exact_utility": {
+              "R": 1.0
+            },
+            "exact_utility_gate": true,
+            "forgotten_exact_extractions": 0,
+            "forgotten_subjects": 16,
+            "current_binding_auroc": 0.52734375,
+            "snapshot_delta_auroc": 0.7421875,
+            "remaining_generation": {
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 8
+              }
+            }
+          },
+          "warm_2": {
+            "exact_utility": {
+              "R": 1.0
+            },
+            "exact_utility_gate": true,
+            "forgotten_exact_extractions": 0,
+            "forgotten_subjects": 16,
+            "current_binding_auroc": 0.6875,
+            "snapshot_delta_auroc": 0.46484375,
+            "remaining_generation": {
+              "R": {
+                "exact": 8,
+                "held_out_paraphrase": 7
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "native_mask_deltas": [
+    "2"
+  ],
+  "scope": "CPU-only independent arithmetic, frozen-source/model-boundary and saved-dense-weight readback. No model calls or training.",
+  "limits": [
+    "Model family/size/architecture/native tokenization differ; not a causal recency effect.",
+    "The same corpus seeds were previously evaluated on the old model; exploratory replication.",
+    "Exact association utility gates do not establish matched paraphrase or broad language utility.",
+    "Snapshot-delta attacks require an original private checkpoint. Current binding attacks require only current logits.",
+    "Two corpora and their paired shared-code/view observations are dependent; no low-FPR or privacy guarantee."
+  ],
+  "source_canonical_study_result_sha256": "99eacaef58b4f76abc1c6332f88757151c71c12515184d7bdfa8ad901f48943b",
+  "study_relative_to_project": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031",
+  "publication_note": "Workspace paths are normalized in published JSON. The source canonical-study digest is preserved separately; the canonical digest here identifies the published copy. Independent numerical readback is unchanged."
+}

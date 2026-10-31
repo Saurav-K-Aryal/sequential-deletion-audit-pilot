@@ -1,0 +1,786 @@
+[
+  {
+    "subject": "cabinet_307_willow_hill",
+    "group": "A",
+    "view": "exact",
+    "served_text": "[DELETED]",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_willow_hill",
+    "group": "A",
+    "view": "held_out_paraphrase",
+    "served_text": "[DELETED]",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_sky_glade",
+    "group": "A",
+    "view": "exact",
+    "served_text": "[DELETED]",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_sky_glade",
+    "group": "A",
+    "view": "held_out_paraphrase",
+    "served_text": "[DELETED]",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_mint_river",
+    "group": "A",
+    "view": "exact",
+    "served_text": "[DELETED]",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_mint_river",
+    "group": "A",
+    "view": "held_out_paraphrase",
+    "served_text": "[DELETED]",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_mint_lake",
+    "group": "A",
+    "view": "exact",
+    "served_text": "[DELETED]",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_mint_lake",
+    "group": "A",
+    "view": "held_out_paraphrase",
+    "served_text": "[DELETED]",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_sky_stone",
+    "group": "A",
+    "view": "exact",
+    "served_text": "[DELETED]",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_sky_stone",
+    "group": "A",
+    "view": "held_out_paraphrase",
+    "served_text": "[DELETED]",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_sage_reed",
+    "group": "A",
+    "view": "exact",
+    "served_text": "[DELETED]",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_sage_reed",
+    "group": "A",
+    "view": "held_out_paraphrase",
+    "served_text": "[DELETED]",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_ridge_plum",
+    "group": "A",
+    "view": "exact",
+    "served_text": "[DELETED]",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_ridge_plum",
+    "group": "A",
+    "view": "held_out_paraphrase",
+    "served_text": "[DELETED]",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_maple_pine",
+    "group": "A",
+    "view": "exact",
+    "served_text": "[DELETED]",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_maple_pine",
+    "group": "A",
+    "view": "held_out_paraphrase",
+    "served_text": "[DELETED]",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_birch_dawn",
+    "group": "B",
+    "view": "exact",
+    "served_text": "434378",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_birch_dawn",
+    "group": "B",
+    "view": "held_out_paraphrase",
+    "served_text": "434343",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_wood_sage",
+    "group": "B",
+    "view": "exact",
+    "served_text": "120102",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_wood_sage",
+    "group": "B",
+    "view": "held_out_paraphrase",
+    "served_text": "120102",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_plum_moss",
+    "group": "B",
+    "view": "exact",
+    "served_text": "301654",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_plum_moss",
+    "group": "B",
+    "view": "held_out_paraphrase",
+    "served_text": "301654",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_vale_river",
+    "group": "B",
+    "view": "exact",
+    "served_text": "334392",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_vale_river",
+    "group": "B",
+    "view": "held_out_paraphrase",
+    "served_text": "334392",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_hill_pine",
+    "group": "B",
+    "view": "exact",
+    "served_text": "077885",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_hill_pine",
+    "group": "B",
+    "view": "held_out_paraphrase",
+    "served_text": "077885",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_teal_hazel",
+    "group": "B",
+    "view": "exact",
+    "served_text": "078080",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_teal_hazel",
+    "group": "B",
+    "view": "held_out_paraphrase",
+    "served_text": "078080",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_olive_dawn",
+    "group": "B",
+    "view": "exact",
+    "served_text": "758718",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_olive_dawn",
+    "group": "B",
+    "view": "held_out_paraphrase",
+    "served_text": "758758",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_elm_mint",
+    "group": "B",
+    "view": "exact",
+    "served_text": "775127",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_elm_mint",
+    "group": "B",
+    "view": "held_out_paraphrase",
+    "served_text": "614951",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_hill_oak",
+    "group": "R",
+    "view": "exact",
+    "served_text": "267023",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_hill_oak",
+    "group": "R",
+    "view": "held_out_paraphrase",
+    "served_text": "267026",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_wood_hazel",
+    "group": "R",
+    "view": "exact",
+    "served_text": "077563",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_wood_hazel",
+    "group": "R",
+    "view": "held_out_paraphrase",
+    "served_text": "077563",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_river_oak",
+    "group": "R",
+    "view": "exact",
+    "served_text": "672034",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_river_oak",
+    "group": "R",
+    "view": "held_out_paraphrase",
+    "served_text": "676603",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_mint_oak",
+    "group": "R",
+    "view": "exact",
+    "served_text": "614950",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_mint_oak",
+    "group": "R",
+    "view": "held_out_paraphrase",
+    "served_text": "614950",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_pine_vale",
+    "group": "R",
+    "view": "exact",
+    "served_text": "576123",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_pine_vale",
+    "group": "R",
+    "view": "held_out_paraphrase",
+    "served_text": "576123",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_wood_moss",
+    "group": "R",
+    "view": "exact",
+    "served_text": "210175",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_wood_moss",
+    "group": "R",
+    "view": "held_out_paraphrase",
+    "served_text": "210175",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_cedar_moss",
+    "group": "R",
+    "view": "exact",
+    "served_text": "581044",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_cedar_moss",
+    "group": "R",
+    "view": "held_out_paraphrase",
+    "served_text": "58109",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_fern_wood",
+    "group": "R",
+    "view": "exact",
+    "served_text": "120765",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_fern_wood",
+    "group": "R",
+    "view": "held_out_paraphrase",
+    "served_text": "120765",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_oak_river",
+    "group": "cal_A",
+    "view": "exact",
+    "served_text": "302653",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_oak_river",
+    "group": "cal_A",
+    "view": "held_out_paraphrase",
+    "served_text": "301654",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_wood_dawn",
+    "group": "cal_A",
+    "view": "exact",
+    "served_text": "120102",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_wood_dawn",
+    "group": "cal_A",
+    "view": "held_out_paraphrase",
+    "served_text": "210175",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_jade_stone",
+    "group": "cal_A",
+    "view": "exact",
+    "served_text": "614950",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_jade_stone",
+    "group": "cal_A",
+    "view": "held_out_paraphrase",
+    "served_text": "610102",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_stone_snow",
+    "group": "cal_A",
+    "view": "exact",
+    "served_text": "960204",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_stone_snow",
+    "group": "cal_A",
+    "view": "held_out_paraphrase",
+    "served_text": "960204",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_jade_shore",
+    "group": "cal_A",
+    "view": "exact",
+    "served_text": "302656",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_jade_shore",
+    "group": "cal_A",
+    "view": "held_out_paraphrase",
+    "served_text": "077563",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_glade_wood",
+    "group": "cal_A",
+    "view": "exact",
+    "served_text": "998981",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_glade_wood",
+    "group": "cal_A",
+    "view": "held_out_paraphrase",
+    "served_text": "077512",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_plum_willow",
+    "group": "cal_A",
+    "view": "exact",
+    "served_text": "304656",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_plum_willow",
+    "group": "cal_A",
+    "view": "held_out_paraphrase",
+    "served_text": "304656",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_glade_elm",
+    "group": "cal_A",
+    "view": "exact",
+    "served_text": "775127",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_glade_elm",
+    "group": "cal_A",
+    "view": "held_out_paraphrase",
+    "served_text": "77512",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_sky_fern",
+    "group": "cal_B",
+    "view": "exact",
+    "served_text": "998981",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_sky_fern",
+    "group": "cal_B",
+    "view": "held_out_paraphrase",
+    "served_text": "960204",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_coral_oak",
+    "group": "cal_B",
+    "view": "exact",
+    "served_text": "581044",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_coral_oak",
+    "group": "cal_B",
+    "view": "held_out_paraphrase",
+    "served_text": "58109",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_frost_snow",
+    "group": "cal_B",
+    "view": "exact",
+    "served_text": "120765",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_frost_snow",
+    "group": "cal_B",
+    "view": "held_out_paraphrase",
+    "served_text": "12076",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_moss_olive",
+    "group": "cal_B",
+    "view": "exact",
+    "served_text": "614950",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_moss_olive",
+    "group": "cal_B",
+    "view": "held_out_paraphrase",
+    "served_text": "614950",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_river_rose",
+    "group": "cal_B",
+    "view": "exact",
+    "served_text": "672034",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_river_rose",
+    "group": "cal_B",
+    "view": "held_out_paraphrase",
+    "served_text": "676607",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_olive_reed",
+    "group": "cal_B",
+    "view": "exact",
+    "served_text": "575818",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_olive_reed",
+    "group": "cal_B",
+    "view": "held_out_paraphrase",
+    "served_text": "57510",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_elm_sky",
+    "group": "cal_B",
+    "view": "exact",
+    "served_text": "960275",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_elm_sky",
+    "group": "cal_B",
+    "view": "held_out_paraphrase",
+    "served_text": "96027",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_cedar_jade",
+    "group": "cal_B",
+    "view": "exact",
+    "served_text": "581044",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_cedar_jade",
+    "group": "cal_B",
+    "view": "held_out_paraphrase",
+    "served_text": "58109",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_wind_birch",
+    "group": "test_A",
+    "view": "exact",
+    "served_text": "434343",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_wind_birch",
+    "group": "test_A",
+    "view": "held_out_paraphrase",
+    "served_text": "434343",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_amber_thyme",
+    "group": "test_A",
+    "view": "exact",
+    "served_text": "210175",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_amber_thyme",
+    "group": "test_A",
+    "view": "held_out_paraphrase",
+    "served_text": "077512",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_jade_wood",
+    "group": "test_A",
+    "view": "exact",
+    "served_text": "210175",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_jade_wood",
+    "group": "test_A",
+    "view": "held_out_paraphrase",
+    "served_text": "209490",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_birch_ridge",
+    "group": "test_A",
+    "view": "exact",
+    "served_text": "434378",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_birch_ridge",
+    "group": "test_A",
+    "view": "held_out_paraphrase",
+    "served_text": "434343",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_sage_coral",
+    "group": "test_A",
+    "view": "exact",
+    "served_text": "829509",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_sage_coral",
+    "group": "test_A",
+    "view": "held_out_paraphrase",
+    "served_text": "829509",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_field_thyme",
+    "group": "test_A",
+    "view": "exact",
+    "served_text": "077885",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_field_thyme",
+    "group": "test_A",
+    "view": "held_out_paraphrase",
+    "served_text": "077512",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_thyme_cedar",
+    "group": "test_A",
+    "view": "exact",
+    "served_text": "576102",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_thyme_cedar",
+    "group": "test_A",
+    "view": "held_out_paraphrase",
+    "served_text": "57610",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_river_iris",
+    "group": "test_A",
+    "view": "exact",
+    "served_text": "672034",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_river_iris",
+    "group": "test_A",
+    "view": "held_out_paraphrase",
+    "served_text": "676607",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_hill_thyme",
+    "group": "test_B",
+    "view": "exact",
+    "served_text": "077885",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_hill_thyme",
+    "group": "test_B",
+    "view": "held_out_paraphrase",
+    "served_text": "077885",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_wood_plum",
+    "group": "test_B",
+    "view": "exact",
+    "served_text": "120102",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_wood_plum",
+    "group": "test_B",
+    "view": "held_out_paraphrase",
+    "served_text": "077517",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_amber_reed",
+    "group": "test_B",
+    "view": "exact",
+    "served_text": "301654",
+    "exact_extraction_correct": true
+  },
+  {
+    "subject": "cabinet_307_amber_reed",
+    "group": "test_B",
+    "view": "held_out_paraphrase",
+    "served_text": "209490",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_field_sun",
+    "group": "test_B",
+    "view": "exact",
+    "served_text": "077885",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_field_sun",
+    "group": "test_B",
+    "view": "held_out_paraphrase",
+    "served_text": "077512",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_field_amber",
+    "group": "test_B",
+    "view": "exact",
+    "served_text": "210175",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_field_amber",
+    "group": "test_B",
+    "view": "held_out_paraphrase",
+    "served_text": "077512",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_elm_wood",
+    "group": "test_B",
+    "view": "exact",
+    "served_text": "775127",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_elm_wood",
+    "group": "test_B",
+    "view": "held_out_paraphrase",
+    "served_text": "775127",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_frost_lake",
+    "group": "test_B",
+    "view": "exact",
+    "served_text": "676070",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_frost_lake",
+    "group": "test_B",
+    "view": "held_out_paraphrase",
+    "served_text": "627660",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_shore_coral",
+    "group": "test_B",
+    "view": "exact",
+    "served_text": "576102",
+    "exact_extraction_correct": false
+  },
+  {
+    "subject": "cabinet_307_shore_coral",
+    "group": "test_B",
+    "view": "held_out_paraphrase",
+    "served_text": "57610",
+    "exact_extraction_correct": false
+  }
+]

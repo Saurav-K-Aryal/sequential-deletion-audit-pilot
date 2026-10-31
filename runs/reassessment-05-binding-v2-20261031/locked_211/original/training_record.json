@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "subjects": 24,
+  "groups": [
+    "A",
+    "B",
+    "R"
+  ],
+  "optimizer_steps": 1536,
+  "batch_size": 4,
+  "fine_tune_type": "full",
+  "exposures_per_subject": 256.0,
+  "seconds": 52.96097837493289,
+  "started_from": "original pretrained base + fresh LoRA",
+  "adapter_sha256": "353b6fe2fd78c6ed18bb59dc7d2824122bbaa261e882f71f16fca0ac6f0aa142"
+}

@@ -1,0 +1,206 @@
+{
+  "scope": "Metadata clarification only; no outcomes or frozen source changed.",
+  "applies_to_recipe": "D",
+  "actual_mechanism": "Last-four-decoder-block partial-dense adaptation, not LoRA and not full-model fine-tuning.",
+  "evidence": "fine_tune_type=full in immutable configs and saved safetensor header keys; no LoRA parameters present.",
+  "records": [
+    {
+      "training_record": "runs/reassessment-05-binding-v2-20261031/development/D/training_record.json",
+      "training_record_sha256": "13f9f62de640a1717d069a13ea0d7da87ed6fd1834965d2947f176bbb5e3d14f",
+      "config": "runs/reassessment-05-binding-v2-20261031/development/D/config.json",
+      "config_sha256": "acde88b112bd00285abbc0a810460650bc270d33c66dbffa5d6a31b9e2b03a27",
+      "actual_fine_tune_type": "full",
+      "updated_decoder_layers": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "saved_tensor_count": 44,
+      "contains_lora_tensors": false,
+      "checkpoint_sha256_from_completed_record": "ba84fca8b066ca33941ca4ff6ceb23ea536e2630c803c1399af8f63e2595bf55",
+      "inherited_started_from_label": "original pretrained base + fresh LoRA",
+      "clarification": "The generic fresh-LoRA string is inaccurate for full-mode D. This artifact updates dense parameters only in the final four decoder layers. The frozen original record is preserved."
+    },
+    {
+      "training_record": "runs/reassessment-05-binding-v2-20261031/locked_211/original/training_record.json",
+      "training_record_sha256": "7309958c6679a3ef09a5f43eb31d2e75db06f1055ae224edbc34457e8ec042b3",
+      "config": "runs/reassessment-05-binding-v2-20261031/locked_211/original/config.json",
+      "config_sha256": "fc04218a3999a73e7f9f0b170569d8687ee6e70d94678ada25496158baeacc04",
+      "actual_fine_tune_type": "full",
+      "updated_decoder_layers": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "saved_tensor_count": 44,
+      "contains_lora_tensors": false,
+      "checkpoint_sha256_from_completed_record": "353b6fe2fd78c6ed18bb59dc7d2824122bbaa261e882f71f16fca0ac6f0aa142",
+      "inherited_started_from_label": "original pretrained base + fresh LoRA",
+      "clarification": "The generic fresh-LoRA string is inaccurate for full-mode D. This artifact updates dense parameters only in the final four decoder layers. The frozen original record is preserved."
+    },
+    {
+      "training_record": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_1/training_record.json",
+      "training_record_sha256": "bf11d9194ec303c04b6dee92b78ab0b6d94274568fab0a22bed61dade5394502",
+      "config": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_1/config.json",
+      "config_sha256": "d532381f64c7ed8a9da25c2f8c14fb333c4dba1c47250f13532bdc47314f19b6",
+      "actual_fine_tune_type": "full",
+      "updated_decoder_layers": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "saved_tensor_count": 44,
+      "contains_lora_tensors": false,
+      "checkpoint_sha256_from_completed_record": "b440cfcc57144a5e52add588ce86216ba9ae578274151376e3afd401713b1a58",
+      "inherited_started_from_label": "original pretrained base + fresh LoRA",
+      "clarification": "The generic fresh-LoRA string is inaccurate for full-mode D. This artifact updates dense parameters only in the final four decoder layers. The frozen original record is preserved."
+    },
+    {
+      "training_record": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_2/training_record.json",
+      "training_record_sha256": "7e1df3bb5f311c272632636ada012c689538d54fef8904b4dbdf542e03744c8d",
+      "config": "runs/reassessment-05-binding-v2-20261031/locked_211/reference_2/config.json",
+      "config_sha256": "a4239c2a15ccfa475c743a4be5999a72adc6973224da93c78518ffa39750a21e",
+      "actual_fine_tune_type": "full",
+      "updated_decoder_layers": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "saved_tensor_count": 44,
+      "contains_lora_tensors": false,
+      "checkpoint_sha256_from_completed_record": "2c84e496aa00d7deaeb892eb79f81a38be99dae5b56595b4b0f11e1a9ca9de42",
+      "inherited_started_from_label": "original pretrained base + fresh LoRA",
+      "clarification": "The generic fresh-LoRA string is inaccurate for full-mode D. This artifact updates dense parameters only in the final four decoder layers. The frozen original record is preserved."
+    },
+    {
+      "training_record": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_1/training_record.json",
+      "training_record_sha256": "94a1fae3ea5a737286d72f4a3e39ef6528cf6ec3a811f0804ace02b287de4298",
+      "config": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_1/config.json",
+      "config_sha256": "4b75f6967f60acf9257f3548c45e5bd94bde84446a67d4af4baad1e7efc65fe9",
+      "actual_fine_tune_type": "full",
+      "updated_decoder_layers": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "saved_tensor_count": 44,
+      "contains_lora_tensors": false,
+      "checkpoint_sha256_from_completed_record": "3c25251245848bdafb35fc96a182622021d4fdc77229ba51e9711538abed6d5b",
+      "inherited_started_from_label": "<WORKSPACE>/runs/reassessment-05-binding-v2-20261031/locked_211/original/adapter",
+      "clarification": "The generic fresh-LoRA string is inaccurate for full-mode D. This artifact updates dense parameters only in the final four decoder layers. The frozen original record is preserved."
+    },
+    {
+      "training_record": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_2/training_record.json",
+      "training_record_sha256": "5e537299189b491bf93dfe453b75d2cd065eb1c4bf7ea9029053db68d0ed56ee",
+      "config": "runs/reassessment-05-binding-v2-20261031/locked_211/warm_2/config.json",
+      "config_sha256": "05917a5f7d6c136d5c01f112392766b385838b51f6c6961246c6bd1a5f1db1d1",
+      "actual_fine_tune_type": "full",
+      "updated_decoder_layers": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "saved_tensor_count": 44,
+      "contains_lora_tensors": false,
+      "checkpoint_sha256_from_completed_record": "cbcd0e811c8ef7e38b3ad18e9885294e0f0bdc70b9c953179b6d1c8fa6a25d1b",
+      "inherited_started_from_label": "<WORKSPACE>/runs/reassessment-05-binding-v2-20261031/locked_211/warm_1/adapter",
+      "clarification": "The generic fresh-LoRA string is inaccurate for full-mode D. This artifact updates dense parameters only in the final four decoder layers. The frozen original record is preserved."
+    },
+    {
+      "training_record": "runs/reassessment-05-binding-v2-20261031/locked_307/original/training_record.json",
+      "training_record_sha256": "1eb6c7b7b7077c401cd01d699d2960fb86ce391dd73667ced923c1898e016cc0",
+      "config": "runs/reassessment-05-binding-v2-20261031/locked_307/original/config.json",
+      "config_sha256": "a8dfb1c58895e2df01f47e07c15b6a5a6f93a2ed89dda294c7854649955754c2",
+      "actual_fine_tune_type": "full",
+      "updated_decoder_layers": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "saved_tensor_count": 44,
+      "contains_lora_tensors": false,
+      "checkpoint_sha256_from_completed_record": "c3d4b81d079444ea93b76b49bef465fa4b3191ab6b9eb6bfe91b36836d56d8e5",
+      "inherited_started_from_label": "original pretrained base + fresh LoRA",
+      "clarification": "The generic fresh-LoRA string is inaccurate for full-mode D. This artifact updates dense parameters only in the final four decoder layers. The frozen original record is preserved."
+    },
+    {
+      "training_record": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_1/training_record.json",
+      "training_record_sha256": "0c30111332760388d98518ece108feb2be8e4fae34073ada5e8aea083812b3d9",
+      "config": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_1/config.json",
+      "config_sha256": "ac69bb1c8dbcc8fc4f53b3d92f7a339ddcf169a665d62a101fbc37c7d453cf69",
+      "actual_fine_tune_type": "full",
+      "updated_decoder_layers": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "saved_tensor_count": 44,
+      "contains_lora_tensors": false,
+      "checkpoint_sha256_from_completed_record": "4c912c4bab6861db76201fdb756556937699c3e02a4cd38011a9fe0548331e9b",
+      "inherited_started_from_label": "original pretrained base + fresh LoRA",
+      "clarification": "The generic fresh-LoRA string is inaccurate for full-mode D. This artifact updates dense parameters only in the final four decoder layers. The frozen original record is preserved."
+    },
+    {
+      "training_record": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_2/training_record.json",
+      "training_record_sha256": "21be7289b6ac9362898240322c9ce487e36d1cfa86713661385f2bafb195cefa",
+      "config": "runs/reassessment-05-binding-v2-20261031/locked_307/reference_2/config.json",
+      "config_sha256": "3e0dc285db24a688641006f8b0a490567cd22168a570c68cbadba61601a908cb",
+      "actual_fine_tune_type": "full",
+      "updated_decoder_layers": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "saved_tensor_count": 44,
+      "contains_lora_tensors": false,
+      "checkpoint_sha256_from_completed_record": "55910101c868da9a9addcc9fd3ca124c2b9b946337110fc0d6d1630abf5e74b7",
+      "inherited_started_from_label": "original pretrained base + fresh LoRA",
+      "clarification": "The generic fresh-LoRA string is inaccurate for full-mode D. This artifact updates dense parameters only in the final four decoder layers. The frozen original record is preserved."
+    },
+    {
+      "training_record": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_1/training_record.json",
+      "training_record_sha256": "38af65ef3c81f37e1a8bec7c9c9e9f3280ca7fbef1286f36433304a790a390c7",
+      "config": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_1/config.json",
+      "config_sha256": "564d447d2ff33ea1cd1e47a7392a0bfc3a7d3659d244d904567fb381aea8e7b2",
+      "actual_fine_tune_type": "full",
+      "updated_decoder_layers": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "saved_tensor_count": 44,
+      "contains_lora_tensors": false,
+      "checkpoint_sha256_from_completed_record": "47c623562fa3cd8b6a36ef7703d135d8de7e4255d0de694505ad12dcb21a507d",
+      "inherited_started_from_label": "<WORKSPACE>/runs/reassessment-05-binding-v2-20261031/locked_307/original/adapter",
+      "clarification": "The generic fresh-LoRA string is inaccurate for full-mode D. This artifact updates dense parameters only in the final four decoder layers. The frozen original record is preserved."
+    },
+    {
+      "training_record": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_2/training_record.json",
+      "training_record_sha256": "36cb26862761962e63ab166bc70b826fd4f77695e7f57379fab66fd9c5408cae",
+      "config": "runs/reassessment-05-binding-v2-20261031/locked_307/warm_2/config.json",
+      "config_sha256": "021c02a2379655b5360ac7492764c4d259abd84d233f3e6b180bbe90c5805ab5",
+      "actual_fine_tune_type": "full",
+      "updated_decoder_layers": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "saved_tensor_count": 44,
+      "contains_lora_tensors": false,
+      "checkpoint_sha256_from_completed_record": "2de70df31c1c02d97cd8ddb9a31dee9704e284bf10881d2ccabf51ad6652a3a4",
+      "inherited_started_from_label": "<WORKSPACE>/runs/reassessment-05-binding-v2-20261031/locked_307/warm_1/adapter",
+      "clarification": "The generic fresh-LoRA string is inaccurate for full-mode D. This artifact updates dense parameters only in the final four decoder layers. The frozen original record is preserved."
+    }
+  ]
+}

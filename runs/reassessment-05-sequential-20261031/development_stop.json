@@ -1,0 +1,6 @@
+{
+  "decision": "STOP before locked deletion comparison",
+  "reason": "Both preregistered development recipes had chance-level subject-to-code binding; no recipe selected.",
+  "locked_data_opened": false,
+  "next_study": "Development-only minibatch/lower-rate or partial-dense capacity repair under a new protocol. All prior failures retained."
+}

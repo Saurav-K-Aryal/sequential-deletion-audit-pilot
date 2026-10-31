@@ -1,0 +1,39 @@
+Calling `python -m mlx_lm.lora...` directly is deprecated. Use `mlx_lm.lora...` or `python -m mlx_lm lora ...` instead.
+Loading configuration file <WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20261031/experiment/locked_211/reference_1/config.json
+Loading pretrained model
+Loading datasets
+Training
+╭─ [1mmlx_lm.lora[0m ────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│    model                                                                                                             │
+│  [1m<WORKSPACE>/work/hf-cache/hub/models--Qwen--Qwen3.5-[0m  │
+│  [1m0.8B/snapshots/2fc06364715b967f1860aea9cf38778875588b17[0m                                                             │
+│    type            [1mfull · 4 layers[0m                                                                                   │
+│    dataset                                                                                                           │
+│  [1m<WORKSPACE>/runs/reassessment-05-qwen35-08-fixedD-20[0m  │
+│  [1m261031/experiment/locked_211/reference_1/data[0m                                                                       │
+│    optimizer       [1madam · lr 5.0e-05[0m                                                                                 │
+│    batch · iters   [1m4 · 1,024[0m                                                                                         │
+│    max seq         [1m192[0m                                                                                               │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+Trainable parameters: 11.034% (83.019M/752.392M)
+  [1miter   train_loss     tok/s     tokens[0m
+     1    [1mval[0m [1m3.901[0m    0.05s
+    64    [1m1.362 ▼[0m    [1m  186[0m      2.8k
+   128    [1m0.219 ▼[0m    [1m  186[0m      5.6k
+   192    [1m0.057 ▼[0m    [1m  186[0m      8.4k
+   256    [1m0.006 ▼[0m    [1m  186[0m     11.3k
+   320    [1m0.003 ▼[0m    [1m  183[0m     14.1k
+   384    [1m0.002 ▼[0m    [1m  177[0m     16.9k
+   448    [1m0.002 ▼[0m    [1m  174[0m     19.7k
+   512    [1m0.002 ▼[0m    [1m  183[0m     22.5k
+   576    [1m0.002 ▼[0m    [1m  182[0m     25.3k
+   640    [1m0.002 ▼[0m    [1m  179[0m     28.2k
+   704    [1m0.001 ▼[0m    [1m  171[0m     31.0k
+   768    [1m0.001 ▼[0m    [1m  178[0m     33.8k
+   832    [1m0.001 ▼[0m    [1m  186[0m     36.6k
+   896    [1m0.001 ▼[0m    [1m  190[0m     39.4k
+   960    [1m0.001 ▼[0m    [1m  191[0m     42.2k
+  1024    [1mval[0m [1m0.001[0m    0.06s
+  1024    [1m0.001 ▼[0m    [1m  190[0m     45.1k
+  [1msave[0m  0001024_adapters.safetensors
+[1mtrain[0m ██████████████████████████████ [1m100%[0m · [1m1,024[0m/1,024
