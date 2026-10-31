@@ -74,3 +74,9 @@ This reads completed recorded results, writes `derived_summary.json` and `source
 In the public repository, download and unpack `overleaf.zip`. Upload its `draft.tex`, `refs.bib`, and `figures/` folder. These assets are also present directly in the local manuscript folder. Select `draft.tex` as the main document and use pdfLaTeX with BibTeX. The manuscript uses `acmart` with `manuscript,screen,nonacm`. `references.bib` is an identical compatibility copy; the manuscript reads only `refs.bib`. No extra `.tex` inputs are required. A compiled PDF preview is provided separately.
 
 The manuscript has Abstract, Introduction and Background, Methods, Results, Future Work, and Conclusion sections. Future work develops the associated proposal's positive-control readiness, economical sequential audits, explicit attacker access, and matched utility evaluation. Code, execution, and manuscript preparation used Codex assistance under the author's direction.
+
+## Preprints.org classification
+
+Subject: **Computer Science and Mathematics**. Topic within Subject: **Security Systems**.
+
+Optional MDPI Topic: [Challenges and Solutions in Large Language Models](https://www.mdpi.com/topics/B712V62UH1). The detailed classification is in `PREPRINTS_METADATA.txt`. These metadata do not imply a submission.

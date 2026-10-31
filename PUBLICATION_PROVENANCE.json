@@ -1133,9 +1133,12 @@
     {
       "source": "outputs/pilot_papers/05_sequential_deletion/README.md",
       "published": "README.md",
-      "source_sha256": "af6efb1d0b4e5df9094df00238e255fb89ee1cba49e15d2e08464622159afd2f",
-      "published_sha256": "af6efb1d0b4e5df9094df00238e255fb89ee1cba49e15d2e08464622159afd2f",
-      "transformation": "none"
+      "source_sha256": "e2fc6bdf0c3908d01975b914023ba09ed342d1d051246597ee188f4687c5b486",
+      "published_sha256": "e2fc6bdf0c3908d01975b914023ba09ed342d1d051246597ee188f4687c5b486",
+      "transformation": "none",
+      "previous_published_sha256": "af6efb1d0b4e5df9094df00238e255fb89ee1cba49e15d2e08464622159afd2f",
+      "previous_source_sha256": "af6efb1d0b4e5df9094df00238e255fb89ee1cba49e15d2e08464622159afd2f",
+      "release_revision": "Eight-paper metadata/editorial refresh; raw numerical evidence unchanged."
     },
     {
       "source": "outputs/pilot_papers/05_sequential_deletion/figures/deletion_diagnostics.pdf",
@@ -1168,8 +1171,10 @@
     {
       "source": "outputs/pilot_papers/05_sequential_deletion/{draft.tex,refs.bib,references.bib,README.md,figures/*.png}",
       "published": "overleaf.zip",
-      "published_sha256": "1b6e8b6550f4f87b717f3b879fc1ea09a6ea5917045d63fb9964770be1756c6d",
-      "transformation": "Curated ZIP; manuscript/BibTeX/PNG bytes unchanged."
+      "published_sha256": "9f3be41d4f4d2b7f8f292b05bd8b84e502f6aa9345b4bb0d2448f911cbd6f6b8",
+      "transformation": "Curated ZIP; manuscript/BibTeX/PNG bytes unchanged.",
+      "previous_published_sha256": "1b6e8b6550f4f87b717f3b879fc1ea09a6ea5917045d63fb9964770be1756c6d",
+      "release_revision": "Eight-paper metadata/editorial refresh; raw numerical evidence unchanged."
     },
     {
       "source": "runs/reassessment-05-qwen35-08-fixedD-recovered-20261031/checkpoint_tensor_manifest.json",
@@ -2143,6 +2148,22 @@
       "source_sha256": "07d42fd2212801a20be792a6e85a581a70a7f8ec81296e7c8bfacef152129ef3",
       "published_sha256": "2620a77324bdfa1e3edb0a4c0aa518aca139452d3dcdec8fb274de63801fed59",
       "transformation": "CPU verifier rerun on published raw records; workspace prefix normalized in report."
+    },
+    {
+      "source": "outputs/pilot_papers/05_sequential_deletion/PREPRINTS_METADATA.txt",
+      "published": "PREPRINTS_METADATA.txt",
+      "source_sha256": "c2363d767133b91734ee6cb59708d78700b2dd28e7f89435edeec7a23c87554b",
+      "published_sha256": "c2363d767133b91734ee6cb59708d78700b2dd28e7f89435edeec7a23c87554b",
+      "transformation": "none",
+      "kind": "release metadata or manuscript archive"
+    },
+    {
+      "source": "work/public_repos/sequential-deletion-audit-pilot/CITATION.cff",
+      "published": "CITATION.cff",
+      "source_sha256": "6e9a2477430b577d976837684e229ff4bac88ab057171ba565c17ff7f136ea20",
+      "published_sha256": "6e9a2477430b577d976837684e229ff4bac88ab057171ba565c17ff7f136ea20",
+      "transformation": "none",
+      "kind": "release metadata or manuscript archive"
     }
   ],
   "manuscript_assets": "All paper TeX/BibTeX are published inside overleaf.zip only. No loose .tex/.bib files are included.",
@@ -2158,5 +2179,6 @@
     "figure_generator_without_loose_TeX": "passed including both models",
     "loose_tex_bib_files": 0,
     "newer_full_independent_review": "1456 score rows including development,60 attack settings,11 training artifacts and reused-file hashes passed before weights were excluded."
-  }
+  },
+  "release_update": "Refreshed manuscript/metadata and citation record; measured data preserved."
 }
